@@ -1,0 +1,4 @@
+date,source,records,status
+2026-05-04,local_csv,100,success
+2026-05-05,local_csv,125,success
+2026-05-06,local_csv,90,warning
