@@ -1,0 +1,6 @@
+2026-05-07 08:35:41,167 - INFO - Starting API data fetch.
+2026-05-07 08:35:41,617 - INFO - API data fetched successfully.
+2026-05-07 08:35:41,617 - INFO - Saved raw API response to api_data.json.
+2026-05-07 08:44:15,032 - INFO - Starting API data transformation.
+2026-05-07 08:44:15,066 - INFO - Transformation completed successfully.
+2026-05-07 08:44:15,066 - INFO - Saved structured output to repo_summary.csv.
