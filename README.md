@@ -32,3 +32,13 @@ The pipeline now writes operational events to `pipeline.log` and handles common 
 - Unexpected runtime errors
 
 This moves the project from simple scripting toward more reliable pipeline behavior.
+
+## Day 6
+
+Added a pipeline runner script.
+
+The project can now run the full workflow with one command:
+
+```powershell
+python run_pipeline.py
+

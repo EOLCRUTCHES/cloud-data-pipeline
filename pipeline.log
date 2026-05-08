@@ -4,3 +4,41 @@
 2026-05-07 08:44:15,032 - INFO - Starting API data transformation.
 2026-05-07 08:44:15,066 - INFO - Transformation completed successfully.
 2026-05-07 08:44:15,066 - INFO - Saved structured output to repo_summary.csv.
+2026-05-07 08:56:02,228 - INFO - Starting API data fetch.
+2026-05-07 08:56:02,667 - INFO - API data fetched successfully.
+2026-05-07 08:56:02,667 - INFO - Saved raw API response to api_data.json.
+2026-05-07 08:56:14,878 - INFO - Starting API data transformation.
+2026-05-07 08:56:14,884 - INFO - Transformation completed successfully.
+2026-05-07 08:56:14,884 - INFO - Saved structured output to repo_summary.csv.
+2026-05-08 12:35:46,356 - INFO - Starting API data fetch.
+2026-05-08 12:35:47,067 - INFO - API data fetched successfully.
+2026-05-08 12:35:47,067 - INFO - Saved raw API response to api_data.json.
+2026-05-08 12:36:10,927 - INFO - Starting API data transformation.
+2026-05-08 12:36:11,000 - INFO - Transformation completed successfully.
+2026-05-08 12:36:11,000 - INFO - Saved structured output to repo_summary.csv.
+2026-05-08 12:51:05,850 - INFO - Pipeline run started.
+2026-05-08 12:51:05,850 - INFO - Starting step: Fetch API data
+2026-05-08 12:51:06,446 - INFO - Starting API data fetch.
+2026-05-08 12:51:06,728 - INFO - API data fetched successfully.
+2026-05-08 12:51:06,728 - INFO - Saved raw API response to api_data.json.
+2026-05-08 12:51:06,768 - INFO - Step completed successfully: Fetch API data
+2026-05-08 12:51:06,768 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72616
+Forks: 34566
+Open issues: 9300
+
+2026-05-08 12:51:06,769 - INFO - Starting step: Transform API data
+2026-05-08 12:51:08,209 - INFO - Starting API data transformation.
+2026-05-08 12:51:08,283 - INFO - Transformation completed successfully.
+2026-05-08 12:51:08,284 - INFO - Saved structured output to repo_summary.csv.
+2026-05-08 12:51:08,382 - INFO - Step completed successfully: Transform API data
+2026-05-08 12:51:08,382 - INFO - Output from Transform API data: Transformation complete.
+Saved clean output to repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-08 12:51:08,383 - INFO - Pipeline run completed successfully.
