@@ -42,3 +42,35 @@ Saved clean output to repo_summary.csv
 [1 rows x 12 columns]
 
 2026-05-08 12:51:08,383 - INFO - Pipeline run completed successfully.
+2026-05-11 10:48:53,849 - INFO - Starting API data fetch.
+2026-05-11 10:48:54,266 - INFO - API data fetched successfully.
+2026-05-11 10:48:54,266 - INFO - Saved raw API response to api_data.json.
+2026-05-11 10:52:59,067 - INFO - Starting API data transformation.
+2026-05-11 10:52:59,160 - INFO - Transformation completed successfully.
+2026-05-11 10:52:59,160 - INFO - Saved structured output to repo_summary.csv.
+2026-05-11 10:53:44,365 - INFO - Pipeline run started.
+2026-05-11 10:53:44,365 - INFO - Starting step: Fetch API data
+2026-05-11 10:53:44,971 - INFO - Starting API data fetch.
+2026-05-11 10:53:45,102 - INFO - API data fetched successfully.
+2026-05-11 10:53:45,103 - INFO - Saved raw API response to api_data.json.
+2026-05-11 10:53:45,133 - INFO - Step completed successfully: Fetch API data
+2026-05-11 10:53:45,133 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72643
+Forks: 34576
+Open issues: 9308
+
+2026-05-11 10:53:45,134 - INFO - Starting step: Transform API data
+2026-05-11 10:53:48,907 - INFO - Starting API data transformation.
+2026-05-11 10:53:48,985 - INFO - Transformation completed successfully.
+2026-05-11 10:53:48,985 - INFO - Saved structured output to repo_summary.csv.
+2026-05-11 10:53:49,059 - INFO - Step completed successfully: Transform API data
+2026-05-11 10:53:49,060 - INFO - Output from Transform API data: Transformation complete.
+Saved clean output to repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-11 10:53:49,060 - INFO - Pipeline run completed successfully.

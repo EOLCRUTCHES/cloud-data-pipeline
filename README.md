@@ -41,4 +41,12 @@ The project can now run the full workflow with one command:
 
 ```powershell
 python run_pipeline.py
+The runner executes the pipeline in order:
 
+1. Fetch API data from the GitHub API
+2. Save the raw API response to `api_data.json`
+3. Transform selected fields into structured CSV output
+4. Save the cleaned output to `repo_summary.csv`
+5. Log pipeline activity to `pipeline.log`
+
+This moves the project from separate scripts toward a repeatable data pipeline workflow.

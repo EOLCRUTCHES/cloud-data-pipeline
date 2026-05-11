@@ -3,16 +3,27 @@ import logging
 import requests
 
 
-logging.basicConfig(
-filename="pipeline.log",
-level=logging.INFO,
-format="%(asctime)s - %(levelname)s - %(message)s"
-)
+def load_config():
+    with open("config.json", "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def setup_logging(log_file):
+    logging.basicConfig(
+        filename=log_file,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
 
 
 def main():
-    url = "https://api.github.com/repos/python/cpython"
-    output_file = "api_data.json"
+    config = load_config()
+
+    url = config["api_url"]
+    output_file = config["raw_data_file"]
+    log_file = config["log_file"]
+
+    setup_logging(log_file)
 
     logging.info("Starting API data fetch.")
 

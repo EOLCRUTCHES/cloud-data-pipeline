@@ -3,16 +3,27 @@ import logging
 import pandas as pd
 
 
-logging.basicConfig(
-filename="pipeline.log",
-level=logging.INFO,
-format="%(asctime)s - %(levelname)s - %(message)s"
-)
+def load_config():
+    with open("config.json", "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def setup_logging(log_file):
+    logging.basicConfig(
+        filename=log_file,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
 
 
 def main():
-    input_file = "api_data.json"
-    output_file = "repo_summary.csv"
+    config = load_config()
+
+    input_file = config["raw_data_file"]
+    output_file = config["summary_output_file"]
+    log_file = config["log_file"]
+
+    setup_logging(log_file)
 
     logging.info("Starting API data transformation.")
 
