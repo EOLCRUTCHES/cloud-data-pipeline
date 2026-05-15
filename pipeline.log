@@ -74,3 +74,35 @@ Saved clean output to repo_summary.csv
 [1 rows x 12 columns]
 
 2026-05-11 10:53:49,060 - INFO - Pipeline run completed successfully.
+2026-05-15 14:19:09,103 - INFO - Pipeline run started.
+2026-05-15 14:19:09,104 - INFO - Starting step: Fetch API data
+2026-05-15 14:19:10,206 - INFO - Starting API data fetch.
+2026-05-15 14:19:10,495 - INFO - API data fetched successfully.
+2026-05-15 14:19:10,495 - INFO - Saved raw API response to data/raw/api_data.json.
+2026-05-15 14:19:10,525 - INFO - Step completed successfully: Fetch API data
+2026-05-15 14:19:10,525 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72705
+Forks: 34601
+Open issues: 9304
+
+2026-05-15 14:19:10,525 - INFO - Starting step: Transform API data
+2026-05-15 14:19:12,484 - INFO - Starting API data transformation.
+2026-05-15 14:19:12,531 - INFO - Transformation completed successfully.
+2026-05-15 14:19:12,531 - INFO - Saved structured output to data/processed/repo_summary.csv.
+2026-05-15 14:19:12,636 - INFO - Step completed successfully: Transform API data
+2026-05-15 14:19:12,636 - INFO - Output from Transform API data: Transformation complete.
+Saved clean output to data/processed/repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-15 14:19:12,636 - INFO - Pipeline run completed successfully.
+2026-05-15 14:23:20,030 - INFO - Starting API data fetch.
+2026-05-15 14:23:20,587 - INFO - API data fetched successfully.
+2026-05-15 14:23:20,587 - INFO - Saved raw API response to data/raw/api_data.json.
+2026-05-15 14:23:37,372 - INFO - Starting API data transformation.
+2026-05-15 14:23:37,455 - INFO - Transformation completed successfully.
+2026-05-15 14:23:37,456 - INFO - Saved structured output to data/processed/repo_summary.csv.
