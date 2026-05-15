@@ -106,3 +106,34 @@ Saved clean output to data/processed/repo_summary.csv
 2026-05-15 14:23:37,372 - INFO - Starting API data transformation.
 2026-05-15 14:23:37,455 - INFO - Transformation completed successfully.
 2026-05-15 14:23:37,456 - INFO - Saved structured output to data/processed/repo_summary.csv.
+2026-05-15 14:59:40,341 - INFO - Pipeline run started.
+2026-05-15 14:59:40,342 - INFO - Starting step: Fetch API data
+2026-05-15 14:59:41,177 - INFO - Starting API data fetch.
+2026-05-15 14:59:41,435 - INFO - API data fetched successfully.
+2026-05-15 14:59:41,435 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-15_145941.json.
+2026-05-15 14:59:41,436 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-15 14:59:41,477 - INFO - Step completed successfully: Fetch API data
+2026-05-15 14:59:41,477 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72707
+Forks: 34601
+Open issues: 9303
+Timestamped raw file: data\raw\api_data_2026-05-15_145941.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-15 14:59:41,478 - INFO - Starting step: Transform API data
+2026-05-15 14:59:43,089 - INFO - Starting API data transformation.
+2026-05-15 14:59:43,181 - INFO - Transformation completed successfully.
+2026-05-15 14:59:43,181 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-15_145943.csv.
+2026-05-15 14:59:43,182 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-15 14:59:43,292 - INFO - Step completed successfully: Transform API data
+2026-05-15 14:59:43,292 - INFO - Output from Transform API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-15_145943.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-15 14:59:43,292 - INFO - Pipeline run completed successfully.

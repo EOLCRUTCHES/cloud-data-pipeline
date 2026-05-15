@@ -50,3 +50,20 @@ The runner executes the pipeline in order:
 5. Log pipeline activity to `pipeline.log`
 
 This moves the project from separate scripts toward a repeatable data pipeline workflow.
+## Day 9
+
+Added timestamped output files.
+
+The pipeline now saves both timestamped outputs and latest-output convenience files.
+
+Raw API output is saved as:
+
+- `data/raw/api_data_YYYY-MM-DD_HHMMSS.json`
+- `data/raw/latest_api_data.json`
+
+Processed CSV output is saved as:
+
+- `data/processed/repo_summary_YYYY-MM-DD_HHMMSS.csv`
+- `data/processed/latest_repo_summary.csv`
+
+This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.

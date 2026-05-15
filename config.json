@@ -1,6 +1,10 @@
 {
   "api_url":"https://api.github.com/repos/python/cpython",
-  "raw_data_file":"data/raw/api_data.json",
-  "summary_output_file":"data/processed/repo_summary.csv",
+  "raw_data_folder":"data/raw",
+  "processed_data_folder":"data/processed",
+  "raw_data_prefix":"api_data",
+  "summary_output_prefix":"repo_summary",
+  "latest_raw_data_file":"data/raw/latest_api_data.json",
+  "latest_summary_output_file":"data/processed/latest_repo_summary.csv",
   "log_file":"pipeline.log"
 }
