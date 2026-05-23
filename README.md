@@ -67,3 +67,59 @@ Processed CSV output is saved as:
 - `data/processed/latest_repo_summary.csv`
 
 This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.
+
+## Day 7
+
+Added a configuration file.
+
+The pipeline now reads key settings from `config.json`, including:
+
+- API URL
+- Raw data output file
+- Summary CSV output file
+- Log file name
+
+This reduces hardcoding inside the Python scripts and makes the pipeline easier to modify without changing code.
+
+The current workflow is:
+
+1. `run_pipeline.py` starts the pipeline
+2. `fetch_api_data.py` reads the API URL and raw output filename from `config.json`
+3. `fetch_api_data.py` saves the raw API response to `api_data.json`
+4. `transform_api_data.py` reads input and output filenames from `config.json`
+5. `transform_api_data.py` saves structured output to `repo_summary.csv`
+6. Pipeline events are written to `pipeline.log`
+
+## Day 8
+
+Added a data folder structure.
+
+The pipeline now separates raw and processed data:
+
+- Raw API responses are saved in `data/raw/`
+- Cleaned CSV outputs are saved in `data/processed/`
+
+The current configured output paths are managed through `config.json`:
+
+- Raw data file: `data/raw/api_data.json`
+- Processed summary file: `data/processed/repo_summary.csv`
+
+This makes the project structure cleaner and closer to a real data pipeline.
+
+## Day 9
+
+Added timestamped output files.
+
+The pipeline now saves both timestamped outputs and latest-output convenience files.
+
+Raw API output is saved as:
+
+- `data/raw/api_data_YYYY-MM-DD_HHMMSS.json`
+- `data/raw/latest_api_data.json`
+
+Processed CSV output is saved as:
+
+- `data/processed/repo_summary_YYYY-MM-DD_HHMMSS.csv`
+- `data/processed/latest_repo_summary.csv`
+
+This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.

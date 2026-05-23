@@ -6,5 +6,6 @@
   "summary_output_prefix":"repo_summary",
   "latest_raw_data_file":"data/raw/latest_api_data.json",
   "latest_summary_output_file":"data/processed/latest_repo_summary.csv",
+  "manifest_file": "data/run_manifest.csv",
   "log_file":"pipeline.log"
 }
