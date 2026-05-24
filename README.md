@@ -123,3 +123,34 @@ Processed CSV output is saved as:
 - `data/processed/latest_repo_summary.csv`
 
 This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.
+
+## Day 10
+
+Added a run manifest.
+
+The pipeline now appends a run record to `data/run_manifest.csv` after each execution.
+
+The manifest tracks:
+
+- Run timestamp
+- Timestamped raw data file
+- Timestamped processed output file
+- Run status
+- Error message, if applicable
+
+This improves basic auditability and makes pipeline runs easier to trace.
+
+## Day 11
+
+Added basic data validation.
+
+The pipeline now runs `validate_output.py` after the transformation step.
+
+The validation checks that:
+
+- The processed CSV exists
+- The processed CSV is not empty
+- Required columns are present
+- The repository field is not null
+
+This adds a basic quality gate before treating pipeline output as usable.

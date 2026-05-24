@@ -101,6 +101,7 @@ def main():
     try:
         run_step("Fetch API data", ["python", "fetch_api_data.py"])
         run_step("Transform API data", ["python", "transform_api_data.py"])
+        run_step("Validate processed output", ["python","validate_output.py"])
     except subprocess.CalledProcessError as error:
         status = "failed"
         error_message = error.stderr or str(error)

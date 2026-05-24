@@ -168,3 +168,45 @@ Saved latest output to data\processed\latest_repo_summary.csv
 [1 rows x 12 columns]
 
 2026-05-22 15:40:21,474 - INFO - Pipeline run completed successfully.
+2026-05-22 22:13:54,159 - INFO - Starting output validation.
+2026-05-22 22:13:54,170 - INFO - Output validation completed successfully.
+2026-05-22 22:15:46,121 - INFO - Pipeline run started.
+2026-05-22 22:15:46,121 - INFO - Starting step: Fetch API data
+2026-05-22 22:15:46,601 - INFO - Starting API data fetch.
+2026-05-22 22:15:46,848 - INFO - API data fetched successfully.
+2026-05-22 22:15:46,849 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-22_221546.json.
+2026-05-22 22:15:46,849 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-22 22:15:46,875 - INFO - Step completed successfully: Fetch API data
+2026-05-22 22:15:46,875 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72872
+Forks: 34679
+Open issues: 9324
+Timestamped raw file: data\raw\api_data_2026-05-22_221546.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-22 22:15:46,875 - INFO - Starting step: Transform API data
+2026-05-22 22:15:48,040 - INFO - Starting API data transformation.
+2026-05-22 22:15:48,076 - INFO - Transformation completed successfully.
+2026-05-22 22:15:48,076 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-22_221548.csv.
+2026-05-22 22:15:48,076 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-22 22:15:48,145 - INFO - Step completed successfully: Transform API data
+2026-05-22 22:15:48,145 - INFO - Output from Transform API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-22_221548.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-22 22:15:48,145 - INFO - Starting step: Validate processed output
+2026-05-22 22:15:48,666 - INFO - Starting output validation.
+2026-05-22 22:15:48,688 - INFO - Output validation completed successfully.
+2026-05-22 22:15:48,750 - INFO - Step completed successfully: Validate processed output
+2026-05-22 22:15:48,750 - INFO - Output from Validate processed output: Validation complete.
+Validated file: data\processed\latest_repo_summary.csv
+Rows: 1
+Columns: 12
+
+2026-05-22 22:15:48,753 - INFO - Pipeline run completed successfully.
