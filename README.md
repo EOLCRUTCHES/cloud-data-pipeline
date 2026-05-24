@@ -2,155 +2,146 @@
 
 This project is a hands-on learning pipeline for cloud, data engineering, and security-oriented technical leadership.
 
-## Day 2
+The current pipeline pulls public repository metadata from the GitHub API, saves the raw response, transforms selected fields into structured CSV output, validates the result, logs pipeline activity, and records each run in a manifest.
 
-Created a local Python environment, loaded sample CSV data with pandas, and pushed the project to GitHub.
+## Project Goals
 
-## Day 3
+This project is designed to build practical experience with:
 
-Added an API data pull using Python requests. The script fetches public GitHub repository data and saves the response as JSON.
+- Python scripting
+- API data ingestion
+- JSON handling
+- CSV output
+- Basic data transformation
+- Logging
+- Error handling
+- Run history
+- Data validation
+- Git and GitHub workflow
+- Pipeline organization
 
-## Day 4
+## Current Pipeline Flow
 
-Added a transformation step that reads the raw API JSON response, extracts selected repository metadata, and saves the cleaned output as a CSV file.
+```text
+GitHub API
+    ↓
+fetch_api_data.py
+    ↓
+data/raw/
+    ↓
+transform_api_data.py
+    ↓
+data/processed/
+    ↓
+validate_output.py
+    ↓
+data/run_manifest.csv
+## How to Run
 
-This moves the project from raw data collection toward a basic ETL workflow:
+Activate the virtual environment:
 
-- Extract: fetch public API data
-- Transform: select and structure useful fields
-- Load: save cleaned output as CSV
+```
+venv\Scripts\activate
+```
 
-## Day 5
+Run the full pipeline:
 
-Added logging and basic error handling to the API fetch and transformation scripts.
+```
+pythonrun_pipeline.py
+```
 
-The pipeline now writes operational events to `pipeline.log` and handles common failure scenarios, including:
+## Current Outputs
 
-- API request failures
-- Missing input files
-- JSON decoding errors
-- Unexpected runtime errors
+Raw API responses are saved in:
 
-This moves the project from simple scripting toward more reliable pipeline behavior.
+```
+data/raw/
+```
 
-## Day 6
+Processed CSV outputs are saved in:
 
-Added a pipeline runner script.
+```
+data/processed/
+```
 
-The project can now run the full workflow with one command:
+The latest processed output is saved as:
 
-```powershell
-python run_pipeline.py
-The runner executes the pipeline in order:
+```
+data/processed/latest_repo_summary.csv
+```
 
-1. Fetch API data from the GitHub API
-2. Save the raw API response to `api_data.json`
-3. Transform selected fields into structured CSV output
-4. Save the cleaned output to `repo_summary.csv`
-5. Log pipeline activity to `pipeline.log`
+Each pipeline run is recorded in:
 
-This moves the project from separate scripts toward a repeatable data pipeline workflow.
-## Day 9
+```
+data/run_manifest.csv
+```
 
-Added timestamped output files.
+## Current Capabilities
 
-The pipeline now saves both timestamped outputs and latest-output convenience files.
+The pipeline currently supports:
 
-Raw API output is saved as:
+- Pulling public GitHub API data
+- Saving raw JSON output
+- Creating timestamped raw and processed files
+- Maintaining latest-output files
+- Transforming selected repository fields into CSV
+- Logging pipeline events
+- Handling common errors
+- Validating processed output
+- Recording run history
 
-- `data/raw/api_data_YYYY-MM-DD_HHMMSS.json`
-- `data/raw/latest_api_data.json`
+## Next Steps
 
-Processed CSV output is saved as:
+Planned improvements include:
 
-- `data/processed/repo_summary_YYYY-MM-DD_HHMMSS.csv`
-- `data/processed/latest_repo_summary.csv`
+- Expanding from one repository to multiple repositories
+- Adding security-relevant data sources
+- Adding cloud storage
+- Adding scheduled execution
+- Creating dashboard-ready outputs
+- Adding portfolio narrative and architecture diagrams
 
-This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.
+## Project Documentation
 
-## Day 7
+Additional project documentation:
 
-Added a configuration file.
+- [Architecture Summary](docs/architecture_summary.md)
+- [Portfolio Narrative](docs/portfolio_narrative.md)
 
-The pipeline now reads key settings from `config.json`, including:
+## Day 14
 
-- API URL
-- Raw data output file
-- Summary CSV output file
-- Log file name
+Completed a foundation wrap-up review.
 
-This reduces hardcoding inside the Python scripts and makes the pipeline easier to modify without changing code.
+Added `foundation_status_report.py`, which checks the key local pipeline artifacts and generates `foundation_status_report.md`.
 
-The current workflow is:
+The report checks for:
 
-1. `run_pipeline.py` starts the pipeline
-2. `fetch_api_data.py` reads the API URL and raw output filename from `config.json`
-3. `fetch_api_data.py` saves the raw API response to `api_data.json`
-4. `transform_api_data.py` reads input and output filenames from `config.json`
-5. `transform_api_data.py` saves structured output to `repo_summary.csv`
-6. Pipeline events are written to `pipeline.log`
+- Raw data folder
+- Processed data folder
+- Latest raw API output
+- Latest processed CSV output
+- Pipeline log
+- Run manifest
 
-## Day 8
+This marks the local pipeline foundation as ready for the next phase of security-data expansion.
 
-Added a data folder structure.
+## Day 15
 
-The pipeline now separates raw and processed data:
+Selected the Phase 2 security-data direction.
 
-- Raw API responses are saved in `data/raw/`
-- Cleaned CSV outputs are saved in `data/processed/`
+The project will expand from a generic API training pipeline into a vulnerability/risk intelligence pipeline.
 
-The current configured output paths are managed through `config.json`:
+The first planned security data source is the CISA Known Exploited Vulnerabilities catalog.
 
-- Raw data file: `data/raw/api_data.json`
-- Processed summary file: `data/processed/repo_summary.csv`
+Phase 2 goals include:
 
-This makes the project structure cleaner and closer to a real data pipeline.
+- Ingesting CISA KEV data
+- Transforming KEV data into structured CSV output
+- Validating KEV output
+- Adding risk-oriented enrichment
+- Creating executive-summary outputs
+- Preparing the project for cloud storage and dashboarding
 
-## Day 9
+Additional detail is documented in:
 
-Added timestamped output files.
-
-The pipeline now saves both timestamped outputs and latest-output convenience files.
-
-Raw API output is saved as:
-
-- `data/raw/api_data_YYYY-MM-DD_HHMMSS.json`
-- `data/raw/latest_api_data.json`
-
-Processed CSV output is saved as:
-
-- `data/processed/repo_summary_YYYY-MM-DD_HHMMSS.csv`
-- `data/processed/latest_repo_summary.csv`
-
-This improves basic data lineage by preserving each pipeline run instead of only overwriting the same files.
-
-## Day 10
-
-Added a run manifest.
-
-The pipeline now appends a run record to `data/run_manifest.csv` after each execution.
-
-The manifest tracks:
-
-- Run timestamp
-- Timestamped raw data file
-- Timestamped processed output file
-- Run status
-- Error message, if applicable
-
-This improves basic auditability and makes pipeline runs easier to trace.
-
-## Day 11
-
-Added basic data validation.
-
-The pipeline now runs `validate_output.py` after the transformation step.
-
-The validation checks that:
-
-- The processed CSV exists
-- The processed CSV is not empty
-- Required columns are present
-- The repository field is not null
-
-This adds a basic quality gate before treating pipeline output as usable.
+- [Security Data Direction](docs/security_data_direction.md)
