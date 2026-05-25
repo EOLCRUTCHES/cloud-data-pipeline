@@ -455,3 +455,66 @@ Rows: 1
 Columns: 12
 
 2026-05-24 19:17:05,721 - INFO - Pipeline run completed successfully.
+2026-05-24 19:39:39,719 - INFO - Starting CISA KEV data transformation.
+2026-05-24 19:39:39,763 - INFO - CISA KEV transformation completed successfully.
+2026-05-24 19:39:39,763 - INFO - Saved timestamped KEV summary to data\processed\kev_summary_2026-05-24_193939.csv.
+2026-05-24 19:39:39,763 - INFO - Saved latest KEV summary to data\processed\latest_kev_summary.csv.
+2026-05-24 19:39:39,763 - INFO - KEV rows transformed: 1602
+2026-05-24 19:41:37,528 - INFO - Pipeline run started.
+2026-05-24 19:41:37,528 - INFO - Starting step: Fetch API data
+2026-05-24 19:41:38,083 - INFO - Starting API data fetch.
+2026-05-24 19:41:38,311 - INFO - API data fetched successfully.
+2026-05-24 19:41:38,311 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-24_194138.json.
+2026-05-24 19:41:38,311 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-24 19:41:38,340 - INFO - Step completed successfully: Fetch API data
+2026-05-24 19:41:38,340 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72876
+Forks: 34677
+Open issues: 9314
+Timestamped raw file: data\raw\api_data_2026-05-24_194138.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-24 19:41:38,340 - INFO - Starting step: Transform API data
+2026-05-24 19:41:39,097 - INFO - Starting API data transformation.
+2026-05-24 19:41:39,182 - INFO - Transformation completed successfully.
+2026-05-24 19:41:39,182 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-24_194139.csv.
+2026-05-24 19:41:39,182 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-24 19:41:39,264 - INFO - Step completed successfully: Transform API data
+2026-05-24 19:41:39,264 - INFO - Output from Transform API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-24_194139.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-24 19:41:39,264 - INFO - Starting step: Validate processed output
+2026-05-24 19:41:40,057 - INFO - Starting output validation.
+2026-05-24 19:41:40,079 - INFO - Output validation completed successfully.
+2026-05-24 19:41:40,171 - INFO - Step completed successfully: Validate processed output
+2026-05-24 19:41:40,172 - INFO - Output from Validate processed output: Validation complete.
+Validated file: data\processed\latest_repo_summary.csv
+Rows: 1
+Columns: 12
+
+2026-05-24 19:41:40,174 - INFO - Pipeline run completed successfully.
+2026-05-24 19:48:02,707 - INFO - Starting CISA KEV output validation.
+2026-05-24 19:48:02,736 - INFO - CISA KEV validation completed successfully.
+2026-05-24 19:48:02,736 - INFO - KEV rows validated: 1602
+2026-05-24 19:48:02,736 - INFO - Duplicate CVE IDs found: 0
+2026-05-24 19:49:56,492 - INFO - Starting CISA KEV data fetch.
+2026-05-24 19:49:57,079 - INFO - CISA KEV data fetched successfully.
+2026-05-24 19:49:57,079 - INFO - Saved timestamped KEV response to data\raw\kev_data_2026-05-24_194956.json.
+2026-05-24 19:49:57,079 - INFO - Saved latest KEV response to data\raw\latest_kev_data.json.
+2026-05-24 19:49:57,079 - INFO - KEV vulnerability count: 1602
+2026-05-24 19:50:16,872 - INFO - Starting CISA KEV data transformation.
+2026-05-24 19:50:16,967 - INFO - CISA KEV transformation completed successfully.
+2026-05-24 19:50:16,967 - INFO - Saved timestamped KEV summary to data\processed\kev_summary_2026-05-24_195016.csv.
+2026-05-24 19:50:16,967 - INFO - Saved latest KEV summary to data\processed\latest_kev_summary.csv.
+2026-05-24 19:50:16,967 - INFO - KEV rows transformed: 1602
+2026-05-24 19:50:39,635 - INFO - Starting CISA KEV output validation.
+2026-05-24 19:50:39,682 - INFO - CISA KEV validation completed successfully.
+2026-05-24 19:50:39,682 - INFO - KEV rows validated: 1602
+2026-05-24 19:50:39,682 - INFO - Duplicate CVE IDs found: 0

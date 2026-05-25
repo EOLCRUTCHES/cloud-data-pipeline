@@ -157,3 +157,46 @@ The project now includes `fetch_kev_data.py`, which pulls the CISA KEV JSON feed
 
 This is the first step in moving the project from a generic API training pipeline toward a security-data pipeline focused on vulnerability and risk intelligence.
 
+## Day 17
+
+Added CISA KEV transformation.
+
+The project now includes `transform_kev_data.py`, which reads the latest raw CISA KEV JSON file and creates structured CSV outputs.
+
+The KEV transform creates:
+
+- A timestamped processed KEV CSV in `data/processed/`
+- A latest KEV CSV at `data/processed/latest_kev_summary.csv`
+
+The structured KEV output includes:
+
+- CVE ID
+- Vendor/project
+- Product
+- Vulnerability name
+- Date added
+- Short description
+- Required action
+- Due date
+- Known ransomware campaign use
+- Notes
+
+This moves the security-data pipeline from raw ingestion toward usable vulnerability intelligence output.
+
+## Day 18
+
+Added CISA KEV output validation.
+
+The project now includes `validate_kev_output.py`, which validates the structured KEV CSV output.
+
+The validation checks that:
+
+- The KEV processed output file exists
+- The KEV processed output file is not empty
+- Required KEV columns are present
+- CVE ID values are populated
+- Vendor/project values are populated
+- Date added values are populated
+- Duplicate CVE IDs are counted and reported
+
+This adds a quality gate for the security-data portion of the pipeline.
