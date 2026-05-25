@@ -217,3 +217,25 @@ The full pipeline now runs:
 
 This moves the project from separate security-data scripts toward a multi-source pipeline workflow.
 
+## Day 20
+
+Added risk-oriented CISA KEV enrichment.
+
+The project now includes `enrich_kev_data.py`, which reads the structured KEV summary and adds risk-oriented fields.
+
+The enriched KEV output includes:
+
+- `is_known_exploited`
+- `days_until_due`
+- `is_overdue`
+- `priority_bucket`
+
+The priority bucket is a simple derived field intended to support early risk triage:
+
+- `Critical`: overdue and associated with known ransomware campaign use
+- `High`: overdue, or due soon with known ransomware campaign use
+- `Medium`: due within 30 days
+- `Monitor`: due later than 30 days
+- `Review`: missing or invalid due date
+
+This moves the project from basic security-data transformation toward risk-oriented vulnerability intelligence.

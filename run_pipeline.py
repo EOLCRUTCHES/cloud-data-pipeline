@@ -112,6 +112,7 @@ def main():
         run_step("Fetch CISA KEV data", ["python", "fetch_kev_data.py"])
         run_step("Transform CISA KEV data", ["python", "transform_kev_data.py"])
         run_step("Validate CISA KEV output", ["python", "validate_kev_output.py"])
+        run_step("Enrich CISA KEV data", ["python", "enrich_kev_data.py"])
 
     except subprocess.CalledProcessError as error:
         status = "failed"
