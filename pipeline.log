@@ -792,3 +792,203 @@ Timestamped executive summary: data\processed\executive_summary_2026-05-24_20275
 Latest executive summary: data\processed\latest_executive_summary.csv
 
 2026-05-24 20:27:53,173 - INFO - Multi-source pipeline run completed successfully.
+2026-05-24 20:30:56,012 - INFO - Multi-source pipeline run started.
+2026-05-24 20:30:56,012 - INFO - Starting step: Fetch GitHub API data
+2026-05-24 20:30:56,523 - INFO - Starting API data fetch.
+2026-05-24 20:30:56,810 - INFO - API data fetched successfully.
+2026-05-24 20:30:56,810 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-24_203056.json.
+2026-05-24 20:30:56,810 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-24 20:30:56,842 - INFO - Step completed successfully: Fetch GitHub API data
+2026-05-24 20:30:56,842 - INFO - Output from Fetch GitHub API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72876
+Forks: 34677
+Open issues: 9314
+Timestamped raw file: data\raw\api_data_2026-05-24_203056.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-24 20:30:56,842 - INFO - Starting step: Transform GitHub API data
+2026-05-24 20:30:57,799 - INFO - Starting API data transformation.
+2026-05-24 20:30:57,809 - INFO - Transformation completed successfully.
+2026-05-24 20:30:57,809 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-24_203057.csv.
+2026-05-24 20:30:57,810 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-24 20:30:57,906 - INFO - Step completed successfully: Transform GitHub API data
+2026-05-24 20:30:57,906 - INFO - Output from Transform GitHub API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-24_203057.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-24 20:30:57,907 - INFO - Starting step: Validate GitHub processed output
+2026-05-24 20:30:58,637 - INFO - Starting output validation.
+2026-05-24 20:30:58,644 - INFO - Output validation completed successfully.
+2026-05-24 20:30:58,716 - INFO - Step completed successfully: Validate GitHub processed output
+2026-05-24 20:30:58,716 - INFO - Output from Validate GitHub processed output: Validation complete.
+Validated file: data\processed\latest_repo_summary.csv
+Rows: 1
+Columns: 12
+
+2026-05-24 20:30:58,717 - INFO - Starting step: Fetch CISA KEV data
+2026-05-24 20:30:59,312 - INFO - Starting CISA KEV data fetch.
+2026-05-24 20:30:59,664 - INFO - CISA KEV data fetched successfully.
+2026-05-24 20:30:59,664 - INFO - Saved timestamped KEV response to data\raw\kev_data_2026-05-24_203059.json.
+2026-05-24 20:30:59,664 - INFO - Saved latest KEV response to data\raw\latest_kev_data.json.
+2026-05-24 20:30:59,664 - INFO - KEV vulnerability count: 1602
+2026-05-24 20:30:59,690 - INFO - Step completed successfully: Fetch CISA KEV data
+2026-05-24 20:30:59,691 - INFO - Output from Fetch CISA KEV data: CISA KEV data fetched successfully.
+Vulnerabilities found: 1602
+Timestamped KEV file: data\raw\kev_data_2026-05-24_203059.json
+Latest KEV file: data\raw\latest_kev_data.json
+
+2026-05-24 20:30:59,691 - INFO - Starting step: Transform CISA KEV data
+2026-05-24 20:31:00,446 - INFO - Starting CISA KEV data transformation.
+2026-05-24 20:31:00,527 - INFO - CISA KEV transformation completed successfully.
+2026-05-24 20:31:00,527 - INFO - Saved timestamped KEV summary to data\processed\kev_summary_2026-05-24_203100.csv.
+2026-05-24 20:31:00,527 - INFO - Saved latest KEV summary to data\processed\latest_kev_summary.csv.
+2026-05-24 20:31:00,527 - INFO - KEV rows transformed: 1602
+2026-05-24 20:31:00,622 - INFO - Step completed successfully: Transform CISA KEV data
+2026-05-24 20:31:00,623 - INFO - Output from Transform CISA KEV data: CISA KEV transformation complete.
+Rows transformed: 1602
+Timestamped KEV summary: data\processed\kev_summary_2026-05-24_203100.csv
+Latest KEV summary: data\processed\latest_kev_summary.csv
+
+2026-05-24 20:31:00,623 - INFO - Starting step: Validate CISA KEV output
+2026-05-24 20:31:01,420 - INFO - Starting CISA KEV output validation.
+2026-05-24 20:31:01,477 - INFO - CISA KEV validation completed successfully.
+2026-05-24 20:31:01,477 - INFO - KEV rows validated: 1602
+2026-05-24 20:31:01,477 - INFO - Duplicate CVE IDs found: 0
+2026-05-24 20:31:01,570 - INFO - Step completed successfully: Validate CISA KEV output
+2026-05-24 20:31:01,570 - INFO - Output from Validate CISA KEV output: CISA KEV validation complete.
+Validated file: data\processed\latest_kev_summary.csv
+Rows: 1602
+Columns: 10
+Duplicate CVE IDs: 0
+
+2026-05-24 20:31:01,570 - INFO - Starting step: Enrich CISA KEV data
+2026-05-24 20:31:02,395 - INFO - Starting CISA KEV enrichment.
+2026-05-24 20:31:02,988 - INFO - CISA KEV enrichment completed successfully.
+2026-05-24 20:31:02,988 - INFO - Saved timestamped enriched KEV output to data\processed\kev_enriched_2026-05-24_203102.csv.
+2026-05-24 20:31:02,988 - INFO - Saved latest enriched KEV output to data\processed\latest_kev_enriched.csv.
+2026-05-24 20:31:02,988 - INFO - Priority bucket counts: {'High': 1268, 'Critical': 323, 'Medium': 11}
+2026-05-24 20:31:03,101 - INFO - Step completed successfully: Enrich CISA KEV data
+2026-05-24 20:31:03,101 - INFO - Output from Enrich CISA KEV data: CISA KEV enrichment complete.
+Rows enriched: 1602
+Timestamped enriched output: data\processed\kev_enriched_2026-05-24_203102.csv
+Latest enriched output: data\processed\latest_kev_enriched.csv
+Priority bucket counts: {'High': 1268, 'Critical': 323, 'Medium': 11}
+
+2026-05-24 20:31:03,102 - INFO - Starting step: Create executive summary
+2026-05-24 20:31:03,886 - INFO - Starting executive summary generation.
+2026-05-24 20:31:03,943 - INFO - Executive summary generated successfully.
+2026-05-24 20:31:03,943 - INFO - Saved timestamped executive summary to data\processed\executive_summary_2026-05-24_203103.csv.
+2026-05-24 20:31:03,943 - INFO - Saved latest executive summary to data\processed\latest_executive_summary.csv.
+2026-05-24 20:31:04,030 - INFO - Step completed successfully: Create executive summary
+2026-05-24 20:31:04,030 - INFO - Output from Create executive summary: Executive summary generated.
+Summary rows: 17
+Timestamped executive summary: data\processed\executive_summary_2026-05-24_203103.csv
+Latest executive summary: data\processed\latest_executive_summary.csv
+
+2026-05-24 20:31:04,035 - INFO - Multi-source pipeline run completed successfully.
+2026-05-24 20:34:53,103 - INFO - Multi-source pipeline run started.
+2026-05-24 20:34:53,103 - INFO - Starting step: Fetch GitHub API data
+2026-05-24 20:34:54,201 - INFO - Starting API data fetch.
+2026-05-24 20:34:54,766 - INFO - API data fetched successfully.
+2026-05-24 20:34:54,767 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-24_203454.json.
+2026-05-24 20:34:54,767 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-24 20:34:54,848 - INFO - Step completed successfully: Fetch GitHub API data
+2026-05-24 20:34:54,848 - INFO - Output from Fetch GitHub API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72876
+Forks: 34677
+Open issues: 9314
+Timestamped raw file: data\raw\api_data_2026-05-24_203454.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-24 20:34:54,849 - INFO - Starting step: Transform GitHub API data
+2026-05-24 20:34:56,789 - INFO - Starting API data transformation.
+2026-05-24 20:34:56,815 - INFO - Transformation completed successfully.
+2026-05-24 20:34:56,815 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-24_203456.csv.
+2026-05-24 20:34:56,815 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-24 20:34:57,035 - INFO - Step completed successfully: Transform GitHub API data
+2026-05-24 20:34:57,035 - INFO - Output from Transform GitHub API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-24_203456.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-24 20:34:57,036 - INFO - Starting step: Validate GitHub processed output
+2026-05-24 20:34:59,029 - INFO - Starting output validation.
+2026-05-24 20:34:59,046 - INFO - Output validation completed successfully.
+2026-05-24 20:34:59,235 - INFO - Step completed successfully: Validate GitHub processed output
+2026-05-24 20:34:59,235 - INFO - Output from Validate GitHub processed output: Validation complete.
+Validated file: data\processed\latest_repo_summary.csv
+Rows: 1
+Columns: 12
+
+2026-05-24 20:34:59,236 - INFO - Starting step: Fetch CISA KEV data
+2026-05-24 20:35:00,687 - INFO - Starting CISA KEV data fetch.
+2026-05-24 20:35:01,269 - INFO - CISA KEV data fetched successfully.
+2026-05-24 20:35:01,269 - INFO - Saved timestamped KEV response to data\raw\kev_data_2026-05-24_203501.json.
+2026-05-24 20:35:01,270 - INFO - Saved latest KEV response to data\raw\latest_kev_data.json.
+2026-05-24 20:35:01,270 - INFO - KEV vulnerability count: 1602
+2026-05-24 20:35:01,355 - INFO - Step completed successfully: Fetch CISA KEV data
+2026-05-24 20:35:01,356 - INFO - Output from Fetch CISA KEV data: CISA KEV data fetched successfully.
+Vulnerabilities found: 1602
+Timestamped KEV file: data\raw\kev_data_2026-05-24_203501.json
+Latest KEV file: data\raw\latest_kev_data.json
+
+2026-05-24 20:35:01,356 - INFO - Starting step: Transform CISA KEV data
+2026-05-24 20:35:03,020 - INFO - Starting CISA KEV data transformation.
+2026-05-24 20:35:03,161 - INFO - CISA KEV transformation completed successfully.
+2026-05-24 20:35:03,161 - INFO - Saved timestamped KEV summary to data\processed\kev_summary_2026-05-24_203503.csv.
+2026-05-24 20:35:03,162 - INFO - Saved latest KEV summary to data\processed\latest_kev_summary.csv.
+2026-05-24 20:35:03,162 - INFO - KEV rows transformed: 1602
+2026-05-24 20:35:03,380 - INFO - Step completed successfully: Transform CISA KEV data
+2026-05-24 20:35:03,380 - INFO - Output from Transform CISA KEV data: CISA KEV transformation complete.
+Rows transformed: 1602
+Timestamped KEV summary: data\processed\kev_summary_2026-05-24_203503.csv
+Latest KEV summary: data\processed\latest_kev_summary.csv
+
+2026-05-24 20:35:03,381 - INFO - Starting step: Validate CISA KEV output
+2026-05-24 20:35:04,838 - INFO - Starting CISA KEV output validation.
+2026-05-24 20:35:04,917 - INFO - CISA KEV validation completed successfully.
+2026-05-24 20:35:04,917 - INFO - KEV rows validated: 1602
+2026-05-24 20:35:04,917 - INFO - Duplicate CVE IDs found: 0
+2026-05-24 20:35:05,146 - INFO - Step completed successfully: Validate CISA KEV output
+2026-05-24 20:35:05,146 - INFO - Output from Validate CISA KEV output: CISA KEV validation complete.
+Validated file: data\processed\latest_kev_summary.csv
+Rows: 1602
+Columns: 10
+Duplicate CVE IDs: 0
+
+2026-05-24 20:35:05,147 - INFO - Starting step: Enrich CISA KEV data
+2026-05-24 20:35:06,559 - INFO - Starting CISA KEV enrichment.
+2026-05-24 20:35:07,456 - INFO - CISA KEV enrichment completed successfully.
+2026-05-24 20:35:07,456 - INFO - Saved timestamped enriched KEV output to data\processed\kev_enriched_2026-05-24_203507.csv.
+2026-05-24 20:35:07,456 - INFO - Saved latest enriched KEV output to data\processed\latest_kev_enriched.csv.
+2026-05-24 20:35:07,456 - INFO - Priority bucket counts: {'High': 1268, 'Critical': 323, 'Medium': 11}
+2026-05-24 20:35:07,627 - INFO - Step completed successfully: Enrich CISA KEV data
+2026-05-24 20:35:07,627 - INFO - Output from Enrich CISA KEV data: CISA KEV enrichment complete.
+Rows enriched: 1602
+Timestamped enriched output: data\processed\kev_enriched_2026-05-24_203507.csv
+Latest enriched output: data\processed\latest_kev_enriched.csv
+Priority bucket counts: {'High': 1268, 'Critical': 323, 'Medium': 11}
+
+2026-05-24 20:35:07,628 - INFO - Starting step: Create executive summary
+2026-05-24 20:35:09,055 - INFO - Starting executive summary generation.
+2026-05-24 20:35:09,162 - INFO - Executive summary generated successfully.
+2026-05-24 20:35:09,163 - INFO - Saved timestamped executive summary to data\processed\executive_summary_2026-05-24_203509.csv.
+2026-05-24 20:35:09,163 - INFO - Saved latest executive summary to data\processed\latest_executive_summary.csv.
+2026-05-24 20:35:09,372 - INFO - Step completed successfully: Create executive summary
+2026-05-24 20:35:09,372 - INFO - Output from Create executive summary: Executive summary generated.
+Summary rows: 17
+Timestamped executive summary: data\processed\executive_summary_2026-05-24_203509.csv
+Latest executive summary: data\processed\latest_executive_summary.csv
+
+2026-05-24 20:35:09,387 - INFO - Multi-source pipeline run completed successfully.
