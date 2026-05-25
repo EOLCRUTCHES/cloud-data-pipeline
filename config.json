@@ -8,11 +8,13 @@
   "summary_output_prefix":"repo_summary",
   "kev_summary_output_prefix":"kev_summary",
   "kev_enriched_output_prefix": "kev_enriched",
+  "executive_summary_output_prefix": "executive_summary",
   "latest_raw_data_file":"data/raw/latest_api_data.json",
   "latest_kev_raw_data_file": "data/raw/latest_kev_data.json",
   "latest_summary_output_file":"data/processed/latest_repo_summary.csv",
   "latest_kev_summary_output_file":"data/processed/latest_kev_summary.csv",
   "latest_kev_enriched_output_file": "data/processed/latest_kev_enriched.csv",
+  "latest_executive_summary_output_file": "data/processed/latest_executive_summary.csv",
   "manifest_file": "data/run_manifest.csv",
   "log_file":"pipeline.log"
 }

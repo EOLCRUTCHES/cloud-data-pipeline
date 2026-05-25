@@ -239,3 +239,26 @@ The priority bucket is a simple derived field intended to support early risk tri
 - `Review`: missing or invalid due date
 
 This moves the project from basic security-data transformation toward risk-oriented vulnerability intelligence.
+
+## Day 21
+
+Added an executive summary output.
+
+The project now includes `create_executive_summary.py`, which reads the enriched CISA KEV output and creates summary metrics.
+
+The executive summary includes:
+
+- Total vulnerabilities
+- Overdue vulnerabilities
+- Vulnerabilities due within 30 days
+- Known ransomware campaign use count
+- Counts by priority bucket
+- Top vendors/projects by count
+
+The latest executive summary is saved at:
+
+- `data/processed/latest_executive_summary.csv`
+
+Timestamped executive summary outputs are also saved in `data/processed/`.
+
+This creates a manager-friendly output from the security-data pipeline.
