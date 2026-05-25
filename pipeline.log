@@ -410,3 +410,48 @@ Rows: 1
 Columns: 12
 
 2026-05-24 18:15:46,996 - INFO - Pipeline run completed successfully.
+2026-05-24 19:15:33,591 - INFO - Starting CISA KEV data fetch.
+2026-05-24 19:15:34,304 - INFO - CISA KEV data fetched successfully.
+2026-05-24 19:15:34,304 - INFO - Saved timestamped KEV response to data\raw\kev_data_2026-05-24_191534.json.
+2026-05-24 19:15:34,304 - INFO - Saved latest KEV response to data\raw\latest_kev_data.json.
+2026-05-24 19:15:34,304 - INFO - KEV vulnerability count: 1602
+2026-05-24 19:17:02,404 - INFO - Pipeline run started.
+2026-05-24 19:17:02,405 - INFO - Starting step: Fetch API data
+2026-05-24 19:17:02,995 - INFO - Starting API data fetch.
+2026-05-24 19:17:03,352 - INFO - API data fetched successfully.
+2026-05-24 19:17:03,352 - INFO - Saved timestamped raw API response to data\raw\api_data_2026-05-24_191703.json.
+2026-05-24 19:17:03,352 - INFO - Saved latest raw API response to data\raw\latest_api_data.json.
+2026-05-24 19:17:03,389 - INFO - Step completed successfully: Fetch API data
+2026-05-24 19:17:03,389 - INFO - Output from Fetch API data: API data fetched successfully.
+Repository: python/cpython
+Stars: 72877
+Forks: 34677
+Open issues: 9314
+Timestamped raw file: data\raw\api_data_2026-05-24_191703.json
+Latest raw file: data\raw\latest_api_data.json
+
+2026-05-24 19:17:03,390 - INFO - Starting step: Transform API data
+2026-05-24 19:17:04,760 - INFO - Starting API data transformation.
+2026-05-24 19:17:04,831 - INFO - Transformation completed successfully.
+2026-05-24 19:17:04,831 - INFO - Saved timestamped structured output to data\processed\repo_summary_2026-05-24_191704.csv.
+2026-05-24 19:17:04,831 - INFO - Saved latest structured output to data\processed\latest_repo_summary.csv.
+2026-05-24 19:17:04,929 - INFO - Step completed successfully: Transform API data
+2026-05-24 19:17:04,929 - INFO - Output from Transform API data: Transformation complete.
+Saved timestamped output to data\processed\repo_summary_2026-05-24_191704.csv
+Saved latest output to data\processed\latest_repo_summary.csv
+
+       repository                      description  ... default_branch  visibility
+0  python/cpython  The Python programming language  ...           main      public
+
+[1 rows x 12 columns]
+
+2026-05-24 19:17:04,930 - INFO - Starting step: Validate processed output
+2026-05-24 19:17:05,632 - INFO - Starting output validation.
+2026-05-24 19:17:05,653 - INFO - Output validation completed successfully.
+2026-05-24 19:17:05,715 - INFO - Step completed successfully: Validate processed output
+2026-05-24 19:17:05,715 - INFO - Output from Validate processed output: Validation complete.
+Validated file: data\processed\latest_repo_summary.csv
+Rows: 1
+Columns: 12
+
+2026-05-24 19:17:05,721 - INFO - Pipeline run completed successfully.

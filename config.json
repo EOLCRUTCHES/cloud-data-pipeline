@@ -1,10 +1,13 @@
 {
   "api_url":"https://api.github.com/repos/python/cpython",
+  "kev_api_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
   "raw_data_folder":"data/raw",
   "processed_data_folder":"data/processed",
   "raw_data_prefix":"api_data",
+  "kev_raw_data_prefix": "kev_data",
   "summary_output_prefix":"repo_summary",
   "latest_raw_data_file":"data/raw/latest_api_data.json",
+  "latest_kev_raw_data_file": "data/raw/latest_kev_data.json",
   "latest_summary_output_file":"data/processed/latest_repo_summary.csv",
   "manifest_file": "data/run_manifest.csv",
   "log_file":"pipeline.log"

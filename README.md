@@ -145,3 +145,15 @@ Phase 2 goals include:
 Additional detail is documented in:
 
 - [Security Data Direction](docs/security_data_direction.md)
+
+## Day 16
+
+Added CISA Known Exploited Vulnerabilities ingestion.
+
+The project now includes `fetch_kev_data.py`, which pulls the CISA KEV JSON feed and saves both:
+
+- A timestamped raw KEV file in `data/raw/`
+- A latest KEV convenience file at `data/raw/latest_kev_data.json`
+
+This is the first step in moving the project from a generic API training pipeline toward a security-data pipeline focused on vulnerability and risk intelligence.
+
