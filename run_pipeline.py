@@ -16,7 +16,7 @@ def setup_logging(log_file):
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
+        format="%(asctime)s - %(levelname)s - %(message)s"
     )
 
 
@@ -28,7 +28,7 @@ def run_step(step_name, command):
         command,
         check=True,
         capture_output=True,
-        text=True,
+        text=True
     )
 
     logging.info("Step completed successfully: %s", step_name)
@@ -36,6 +36,10 @@ def run_step(step_name, command):
     if result.stdout:
         logging.info("Output from %s: %s", step_name, result.stdout)
         print(result.stdout)
+
+    if result.stderr:
+        logging.warning("Warnings from %s: %s", step_name, result.stderr)
+        print(result.stderr)
 
 
 def find_latest_file(folder, pattern):
@@ -60,7 +64,7 @@ def append_run_manifest(manifest_file, run_timestamp, raw_file, processed_file, 
             "raw_file",
             "processed_file",
             "status",
-            "error_message",
+            "error_message"
         ]
 
         writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -74,7 +78,7 @@ def append_run_manifest(manifest_file, run_timestamp, raw_file, processed_file, 
                 "raw_file": raw_file,
                 "processed_file": processed_file,
                 "status": status,
-                "error_message": error_message,
+                "error_message": error_message
             }
         )
 
@@ -86,7 +90,9 @@ def main():
     raw_data_folder = config["raw_data_folder"]
     processed_data_folder = config["processed_data_folder"]
     raw_data_prefix = config["raw_data_prefix"]
+    kev_raw_data_prefix = config["kev_raw_data_prefix"]
     summary_output_prefix = config["summary_output_prefix"]
+    kev_summary_output_prefix = config["kev_summary_output_prefix"]
     manifest_file = config["manifest_file"]
 
     setup_logging(log_file)
@@ -95,46 +101,66 @@ def main():
     status = "success"
     error_message = ""
 
-    logging.info("Pipeline run started.")
-    print("Pipeline run started.")
+    logging.info("Multi-source pipeline run started.")
+    print("Multi-source pipeline run started.")
 
     try:
-        run_step("Fetch API data", ["python", "fetch_api_data.py"])
-        run_step("Transform API data", ["python", "transform_api_data.py"])
-        run_step("Validate processed output", ["python","validate_output.py"])
+        run_step("Fetch GitHub API data", ["python", "fetch_api_data.py"])
+        run_step("Transform GitHub API data", ["python", "transform_api_data.py"])
+        run_step("Validate GitHub processed output", ["python", "validate_output.py"])
+
+        run_step("Fetch CISA KEV data", ["python", "fetch_kev_data.py"])
+        run_step("Transform CISA KEV data", ["python", "transform_kev_data.py"])
+        run_step("Validate CISA KEV output", ["python", "validate_kev_output.py"])
+
     except subprocess.CalledProcessError as error:
         status = "failed"
         error_message = error.stderr or str(error)
 
         logging.error("Pipeline failed.")
+        logging.error("Failed command: %s", error.cmd)
         logging.error("Return code: %s", error.returncode)
         logging.error("Error output: %s", error.stderr)
 
         print("Pipeline failed.")
-        print(error.stderr)
+        print(f"Failed command: {error.cmd}")
+        print(error_message)
 
-    raw_file = find_latest_file(
+    github_raw_file = find_latest_file(
         raw_data_folder,
-        f"{raw_data_prefix}_*.json",
+        f"{raw_data_prefix}_*.json"
     )
 
-    processed_file = find_latest_file(
+    github_processed_file = find_latest_file(
         processed_data_folder,
-        f"{summary_output_prefix}_*.csv",
+        f"{summary_output_prefix}_*.csv"
     )
+
+    kev_raw_file = find_latest_file(
+        raw_data_folder,
+        f"{kev_raw_data_prefix}_*.json"
+    )
+
+    kev_processed_file = find_latest_file(
+        processed_data_folder,
+        f"{kev_summary_output_prefix}_*.csv"
+    )
+
+    combined_raw_files = f"github={github_raw_file}; kev={kev_raw_file}"
+    combined_processed_files = f"github={github_processed_file}; kev={kev_processed_file}"
 
     append_run_manifest(
         manifest_file,
         run_timestamp,
-        raw_file,
-        processed_file,
+        combined_raw_files,
+        combined_processed_files,
         status,
-        error_message,
+        error_message
     )
 
     if status == "success":
-        logging.info("Pipeline run completed successfully.")
-        print("Pipeline run completed successfully.")
+        logging.info("Multi-source pipeline run completed successfully.")
+        print("Multi-source pipeline run completed successfully.")
     else:
         sys.exit(1)
 

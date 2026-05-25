@@ -200,3 +200,20 @@ The validation checks that:
 - Duplicate CVE IDs are counted and reported
 
 This adds a quality gate for the security-data portion of the pipeline.
+
+## Day 19
+
+Updated the pipeline runner to execute both the GitHub API flow and the CISA KEV flow.
+
+The full pipeline now runs:
+
+1. Fetch GitHub API data
+2. Transform GitHub API data
+3. Validate GitHub processed output
+4. Fetch CISA KEV data
+5. Transform CISA KEV data
+6. Validate CISA KEV output
+7. Append a combined run record to `data/run_manifest.csv`
+
+This moves the project from separate security-data scripts toward a multi-source pipeline workflow.
+

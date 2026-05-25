@@ -8,3 +8,4 @@ run_timestamp,raw_file,processed_file,status,error_message
 2026-05-24_181544,data\raw\api_data_2026-05-24_181545.json,data\processed\repo_summary_2026-05-24_181546.csv,success,
 2026-05-24_191702,data\raw\api_data_2026-05-24_191703.json,data\processed\repo_summary_2026-05-24_191704.csv,success,
 2026-05-24_194137,data\raw\api_data_2026-05-24_194138.json,data\processed\repo_summary_2026-05-24_194139.csv,success,
+2026-05-24_195744,github=data\raw\api_data_2026-05-24_195745.json; kev=data\raw\kev_data_2026-05-24_195748.json,github=data\processed\repo_summary_2026-05-24_195746.csv; kev=data\processed\kev_summary_2026-05-24_195749.csv,success,
