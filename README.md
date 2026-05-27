@@ -307,3 +307,24 @@ Related documentation:
 
 - [AWS Setup Notes](docs/aws_setup_notes.md)
 - [S3 Storage Plan](docs/s3_storage_plan.md)
+
+## Day 24
+
+Designed the initial S3 upload behavior.
+
+The first S3 upload workflow will upload only the latest pipeline outputs, not every timestamped archive file.
+
+Planned upload targets include:
+
+- Latest raw GitHub API data
+- Latest raw CISA KEV data
+- Latest processed GitHub summary
+- Latest processed KEV summary
+- Latest enriched KEV output
+- Latest executive summary
+- Run manifest
+- Pipeline log
+
+The initial S3 upload design is documented in:
+
+- [S3 Upload Design](docs/s3_upload_design.md)
