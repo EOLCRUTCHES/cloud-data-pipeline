@@ -284,3 +284,26 @@ The current project status is documented in:
 - [Project Status](docs/project_status.md)
 
 This checkpoint stabilizes the local pipeline before moving into the cloud storage phase.
+
+## Day 23
+
+Started the AWS/S3 preparation phase.
+
+Day 23 focused on preparing the cloud side safely before adding automated uploads.
+
+Completed planning and setup items include:
+
+- Confirmed AWS account security baseline
+- Confirmed root MFA and no root access keys
+- Created or identified a training S3 bucket
+- Kept S3 public access blocked
+- Enabled bucket versioning
+- Confirmed default encryption
+- Created planned S3 prefixes for raw data, processed data, logs, manifests, and documentation
+- Completed a manual upload test
+- Added AWS setup and S3 storage planning documentation
+
+Related documentation:
+
+- [AWS Setup Notes](docs/aws_setup_notes.md)
+- [S3 Storage Plan](docs/s3_storage_plan.md)
