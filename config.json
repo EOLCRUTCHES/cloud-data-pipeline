@@ -22,35 +22,35 @@
   "s3_upload_files": [
     {
       "local_path":"data/raw/latest_api_data.json",
-      "s3_key":"cloud-data-pipeline-cc-20260526/raw/latest_api_data.json"
+      "s3_key":"raw/latest_api_data.json"
     },
     {
       "local_path":"data/raw/latest_kev_data.json",
-      "s3_key":"cloud-data-pipeline-cc-20260526/raw/latest_kev_data.json"
+      "s3_key":"raw/latest_kev_data.json"
     },
     {
       "local_path":"data/processed/latest_repo_summary.csv",
-      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_repo_summary.csv"
+      "s3_key":"processed/latest_repo_summary.csv"
     },
     {
       "local_path":"data/processed/latest_kev_summary.csv",
-      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_kev_summary.csv"
+      "s3_key":"processed/latest_kev_summary.csv"
     },
     {
       "local_path":"data/processed/latest_kev_enriched.csv",
-      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_kev_enriched.csv"
+      "s3_key":"processed/latest_kev_enriched.csv"
     },
     {
       "local_path":"data/processed/latest_executive_summary.csv",
-      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_executive_summary.csv"
+      "s3_key":"processed/latest_executive_summary.csv"
     },
     {
       "local_path":"data/run_manifest.csv",
-      "s3_key":"cloud-data-pipeline-cc-20260526/manifests/run_manifest.csv"
+      "s3_key":"manifests/run_manifest.csv"
     },
     {
       "local_path":"pipeline.log",
-      "s3_key":"cloud-data-pipeline-cc-20260526/logs/pipeline.log"
+      "s3_key":"logs/pipeline.log"
     }
   ]
 }

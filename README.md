@@ -328,3 +328,5 @@ Planned upload targets include:
 The initial S3 upload design is documented in:
 
 - [S3 Upload Design](docs/s3_upload_design.md)
+
+README.md
