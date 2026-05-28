@@ -1,20 +1,56 @@
 {
   "api_url":"https://api.github.com/repos/python/cpython",
-  "kev_api_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "kev_api_url":"https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
   "raw_data_folder":"data/raw",
   "processed_data_folder":"data/processed",
   "raw_data_prefix":"api_data",
-  "kev_raw_data_prefix": "kev_data",
+  "kev_raw_data_prefix":"kev_data",
   "summary_output_prefix":"repo_summary",
   "kev_summary_output_prefix":"kev_summary",
-  "kev_enriched_output_prefix": "kev_enriched",
-  "executive_summary_output_prefix": "executive_summary",
+  "kev_enriched_output_prefix":"kev_enriched",
+  "executive_summary_output_prefix":"executive_summary",
   "latest_raw_data_file":"data/raw/latest_api_data.json",
-  "latest_kev_raw_data_file": "data/raw/latest_kev_data.json",
+  "latest_kev_raw_data_file":"data/raw/latest_kev_data.json",
   "latest_summary_output_file":"data/processed/latest_repo_summary.csv",
   "latest_kev_summary_output_file":"data/processed/latest_kev_summary.csv",
-  "latest_kev_enriched_output_file": "data/processed/latest_kev_enriched.csv",
-  "latest_executive_summary_output_file": "data/processed/latest_executive_summary.csv",
-  "manifest_file": "data/run_manifest.csv",
-  "log_file":"pipeline.log"
+  "latest_kev_enriched_output_file":"data/processed/latest_kev_enriched.csv",
+  "latest_executive_summary_output_file":"data/processed/latest_executive_summary.csv",
+  "manifest_file":"data/run_manifest.csv",
+  "log_file":"pipeline.log",
+  "s3_bucket_name":"cloud-data-pipeline-cc-20260526",
+  "s3_base_prefix":"cloud-data-pipeline-cc-20260526",
+  "s3_upload_files": [
+    {
+      "local_path":"data/raw/latest_api_data.json",
+      "s3_key":"cloud-data-pipeline-cc-20260526/raw/latest_api_data.json"
+    },
+    {
+      "local_path":"data/raw/latest_kev_data.json",
+      "s3_key":"cloud-data-pipeline-cc-20260526/raw/latest_kev_data.json"
+    },
+    {
+      "local_path":"data/processed/latest_repo_summary.csv",
+      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_repo_summary.csv"
+    },
+    {
+      "local_path":"data/processed/latest_kev_summary.csv",
+      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_kev_summary.csv"
+    },
+    {
+      "local_path":"data/processed/latest_kev_enriched.csv",
+      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_kev_enriched.csv"
+    },
+    {
+      "local_path":"data/processed/latest_executive_summary.csv",
+      "s3_key":"cloud-data-pipeline-cc-20260526/processed/latest_executive_summary.csv"
+    },
+    {
+      "local_path":"data/run_manifest.csv",
+      "s3_key":"cloud-data-pipeline-cc-20260526/manifests/run_manifest.csv"
+    },
+    {
+      "local_path":"pipeline.log",
+      "s3_key":"cloud-data-pipeline-cc-20260526/logs/pipeline.log"
+    }
+  ]
 }
