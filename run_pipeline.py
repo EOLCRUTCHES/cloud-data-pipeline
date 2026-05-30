@@ -52,7 +52,15 @@ def find_latest_file(folder, pattern):
     return str(latest_file)
 
 
-def append_run_manifest(manifest_file, run_timestamp, raw_file, processed_file, status, error_message):
+def append_run_manifest(
+    manifest_file,
+    run_timestamp,
+    raw_file,
+    processed_file,
+    status,
+    error_message,
+    upload_status
+):
     manifest_path = Path(manifest_file)
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -64,6 +72,7 @@ def append_run_manifest(manifest_file, run_timestamp, raw_file, processed_file, 
             "raw_file",
             "processed_file",
             "status",
+            "upload_status",
             "error_message"
         ]
 
@@ -78,6 +87,7 @@ def append_run_manifest(manifest_file, run_timestamp, raw_file, processed_file, 
                 "raw_file": raw_file,
                 "processed_file": processed_file,
                 "status": status,
+                "upload_status": upload_status,
                 "error_message": error_message
             }
         )
@@ -99,25 +109,32 @@ def main():
 
     run_timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     status = "success"
+    upload_status = "not_attempted"
     error_message = ""
 
-    logging.info("Multi-source pipeline run started.")
-    print("Multi-source pipeline run started.")
+    logging.info("Multi-source cloud pipeline run started.")
+    print("Multi-source cloud pipeline run started.")
 
     try:
-        run_step("Fetch GitHub API data", ["python", "fetch_api_data.py"])
-        run_step("Transform GitHub API data", ["python", "transform_api_data.py"])
-        run_step("Validate GitHub processed output", ["python", "validate_output.py"])
+        run_step("Fetch GitHub API data", [sys.executable, "fetch_api_data.py"])
+        run_step("Transform GitHub API data", [sys.executable, "transform_api_data.py"])
+        run_step("Validate GitHub processed output", [sys.executable, "validate_output.py"])
 
-        run_step("Fetch CISA KEV data", ["python", "fetch_kev_data.py"])
-        run_step("Transform CISA KEV data", ["python", "transform_kev_data.py"])
-        run_step("Validate CISA KEV output", ["python", "validate_kev_output.py"])
-        run_step("Enrich CISA KEV data", ["python", "enrich_kev_data.py"])
-        run_step("Create executive summary", ["python", "create_executive_summary.py"])
+        run_step("Fetch CISA KEV data", [sys.executable, "fetch_kev_data.py"])
+        run_step("Transform CISA KEV data", [sys.executable, "transform_kev_data.py"])
+        run_step("Validate CISA KEV output", [sys.executable, "validate_kev_output.py"])
+        run_step("Enrich CISA KEV data", [sys.executable, "enrich_kev_data.py"])
+        run_step("Create executive summary", [sys.executable, "create_executive_summary.py"])
+
+        run_step("Upload outputs to S3", [sys.executable, "upload_to_s3.py"])
+        upload_status = "success"
 
     except subprocess.CalledProcessError as error:
         status = "failed"
         error_message = error.stderr or str(error)
+
+        if error.cmd and "upload_to_s3.py" in error.cmd:
+            upload_status = "failed"
 
         logging.error("Pipeline failed.")
         logging.error("Failed command: %s", error.cmd)
@@ -152,17 +169,18 @@ def main():
     combined_processed_files = f"github={github_processed_file}; kev={kev_processed_file}"
 
     append_run_manifest(
-        manifest_file,
-        run_timestamp,
-        combined_raw_files,
-        combined_processed_files,
-        status,
-        error_message
+        manifest_file=manifest_file,
+        run_timestamp=run_timestamp,
+        raw_file=combined_raw_files,
+        processed_file=combined_processed_files,
+        status=status,
+        error_message=error_message,
+        upload_status=upload_status
     )
 
     if status == "success":
-        logging.info("Multi-source pipeline run completed successfully.")
-        print("Multi-source pipeline run completed successfully.")
+        logging.info("Multi-source cloud pipeline run completed successfully.")
+        print("Multi-source cloud pipeline run completed successfully.")
     else:
         sys.exit(1)
 

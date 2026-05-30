@@ -1,6 +1,10 @@
 import json
 import logging
 from pathlib import Path
+import sys
+
+print("UPLOAD SCRIPT PYTHON:")
+print(sys.executable)
 
 import boto3
 from botocore.exceptions import BotoCoreError

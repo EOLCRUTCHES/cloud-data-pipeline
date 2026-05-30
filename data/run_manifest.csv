@@ -18,3 +18,25 @@ run_timestamp,raw_file,processed_file,status,error_message
 2026-05-27_200501,github=data\raw\api_data_2026-05-27_200502.json; kev=data\raw\kev_data_2026-05-27_200505.json,github=data\processed\repo_summary_2026-05-27_200503.csv; kev=data\processed\kev_summary_2026-05-27_200506.csv,success,
 2026-05-28_094529,github=data\raw\api_data_2026-05-28_094530.json; kev=data\raw\kev_data_2026-05-28_094533.json,github=data\processed\repo_summary_2026-05-28_094531.csv; kev=data\processed\kev_summary_2026-05-28_094534.csv,success,
 2026-05-28_115917,github=data\raw\api_data_2026-05-28_115918.json; kev=data\raw\kev_data_2026-05-28_115921.json,github=data\processed\repo_summary_2026-05-28_115919.csv; kev=data\processed\kev_summary_2026-05-28_115922.csv,success,
+2026-05-29_220436,github=data\raw\api_data_2026-05-29_220437.json; kev=data\raw\kev_data_2026-05-29_220446.json,github=data\processed\repo_summary_2026-05-29_220444.csv; kev=data\processed\kev_summary_2026-05-29_220447.csv,failed,failed,"Traceback (most recent call last):
+  File ""C:\Users\bornb\cloud-data-pipeline\upload_to_s3.py"", line 5, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+"
+2026-05-29_220728,github=data\raw\api_data_2026-05-29_220728.json; kev=data\raw\kev_data_2026-05-29_220730.json,github=data\processed\repo_summary_2026-05-29_220729.csv; kev=data\processed\kev_summary_2026-05-29_220731.csv,failed,failed,"Traceback (most recent call last):
+  File ""C:\Users\bornb\cloud-data-pipeline\upload_to_s3.py"", line 5, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+"
+2026-05-30_132232,github=data\raw\api_data_2026-05-30_132233.json; kev=data\raw\kev_data_2026-05-30_132237.json,github=data\processed\repo_summary_2026-05-30_132234.csv; kev=data\processed\kev_summary_2026-05-30_132238.csv,failed,failed,"Traceback (most recent call last):
+  File ""C:\Users\bornb\cloud-data-pipeline\upload_to_s3.py"", line 5, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+"
+2026-05-30_134243,github=data\raw\api_data_2026-05-30_134244.json; kev=data\raw\kev_data_2026-05-30_134247.json,github=data\processed\repo_summary_2026-05-30_134245.csv; kev=data\processed\kev_summary_2026-05-30_134248.csv,failed,failed,"Traceback (most recent call last):
+  File ""C:\Users\bornb\cloud-data-pipeline\upload_to_s3.py"", line 5, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+"
+2026-05-30_181712,github=data\raw\api_data_2026-05-30_181713.json; kev=data\raw\kev_data_2026-05-30_181720.json,github=data\processed\repo_summary_2026-05-30_181718.csv; kev=data\processed\kev_summary_2026-05-30_181720.csv,success,success,
+2026-05-30_184431,github=data\raw\api_data_2026-05-30_184432.json; kev=data\raw\kev_data_2026-05-30_184435.json,github=data\processed\repo_summary_2026-05-30_184433.csv; kev=data\processed\kev_summary_2026-05-30_184436.csv,success,success,
