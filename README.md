@@ -330,3 +330,70 @@ The initial S3 upload design is documented in:
 - [S3 Upload Design](docs/s3_upload_design.md)
 
 README.md
+
+## Day 26
+
+Added standalone S3 upload capability.
+
+The project now includes `upload_to_s3.py`, which uploads selected local pipeline outputs to the configured private S3 bucket.
+
+The script uploads:
+
+- Latest GitHub raw data
+- Latest CISA KEV raw data
+- Latest GitHub processed summary
+- Latest CISA KEV summary
+- Latest enriched KEV output
+- Latest executive summary
+- Run manifest
+- Pipeline log
+
+The S3 upload script remains separate from `run_pipeline.py` for now. This keeps cloud upload behavior isolated until it is tested and stable.
+
+AWS credentials are not stored in the repository or in `config.json`.
+
+## Day 27
+
+Wired S3 upload into the full pipeline runner.
+
+The project now runs the local data pipeline and uploads selected outputs to S3 with one command:
+
+```powershell
+python run_pipeline.py
+
+## Day 28
+
+Added governance and evidence documentation.
+
+The project now documents:
+
+- Governance model
+- Evidence inventory
+- Audit trail strategy
+- Evidence retention rationale
+
+This extends the project beyond data processing into governance and compliance-oriented design.
+
+## Day 29
+
+Added evidence integrity verification.
+
+The project now includes SHA-256 hashing for critical pipeline evidence files.
+
+New scripts:
+
+- `generate_hashes.py`
+- `verify_hashes.py`
+
+New output:
+
+- `data/integrity/file_hashes.csv`
+
+The hash manifest records:
+
+- Hash generation timestamp
+- File path
+- File size
+- SHA-256 hash
+
+This allows key evidence files to be verified later for unexpected changes or missing files.
