@@ -398,3 +398,75 @@ The hash manifest records:
 
 This allows key evidence files to be verified later for unexpected changes or missing files.
 
+## Milestone 1 Complete
+
+Days 1–30 focused on building a cloud-enabled security evidence pipeline.
+
+Major accomplishments:
+
+- API ingestion
+- Data transformation
+- Validation
+- Executive reporting
+- AWS S3 integration
+- Governance documentation
+- Evidence integrity verification
+
+See:
+
+- docs/demo_walkthrough.md
+- docs/interview_talking_points.md
+- docs/milestone_1_summary.md
+
+## Portfolio Direction
+
+This project began as a data/cloud pipeline learning project and is now being extended into a secure automation portfolio.
+
+The long-term objective is to demonstrate the ability to build, secure, assess, and explain automated cloud-enabled systems.
+
+### Portfolio Thesis
+
+I possess the technical and business acumen to help organizations secure automation and automate security.
+
+### Planned Capability Layers
+
+1. Data/Cloud Pipeline
+   - Ingest data
+   - Transform data
+   - Track pipeline runs
+   - Store outputs
+
+2. Cloud Security
+   - Identity and access management
+   - Secure storage
+   - Encryption
+   - Logging and monitoring
+   - Secrets management
+
+3. Security Automation
+   - Automated validation
+   - Automated evidence collection
+   - Control mapping
+   - Risk register generation
+
+4. Security AI
+   - Evidence-aware assistant
+   - Controlled retrieval
+   - Risk explanation
+   - Audit-support summaries
+
+5. Provenance and Trust
+   - Artifact hashing
+   - Chain-of-custody tracking
+   - Tamper-evident evidence records
+
+6. Crypto-Agility and Post-Quantum Readiness
+   - Cryptographic inventory
+   - Key dependency tracking
+   - Future migration considerations
+
+   ## Day 30 - Portfolio Pivot
+
+Today marks the transition from a basic data/cloud learning project into a secure automation portfolio.
+
+The project will continue building on the existing pipeline rather than starting a separate repository. The goal is to demonstrate a complete technical and governance story: build automation, secure it, automate evidence, and make trust verifiable.
