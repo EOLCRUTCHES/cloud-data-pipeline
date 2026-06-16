@@ -1,0 +1,21 @@
+{
+  "source": "demo_api",
+  "description": "Small demo-safe API response used for portfolio review",
+  "records": [
+    {
+      "id": 1,
+      "category": "example",
+      "value": 42
+    },
+    {
+      "id": 2,
+      "category": "example",
+      "value": 57
+    },
+    {
+      "id": 3,
+      "category": "test",
+      "value": 64
+    }
+  ]
+}
