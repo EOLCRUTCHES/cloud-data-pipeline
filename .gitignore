@@ -1,3 +1,16 @@
 venv/
 __pycache__/
 *.pyc
+# Generated raw API outputs
+data/api_data*.json
+
+# Generated processed outputs
+data/processed_*.csv
+data/output_*.csv
+
+# Runtime logs
+logs/
+*.log
+
+# Generated evidence outputs
+evidence/generated/
