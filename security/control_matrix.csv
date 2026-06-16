@@ -1,0 +1,3 @@
+control_id,control_name,control_objective,evidence_file,automation_script,risk_addressed,status
+DC-001,Sample data validation,Confirm sample input and output files exist and contain expected fields before they are used as trusted pipeline artifacts.,evidence/generated/sample_data_validation_report.md,src/validate_sample_data.py,"Pipeline may process missing, malformed, or unexpected data.",Implemented
+DC-002,Evidence indexing,Maintain an index of generated evidence artifacts so validation outputs are findable and reusable.,evidence/evidence_index.md,src/generate_evidence_index.py,"Generated evidence may become difficult to locate, reducing auditability and portfolio clarity.",Implemented
