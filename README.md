@@ -470,3 +470,170 @@ I possess the technical and business acumen to help organizations secure automat
 Today marks the transition from a basic data/cloud learning project into a secure automation portfolio.
 
 The project will continue building on the existing pipeline rather than starting a separate repository. The goal is to demonstrate a complete technical and governance story: build automation, secure it, automate evidence, and make trust verifiable.
+
+## Day 32 - Generated Files Policy
+
+Today I clarified which artifacts belong in the repository and which should be treated as disposable generated output.
+
+The repo should preserve source code, representative samples, and portfolio-ready documentation while excluding repeated raw API pulls, temporary outputs, logs, and generated clutter.
+
+### Working Rule
+
+Keep samples. Ignore clutter. Regenerate outputs when needed.
+
+## Day 33 - Sample Data Artifacts
+
+Today I added small, demo-safe sample data files to represent pipeline input and output.
+
+### Sample Files
+
+- `data/sample_api_response.json`
+- `data/sample_processed_output.csv`
+
+These files are intentionally small and stable so they can remain in the repository as portfolio examples.
+
+Generated raw files and repeated daily outputs should remain disposable and ignored when appropriate.
+
+## Day 34 - Data Dictionary
+
+Today I added a data dictionary to explain the sample input and output files used by the pipeline.
+
+This improves the repo by making the sample data understandable to reviewers and introduces basic data governance discipline.
+
+### Artifact Added
+
+- `docs/data_dictionary.md`
+
+## Day 35 - Sample Data Validation
+
+Today I added a Python validation script to confirm that the sample input and output files exist and contain the expected fields.
+
+### Artifact Added
+
+- `src/validate_sample_data.py`
+
+### Validation Checks
+
+- Confirms `data/sample_api_response.json` exists
+- Confirms JSON is valid
+- Confirms required JSON fields are present
+- Confirms `data/sample_processed_output.csv` exists
+- Confirms required CSV columns are present
+- Confirms CSV contains data rows
+
+### Portfolio Relevance
+
+This introduces basic data quality control and creates the foundation for later security evidence validation, control checking, and AI input validation.
+
+## Day 36 - Validation Evidence Report
+
+Today I upgraded the sample data validation script so it writes a markdown evidence report instead of only printing results to the console.
+
+### Artifact Updated
+
+- `src/validate_sample_data.py`
+
+### Artifact Added
+
+- `evidence/generated/sample_data_validation_report.md`
+
+### Portfolio Relevance
+
+This introduces a key secure automation pattern: validation results should become reusable evidence.
+
+The project is now beginning to show how automated checks can support auditability, data governance, and future security evidence workflows.
+
+## Day 37 - Evidence Index
+
+Today I added a Python script that scans generated evidence files and creates an evidence index.
+
+### Artifact Added
+
+- `src/generate_evidence_index.py`
+
+### Artifact Updated
+
+- `evidence/evidence_index.md`
+
+### Portfolio Relevance
+
+This creates an audit-support pattern: generated evidence should be organized, findable, and reusable.
+
+The project now has the beginning of an evidence package rather than isolated validation outputs.
+
+## Day 38 - Control Matrix v1
+
+Today I created the first version of the project control matrix.
+
+### Artifact Added
+
+- `src/generate_control_matrix.py`
+
+### Artifact Updated
+
+- `security/control_matrix.csv`
+
+### Controls Added
+
+- `DC-001` - Sample data validation
+- `DC-002` - Evidence indexing
+
+### Portfolio Relevance
+
+This connects technical automation to control objectives, evidence artifacts, and risks addressed.
+
+The project now demonstrates the beginning of a GRC automation pattern: scripts produce evidence, evidence supports controls, and controls reduce specific risks.
+
+## Day 39 - Risk Register v1
+
+Today I created the first version of the project risk register.
+
+### Artifact Added
+
+- `src/generate_risk_register.py`
+
+### Artifact Updated
+
+- `security/risk_register.csv`
+
+### Risks Added
+
+- `RISK-001` - Invalid sample data processed
+- `RISK-002` - Generated evidence becomes hard to locate
+- `RISK-003` - Repository accumulates generated clutter
+
+### Portfolio Relevance
+
+This connects the technical automation work to governance and risk management.
+
+The project now demonstrates a basic GRC pattern:
+
+Risk → Control → Evidence → Status
+
+## Day 40 - Executive Summary v1
+
+Today I created the first version of the project executive summary.
+
+### Artifact Updated
+
+- `docs/executive_summary.md`
+
+### Portfolio Relevance
+
+This translates the technical work into business, security, and governance language.
+
+The project now has an executive-facing explanation of how the automation, evidence, controls, and risks fit together.
+
+## Day 41 - Architecture Diagram v1
+
+Today I created the first architecture diagram for the secure automation portfolio.
+
+### Artifact Updated
+
+- `docs/architecture_diagram.md`
+
+### Portfolio Relevance
+
+This diagram shows how sample data, validation, evidence, control mapping, risk tracking, and executive explanation connect into a single secure automation workflow.
+
+The project now has a visual system explanation instead of only individual scripts and documents.
