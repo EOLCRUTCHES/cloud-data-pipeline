@@ -337,3 +337,30 @@ Which role is missing from something I am currently trying to move?
 
 ### Carry-Forward Question
 Am I collecting general agreement, or building the small coalition required for movement?
+
+## Lead Day 45 - Convert Agreement Into Commitment
+### Key Lesson
+Leadership improves when I turn vague agreement into specific ownership.
+
+### Practice Rule
+When people agree, ask: "Who owns the next step?"
+
+### Commitment Requires
+- Owner
+- Action
+- Date
+- Follow-up
+
+### Useful Phrases
+- What commitment can we put behind that?
+- Who owns the next step?
+- To make this real, we need an owner and a date.
+- When should we check back?
+
+### Reflection
+Where did I mistake agreement for commitment?
+
+Where did asking for ownership create real movement?
+
+### Carry-Forward Question
+Am I collecting agreement, or creating commitment?
