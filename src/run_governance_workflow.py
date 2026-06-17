@@ -14,16 +14,20 @@ WORKFLOW_STEPS = [
         "script": "src/validate_sample_data.py",
     },
     {
-        "name": "Generate evidence index",
-        "script": "src/generate_evidence_index.py",
-    },
-    {
         "name": "Generate control matrix",
         "script": "src/generate_control_matrix.py",
     },
     {
         "name": "Generate risk register",
         "script": "src/generate_risk_register.py",
+    },
+    {
+        "name": "Generate artifact manifest",
+        "script": "src/generate_artifact_manifest.py",
+    },
+    {
+        "name": "Generate evidence index",
+        "script": "src/generate_evidence_index.py",
     },
 ]
 

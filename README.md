@@ -678,21 +678,36 @@ This adds an auditability pattern to the workflow itself.
 The project now demonstrates that automation can execute controls, generate evidence, and produce a report showing whether the workflow completed successfully.
 
 ## Day 44 - Artifact Manifest v1
-
 Today I added a generated artifact manifest.
 
 ### Artifact Added
-
 - `src/generate_artifact_manifest.py`
 
 ### Runtime Evidence Generated
-
 - `evidence/generated/artifact_manifest.md`
 
 ### Portfolio Relevance
-
 This creates a project inventory pattern.
 
 The project can now list important data, scripts, evidence, security governance files, and documentation artifacts, along with their existence and file size.
 
 This supports future evidence packaging, artifact integrity checks, provenance tracking, and trust architecture.
+
+## Day 45 - Add Artifact Manifest to Workflow
+Today I updated the governance workflow runner so it automatically generates the artifact manifest.
+
+### Artifact Updated
+- `src/run_governance_workflow.py`
+
+### Workflow Updated
+The workflow now runs:
+1. Sample data validation
+2. Control matrix generation
+3. Risk register generation
+4. Artifact manifest generation
+5. Evidence index generation
+
+### Portfolio Relevance
+This improves the project’s automation maturity by making artifact inventory part of the repeatable governance workflow.
+
+The project can now generate evidence, controls, risks, artifact inventory, and evidence visibility from one command.
