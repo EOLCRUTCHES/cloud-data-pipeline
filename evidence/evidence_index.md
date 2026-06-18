@@ -1,6 +1,6 @@
 # Evidence Index
 
-Generated: `2026-06-17T02:31:56.134208+00:00`
+Generated: `2026-06-18T02:47:55.494092+00:00`
 
 ## Purpose
 
@@ -12,6 +12,7 @@ The purpose is to make validation, audit, and control-support evidence easy to l
 
 | Evidence File | Location |
 |---|---|
+| Artifact Hash Report | `evidence\generated\artifact_hash_report.md` |
 | Artifact Manifest | `evidence\generated\artifact_manifest.md` |
 | Governance Workflow Run Report | `evidence\generated\governance_workflow_run_report.md` |
 | Sample Data Validation Report | `evidence\generated\sample_data_validation_report.md` |

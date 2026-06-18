@@ -364,3 +364,30 @@ Where did asking for ownership create real movement?
 
 ### Carry-Forward Question
 Am I collecting agreement, or creating commitment?
+
+## Lead Day 46 - Make Ownership Visible
+### Key Lesson
+Leadership improves when ownership is explicit, visible, and trackable.
+
+### Practice Rule
+When an action is identified, ask: "Who owns this, and when should we check back?"
+
+### Ownership Requires
+- Owner
+- Action
+- Due date
+- Follow-up
+
+### Useful Phrases
+- Let’s make ownership explicit.
+- Who owns this?
+- When should we check back?
+- Let’s capture owner, action, and date before we move on.
+- I’ll close the loop if we do not have it by then.
+
+### Reflection
+Where did I let ownership stay vague?
+Where did visible ownership make action easier?
+
+### Carry-Forward Question
+Am I making responsibility visible, or leaving it floating in the room?

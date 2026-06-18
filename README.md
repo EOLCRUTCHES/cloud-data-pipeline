@@ -1,13 +1,10 @@
 # Cloud Data Pipeline
-
 This project is a hands-on learning pipeline for cloud, data engineering, and security-oriented technical leadership.
 
 The current pipeline pulls public repository metadata from the GitHub API, saves the raw response, transforms selected fields into structured CSV output, validates the result, logs pipeline activity, and records each run in a manifest.
 
 ## Project Goals
-
 This project is designed to build practical experience with:
-
 - Python scripting
 - API data ingestion
 - JSON handling
@@ -21,7 +18,6 @@ This project is designed to build practical experience with:
 - Pipeline organization
 
 ## Current Pipeline Flow
-
 ```text
 GitHub API
     ↓
@@ -36,6 +32,7 @@ data/processed/
 validate_output.py
     ↓
 data/run_manifest.csv
+
 ## How to Run
 
 Activate the virtual environment:
@@ -711,3 +708,22 @@ The workflow now runs:
 This improves the project’s automation maturity by making artifact inventory part of the repeatable governance workflow.
 
 The project can now generate evidence, controls, risks, artifact inventory, and evidence visibility from one command.
+
+## Day 46 - Artifact Hashes v1
+
+Today I added a script that generates SHA-256 hashes for important project artifacts.
+
+### Artifact Added
+
+- `src/generate_artifact_hash_report.py`
+
+### Runtime Evidence Generated
+
+- `evidence/generated/artifact_hash_report.md`
+- `provenance/artifact_hashes.csv`
+
+### Portfolio Relevance
+
+This introduces artifact integrity and provenance concepts into the secure automation portfolio.
+
+The project can now generate fingerprints for important files, supporting future tamper-evidence, evidence integrity, and trust architecture patterns.

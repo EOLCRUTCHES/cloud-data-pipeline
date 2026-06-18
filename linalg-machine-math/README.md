@@ -133,9 +133,6 @@ An underfit model performs poorly because it is too weak, too simple, or missing
 ### Career Connection
 In AI security and governance, model failures may come from weak features, shallow rules, poor training, or oversimplified detection logic.
 
-
-
-
 ## Math Day 45 - Validation Data
 ### Key Lesson
 Validation data is separate data used while building a model to check whether it is learning useful patterns.
@@ -153,3 +150,20 @@ Validation helps detect overfitting and underfitting before final testing.
 
 ### Career Connection
 In AI security and governance, validation data helps prove that a model is not just memorizing examples or performing well only in a demo.
+
+## Math Day 46 - Cross-Validation
+### Key Lesson
+Cross-validation checks whether a model performs consistently across multiple splits of the data.
+
+### Plain-English Definition
+Cross-validation is like giving the model several practice quizzes instead of trusting one.
+
+### Why It Matters
+A single validation split may be lucky or unlucky. Cross-validation reduces the chance that model performance is being misread because of one unusual split.
+
+### Basic Idea
+In k-fold cross-validation, the data is split into k parts. The model trains and validates multiple times, rotating which part is used for validation.
+
+### Career Connection
+In AI security and governance, cross-validation helps determine whether a model is actually reliable or just performing well on one convenient slice of data.
+
