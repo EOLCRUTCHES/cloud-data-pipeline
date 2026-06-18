@@ -167,3 +167,21 @@ In k-fold cross-validation, the data is split into k parts. The model trains and
 ### Career Connection
 In AI security and governance, cross-validation helps determine whether a model is actually reliable or just performing well on one convenient slice of data.
 
+## Math Day 47 - Confusion Matrix
+### Key Lesson
+A confusion matrix compares model predictions against actual outcomes.
+
+### Four Buckets
+- True Positive: model flagged the threat correctly.
+- False Positive: model flagged something safe as a threat.
+- True Negative: model correctly ignored something safe.
+- False Negative: model missed a real threat.
+
+### Why It Matters
+A confusion matrix shows what kind of mistakes a classification model is making.
+
+### Career Connection
+In AI security and governance, confusion matrices help evaluate detection tools, fraud models, phishing classifiers, anomaly systems, and risk-scoring models.
+
+They reveal whether a model is creating noise, missing real threats, or performing reliably.
+

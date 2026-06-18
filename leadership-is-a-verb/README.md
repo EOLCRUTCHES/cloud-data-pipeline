@@ -391,3 +391,32 @@ Where did visible ownership make action easier?
 
 ### Carry-Forward Question
 Am I making responsibility visible, or leaving it floating in the room?
+
+## Lead Day 47 - Delegate Without Rescuing
+### Key Lesson
+Leadership improves when I let others keep ownership instead of taking action items back to protect the outcome.
+
+### Practice Rule
+When someone owns an action, ask: "What support do you need to own this?" instead of offering to take it over.
+
+### Delegation Requires
+- Owner
+- Outcome
+- Deadline
+- Support boundary
+- Follow-up point
+
+### Useful Phrases
+- You own this. I’m available if you need backup, but I’m not going to take it back from you.
+- I’ll support if asked, but I want this to stay yours.
+- I’m intentionally leaving room for you to lead this.
+- What support do you need to own this?
+- What would make this easier for you to complete?
+
+### Reflection
+Where did I take action back because it felt easier?
+Where did I allow someone else to own the work even if it was uncomfortable?
+
+### Carry-Forward Question
+Am I strengthening the system, or proving that I am still the safest person to do the work?
+

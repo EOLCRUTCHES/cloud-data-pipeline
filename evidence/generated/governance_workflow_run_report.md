@@ -1,6 +1,6 @@
 # Governance Workflow Run Report
 
-Generated: `2026-06-17T02:31:56.141291+00:00`
+Generated: `2026-06-18T15:58:00.701640+00:00`
 
 Overall Status: **PASS**
 
@@ -12,6 +12,7 @@ Overall Status: **PASS**
 | Generate control matrix | `src/generate_control_matrix.py` | PASS |
 | Generate risk register | `src/generate_risk_register.py` | PASS |
 | Generate artifact manifest | `src/generate_artifact_manifest.py` | PASS |
+| Generate artifact hash report | `src/generate_artifact_hash_report.py` | PASS |
 | Generate evidence index | `src/generate_evidence_index.py` | PASS |
 
 ## Step Output
@@ -57,6 +58,17 @@ Output:
 
 ```text
 Artifact manifest written to: evidence\generated\artifact_manifest.md
+```
+
+### Generate artifact hash report
+
+Status: **PASS**
+
+Output:
+
+```text
+Artifact hashes written to: provenance\artifact_hashes.csv
+Artifact hash report written to: evidence\generated\artifact_hash_report.md
 ```
 
 ### Generate evidence index

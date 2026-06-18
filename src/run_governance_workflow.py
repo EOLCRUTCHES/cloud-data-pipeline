@@ -26,6 +26,10 @@ WORKFLOW_STEPS = [
         "script": "src/generate_artifact_manifest.py",
     },
     {
+        "name": "Generate artifact hash report",
+        "script": "src/generate_artifact_hash_report.py",
+    },
+    {
         "name": "Generate evidence index",
         "script": "src/generate_evidence_index.py",
     },
