@@ -6,7 +6,6 @@
 - Mode = most common value
 - Range = spread
 - Averages can hide important information
-
 ### Most Important Insight
 The average is often the beginning of the analysis, not the end.
 
@@ -184,4 +183,74 @@ A confusion matrix shows what kind of mistakes a classification model is making.
 In AI security and governance, confusion matrices help evaluate detection tools, fraud models, phishing classifiers, anomaly systems, and risk-scoring models.
 
 They reveal whether a model is creating noise, missing real threats, or performing reliably.
+
+## Math Day 48 - ROC Curve Intuition
+
+### Key Lesson
+
+An ROC curve shows how a classification model performs as the decision threshold changes.
+
+### Plain-English Definition
+
+An ROC curve shows the tradeoff between catching more real positives and creating more false alarms.
+
+### Key Measures
+
+- True Positive Rate: how many real positives were caught.
+- False Positive Rate: how many safe items were wrongly flagged.
+
+### Why It Matters
+
+Changing a model threshold changes the balance between missed threats and false alarms.
+
+### Career Connection
+
+In AI security and governance, ROC curves help evaluate whether a detection model remains useful across different sensitivity settings.
+
+## Math Day 49 - AUC
+
+### Key Lesson
+
+AUC summarizes how well a classification model separates positives from negatives across thresholds.
+
+### Plain-English Definition
+
+AUC measures how well the model ranks real positives above real negatives.
+
+### ROC vs AUC
+
+- ROC curve: shows the threshold tradeoff.
+- AUC: summarizes the curve into one score.
+
+### Useful Interpretation
+
+- 1.0 = perfect separation
+- 0.8-0.9 = strong
+- 0.7 = fair
+- 0.5 = random guessing
+
+### Why It Matters
+
+AUC helps evaluate whether a model has useful separation power, but it does not replace confusion matrices, threshold analysis, or business risk judgment.
+
+### Career Connection
+
+In AI security and governance, AUC is a common model-performance metric, but leaders must understand what it does and does not prove.
+
+## Math Day 50 - Thresholds and Tradeoffs
+### Key Lesson
+A threshold is the cutoff score where a model turns a probability or risk score into a decision.
+
+### Plain-English Definition
+The model gives a score. The threshold decides what action to take.
+
+### Threshold Tradeoff
+- High threshold: fewer false positives, more missed threats.
+- Low threshold: more threats caught, more false positives.
+
+### Why It Matters
+The best threshold depends on the cost of different mistakes.
+
+### Career Connection
+In AI security and governance, threshold selection is a risk decision, not just a technical setting. Leaders need to understand what kind of error the organization is choosing to tolerate.
 

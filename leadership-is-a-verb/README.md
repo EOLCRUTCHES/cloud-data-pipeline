@@ -420,3 +420,427 @@ Where did I allow someone else to own the work even if it was uncomfortable?
 ### Carry-Forward Question
 Am I strengthening the system, or proving that I am still the safest person to do the work?
 
+## Lead Day 48 - Allow Survivable Failure
+
+### Key Lesson
+
+Leadership improves when I allow others to experience manageable consequences instead of rescuing every fragile outcome.
+
+### Practice Rule
+
+Before stepping in, ask: "Is this dangerous, or just uncomfortable?"
+
+### Failure Types
+
+- Catastrophic failure: intervene.
+- Recoverable failure: let it teach.
+- Growth failure: coach, do not rescue.
+- Repeated avoidable failure: escalate ownership.
+
+### Useful Phrases
+
+- Is this dangerous, or just uncomfortable?
+- What is your next move?
+- What support do you need?
+- What have you already tried?
+- When should we check back?
+
+### Reflection
+
+Where did I feel the urge to rescue?
+
+Was the situation actually dangerous, or merely uncomfortable?
+
+### Carry-Forward Question
+
+Am I protecting the mission, or protecting myself from the discomfort of watching others struggle?
+
+# Lead Day 49  - Coach the Owner, Not the Task
+
+## Objective
+
+Practice helping someone think through their ownership instead of taking over the work.
+
+Today’s goal:
+
+> When someone owns a task, coach their next move instead of solving it for them.
+
+---
+
+## Why This Matters
+
+Recent Lead lessons built this chain:
+
+```text
+Day 45: Convert agreement into commitment
+Day 46: Make ownership visible
+Day 47: Delegate without rescuing
+Day 48: Allow survivable failure
+Day 49: Coach the owner, not the task
+```
+
+This is the practical middle ground between:
+
+```text
+abandoning people
+```
+
+and:
+
+```text
+rescuing people
+```
+
+You are not disappearing.
+
+You are changing the kind of help you provide.
+
+---
+
+## Core Lesson
+
+When someone owns a task, your first instinct may be to improve the task.
+
+Leader mode improves the owner’s thinking.
+
+Do not ask first:
+
+```text
+How can I fix this?
+```
+
+Ask:
+
+```text
+What does the owner need to see, decide, or do next?
+```
+
+That creates leadership capacity.
+
+---
+
+## The Phrase
+
+Use this:
+
+```text
+What is your next move?
+```
+
+Then follow with:
+
+```text
+What support do you need from me?
+```
+
+That keeps ownership with them while making support available.
+
+---
+
+## Bad Version
+
+```text
+Send it to me and I’ll clean it up.
+```
+
+That may improve the artifact.
+
+It may weaken the owner.
+
+---
+
+## Better Version
+
+```text
+What outcome are you trying to create with this? What is your next move? I can review once you have a draft.
+```
+
+That helps the person think.
+
+---
+
+## Today’s Practice Rule
+
+When someone brings you a problem they own, do not take the keyboard, the pen, or the action item.
+
+Ask three questions:
+
+```text
+What outcome are you aiming for?
+What is your next move?
+What support do you need?
+```
+
+Then stop.
+
+---
+
+## Work Example
+
+Owner says:
+
+> “I’m not sure how to clean up the evidence package.”
+
+Leader response:
+
+> “What outcome are you aiming for: completeness, clarity, or audit readiness? What is your next move? I can review the draft after you take the first pass.”
+
+---
+
+## Rotary / Nonprofit Example
+
+Incoming officer says:
+
+> “I’m not sure what I’m supposed to do first.”
+
+Leader response:
+
+> “Your first outcome is continuity. What is the first thing members will need from you? I’ll help you think it through, but I want you to own the first draft.”
+
+---
+
+## Home Example
+Someone says:
+> “I don’t know how to handle this.”
+
+Leader response:
+> “What result are you trying to get? What is the next small step? What do you need from me?”
+
+Same muscle. Smaller stakes.
+
+---
+
+## The Gravitas Connection
+Gravitas grows when people experience you as:
+steady
+useful
+clear
+not controlling
+not performative
+not frantic
+
+The high-gravitas move is not always to solve.
+Sometimes it is to ask the question that helps someone else solve.
+
+## The Anti-“Aw Shit” Protection
+The “aw shit” pattern:
+Someone owned the task.
+They got uncertain.
+I rescued it.
+They learned that ownership is temporary.
+
+The better pattern:
+Someone owned the task.
+They got uncertain.
+I coached the next move.
+They stayed the owner.
+The system got stronger.
+
+
+This protects your ratio because it reduces two failure modes:
+1. Work dies because the owner feels unsupported.
+2. Work returns to you because you over-function.
+
+
+## Lead Day 49 - Coach the Owner, Not the Task
+### Key Lesson
+Leadership improves when I help the owner think through the work instead of taking the task back.
+
+### Practice Rule
+When someone brings me a task they own, ask three questions before offering solutions.
+
+### Three Coaching Questions
+- What outcome are you aiming for?
+- What is your next move?
+- What support do you need?
+
+### Useful Phrases
+- I can review once you have a draft.
+- I’ll help you think it through, but I want this to stay yours.
+- What have you already tried?
+- What decision are you trying to support?
+- What would make the next step easier?
+
+### Reflection
+Where did I coach instead of rescue?
+
+Where did I accidentally take ownership back?
+
+### Carry-Forward Question
+Am I strengthening the owner, or just improving the task?
+
+## One-Sentence Takeaway
+> Gravitas grows when your help makes other people more capable, not more dependent.
+
+
+# Lead Day 50
+
+## Debrief Without Self-Prosecution
+
+## Objective
+Practice reviewing performance honestly without turning the review into a trial.
+
+Today’s goal:
+> Extract the lesson without making your identity the problem.
+
+## Why This Matters
+Your final presidential-year debrief was useful because it separated:
+Missed goals
+Wins
+Way ahead
+
+That is the right structure.
+
+The risk is that a high-accountability person can turn every miss into:
+> “This proves something bad about me.”
+
+Leader mode says:
+> “This shows a pattern I can adjust.”
+
+That distinction matters.
+
+## Core Lesson
+A good debrief should produce:
+1. What happened?
+2. What worked?
+3. What missed?
+4. What pattern caused the miss?
+5. What will I do differently next time?
+
+It should not produce:
+I am bad at this.
+I always do this.
+They probably think less of me.
+I ruined the room.
+That is not leadership development.
+That is emotional punishment disguised as reflection.
+
+## The Phrase
+Use this:
+What is the leadership pattern, and what is the next adjustment?
+
+Not:
+What does this say about me?
+That question goes sideways fast.
+
+
+## Bad Version
+I overtalked again. I took all the action items again. I knew I would do that. This is why I do not have gravitas.
+
+
+That may feel honest, but it is not useful enough.
+
+## Better Version
+The pattern was that I created urgency and then absorbed ownership. The adjustment is to end each decision with owner, action, date, and follow-up before I accept any task myself.
+
+That is clean.
+That is coachable.
+That is leadership.
+
+## Today’s Practice Rule
+After a meeting, conversation, or leadership moment, use this five-line debrief:
+Outcome:
+Win:
+Miss:
+Pattern:
+Next adjustment:
+
+Keep each line to one sentence.
+No courtroom. No essay. No self-flogging.
+
+## Work Example
+
+Outcome: The team agreed the risk needed mitigation.
+Win: I clarified the decision and tradeoff.
+Miss: I gave too much background before asking for ownership.
+Pattern: I used explanation to create confidence instead of asking for commitment.
+Next adjustment: I will ask for owner, action, and date before adding technical detail.
+
+## Rotary / Nonprofit Example
+
+Outcome: Critical motions passed unanimously.
+Win: I recognized contributors and created urgency.
+Miss: I took too many action items after the votes.
+Pattern: I converted agreement into my own workload.
+Next adjustment: I will require owner, action, and date before closing each item.
+
+## Home Example
+Outcome: We got through the evening.
+Win: I stayed calmer than usual.
+Miss: I explained too much.
+Pattern: I tried to reduce stress by controlling the plan verbally.
+Next adjustment: I will name the tradeoff and ask what support is needed.
+
+
+## The Gravitas Connection
+Gravitas grows when people experience you as:
+
+
+accountable
+steady
+self-aware
+not defensive
+not self-punishing
+able to adjust
+
+
+The high-gravitas leader does not deny misses.
+He also does not spiral.
+
+He says:
+ “Here is the pattern. Here is the adjustment.”
+
+Then he applies it.
+
+
+## The Anti-“Aw Shit” Protection
+A good debrief protects your ratio because it converts an “aw shit” into a process improvement.
+Bad pattern:
+Mistake happens.
+I feel shame.
+I overcorrect or avoid.
+Pattern repeats.
+ 
+
+Better pattern:
+Mistake happens.
+I name the pattern.
+I define the next adjustment.
+I test it next time.
+Pattern weakens.
+
+
+That is how you become more reliable without becoming more rigid.
+
+
+## Lead Day 50 - Debrief Without Self-Prosecution
+### Key Lesson
+Leadership improves when I extract lessons from misses without turning the debrief into self-punishment.
+
+### Practice Rule
+After a leadership moment, use a five-line debrief.
+
+### Five-Line Debrief
+- Outcome:
+- Win:
+- Miss:
+- Pattern:
+- Next adjustment:
+
+### Useful Questions
+- What happened?
+- What worked?
+- What missed?
+- What pattern caused the miss?
+- What will I do differently next time?
+
+### Reflection
+Where did I confuse accountability with self-prosecution?
+Where did a clean debrief help me identify a useful adjustment?
+
+### Carry-Forward Question
+Am I learning from the miss, or using the miss as evidence against myself?
+
+
+## One-Sentence Takeaway
+> Gravitas grows when you can look directly at a miss, name the pattern, and adjust without spiraling.
