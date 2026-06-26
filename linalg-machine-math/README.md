@@ -254,3 +254,43 @@ The best threshold depends on the cost of different mistakes.
 ### Career Connection
 In AI security and governance, threshold selection is a risk decision, not just a technical setting. Leaders need to understand what kind of error the organization is choosing to tolerate.
 
+## Math Day 51 - Decision Trees 
+### Key Lesson 
+A decision tree is a model that makes predictions by asking a sequence of branching questions. 
+### Plain-English Definition 
+A decision tree is a learned flowchart. 
+
+### Why It Matters 
+Decision trees are useful because their decisions can often be traced and explained. 
+
+### Strength 
+They are easier to understand than many machine learning models. 
+
+### Risk 
+They can overfit if the tree becomes too detailed and memorizes the training data. 
+
+### Career Connection 
+In AI security and governance, decision trees help explain how model decisions are made, but they still require validation, testing, and review for overfitting.
+
+## Math Day 52 - Random Forests
+### Key Lesson
+A random forest combines many decision trees to make a more stable prediction.
+
+### Plain-English Definition
+A random forest is a committee of decision trees.
+
+### Why It Matters
+One decision tree can overfit. A random forest reduces that risk by combining predictions from many trees.
+
+### Strengths
+- Often performs better than a single decision tree.
+- Reduces overfitting.
+- Works well with tabular data.
+- Can provide feature-importance insight.
+
+### Risks
+Random forests can still fail if the data, labels, features, or validation process are weak.
+
+### Career Connection
+In AI security and governance, random forests are useful because they connect model performance, explainability, feature importance, and validation concerns.
+
