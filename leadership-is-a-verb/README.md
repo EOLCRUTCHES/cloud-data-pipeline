@@ -563,3 +563,25 @@ Where can I create space without disappearing?
 
 ### Carry-Forward Question
 Am I transferring leadership, or keeping myself installed as the backup operating system?
+
+## Lead Day 53 - Support in Private, Transfer Credit in Public
+### Key Lesson
+Leadership improves when I support the new owner privately while making their ownership visible publicly.
+
+### Practice Rule
+When someone asks me about another person's lane, redirect the question to the owner.
+
+### Useful Phrases
+- That is [name]'s lane now. I will let him take that.
+- [Name] is leading that piece. I am here as backup if needed.
+- Credit goes to [name] for moving that forward.
+- I want the group getting used to looking to [name] first.
+- The only thing I would add is...
+
+### Reflection
+Where did I answer a question that belonged to someone else?
+Where did I successfully redirect attention to the new owner?
+
+### Carry-Forward Question
+Am I helping the next leader become visible, or am I staying publicly central?
+

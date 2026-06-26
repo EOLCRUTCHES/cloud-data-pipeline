@@ -18,7 +18,7 @@ This project is designed to build practical experience with:
 - Pipeline organization
 
 ## Current Pipeline Flow
-```text
+text
 GitHub API
     ↓
 fetch_api_data.py
@@ -355,7 +355,7 @@ Wired S3 upload into the full pipeline runner.
 
 The project now runs the local data pipeline and uploads selected outputs to S3 with one command:
 
-```powershell
+powershell
 python run_pipeline.py
 
 ## Day 28
@@ -727,3 +727,105 @@ Today I added a script that generates SHA-256 hashes for important project artif
 This introduces artifact integrity and provenance concepts into the secure automation portfolio.
 
 The project can now generate fingerprints for important files, supporting future tamper-evidence, evidence integrity, and trust architecture patterns.
+
+## Day 47 - Add Artifact Hashing to Workflow
+updated the governance workflow so artifact hash generation runs automatically.
+
+### Artifact Updated
+- `src/run_governance_workflow.py`
+
+### Workflow Updated
+The workflow now runs:
+1. Sample data validation
+2. Control matrix generation
+3. Risk register generation
+4. Artifact manifest generation
+5. Artifact hash report generation
+6. Evidence index generation
+
+### Portfolio Relevance
+This improves the secure automation workflow by making artifact integrity evidence part of the standard process.
+The project now generates validation evidence, governance artifacts, artifact inventory, artifact hashes, and evidence visibility from one command.
+
+## Day 48 - Verify Artifact Hashes v1
+Today I added a script that verifies current artifact hashes against the saved hash baseline.
+
+### Artifact Added
+- `src/verify_artifact_hashes.py`
+
+### Runtime Evidence Generated
+- `evidence/generated/artifact_hash_verification_report.md`
+
+### Portfolio Relevance
+This introduces artifact integrity verification into the secure automation portfolio.
+The project can now detect changed or missing artifacts by comparing current SHA-256 hashes against a saved baseline.
+This supports tamper-evident evidence, provenance tracking, and trust architecture.
+
+## Day 49 - AWS Evidence Source Map v1
+Today I added an AWS evidence source map to reconnect the secure automation workflow to cloud implementation.
+
+### Artifact Added
+- `docs/cloud/aws_evidence_source_map.md`
+
+### Portfolio Relevance
+This reconnects the local governance workflow to AWS cloud security evidence.
+The project is now positioned to collect AWS configuration evidence, map it to controls and risks, and later compare equivalent control patterns across Azure, GCP, and OCI.
+
+## Day 50 - AWS Account Context Evidence v1
+
+Today I added a script that collects basic AWS CLI and account-context evidence without creating, modifying, or deleting cloud resources.
+
+### Artifact Added
+- `src/collect_aws_account_context.py`
+
+### Runtime Evidence Generated
+- `evidence/generated/aws_account_context_report.md`
+
+### Portfolio Relevance
+This reconnects the secure automation portfolio to AWS by collecting safe cloud-readiness evidence.
+The project now demonstrates an AWS evidence collection pattern that supports cloud security governance, account-context awareness, cost control, and future multi-cloud control mapping.
+
+## Day 51 - AWS S3 Inventory Evidence v1
+
+Today I added a script that collects basic AWS S3 inventory evidence without creating, modifying, or deleting cloud resources.
+
+### Artifact Added
+- `src/collect_aws_s3_inventory.py`
+
+### Runtime Evidence Generated
+- `evidence/generated/aws_s3_inventory_report.md`
+
+### Portfolio Relevance
+This introduces AWS object-storage evidence collection into the secure automation portfolio.
+
+The project now demonstrates a safe read-only pattern for collecting cloud storage context, masking sensitive bucket identifiers, and generating local evidence for future control and risk mapping.
+
+## Day 52 - AWS Authorization Evidence v1
+Today I added a script that interprets AWS authorization results from the S3 inventory evidence report.
+
+### Artifact Added
+- `src/generate_aws_authorization_evidence.py`
+
+### Runtime Evidence Generated
+- `evidence/generated/aws_authorization_evidence_report.md`
+
+### Portfolio Relevance
+This turns an AWS permission denial into useful cloud security evidence.
+The project now demonstrates that cloud automation should capture authorization boundaries, explain evidence collection limits, and connect permission behavior to least privilege, governance, and risk.
+
+## Day 53 - Cloud Admin Access Patterns
+Today I added a cloud administrative access pattern matrix.
+
+### Artifacts Added
+- `src/generate_cloud_access_pattern_matrix.py`
+- `security/cloud_admin_access_patterns.csv`
+- `evidence/generated/cloud_admin_access_pattern_report.md`
+
+### Key Lesson
+A bastion host is not the control objective. It is one implementation pattern.
+The real control objective is to ensure administrative access is authorized, minimized, segmented, monitored, and reviewable.
+
+### Portfolio Relevance
+This strengthens the project by translating on-prem systems engineering intuition into cloud architecture evidence.
+The project now compares direct public access, bastion hosts, VPN/private connectivity, identity-aware session management, and privileged access workflows across AWS, Azure, GCP, and OCI.
+
