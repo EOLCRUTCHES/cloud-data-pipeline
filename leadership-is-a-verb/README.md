@@ -647,3 +647,34 @@ I should intervene only if the owner asks for help, the boundary is crossed, the
 ### Carry-Forward Question
 
 Am I checking the risk, or am I quietly taking the work back?
+
+## Lead Day 56 - Correct Without Reclaiming Ownership
+
+### Key Lesson
+
+Corrective guidance should improve the owner's judgment without taking the work back.
+
+### Correction Formula
+
+- What I noticed:
+- Why it matters:
+- Risk if unchanged:
+- Question for owner:
+- Boundary / standard:
+- Next checkpoint:
+
+### Useful Phrases
+
+- The risk I see is...
+- What adjustment do you want to make?
+- What is your next move?
+- I am going to hold the standard, but I want you to own the fix.
+- I am not taking this back. I am helping you see the gap.
+
+### Practice Rule
+
+When correcting delegated work, name the risk before offering the solution.
+
+### Carry-Forward Question
+
+Am I correcting the work, or am I quietly becoming the owner again?
