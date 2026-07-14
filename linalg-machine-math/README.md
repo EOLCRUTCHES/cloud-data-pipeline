@@ -325,3 +325,54 @@ Different models make different mistakes. Combining them can improve stability a
 ### Career Connection
 In AI security and governance, ensembles raise an important tradeoff: better performance may come at the cost of weaker explainability.
 
+## Math Day 54 - Explainability
+
+### Key Lesson
+
+Explainability means being able to understand why a model produced a result.
+
+### Plain-English Definition
+
+An explainable model gives humans a usable reason trail for its output.
+
+### Why It Matters
+
+Explainability supports trust, debugging, auditability, fairness review, incident response, and governance.
+
+### Example
+
+A suspicious-login model should not only return a risk score. It should also identify the major factors behind the score, such as unusual location, new device, impossible travel, or abnormal access time.
+
+### Risk
+
+An explanation may be incomplete or misleading if it is only a plausible story rather than a faithful description of the model’s decision process.
+
+### Career Connection
+
+In AI security and governance, explainability helps determine whether a model’s output can be trusted, challenged, audited, and defended.
+
+# Math Day 55 - Interpretability
+
+### Key Lesson
+
+Interpretability means a human can understand the model's internal logic.
+
+### Explainability vs Interpretability
+
+Explainability asks whether the system can explain a specific output.
+
+Interpretability asks whether the model itself is understandable.
+
+### Examples
+
+More interpretable models include decision trees, linear regression, rule-based systems, and simple scoring models.
+
+Less interpretable models include deep neural networks, large ensembles, recommender systems, and large language models.
+
+### Why It Matters
+
+Interpretability supports auditability, debugging, validation, trust, fairness review, and governance.
+
+### Career Connection
+
+In AI security and governance, interpretability helps determine whether a model can be inspected, defended, challenged, and trusted in high-risk workflows.

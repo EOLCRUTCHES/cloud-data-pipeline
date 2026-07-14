@@ -1,0 +1,6 @@
+pattern,exposure_risk_1_low_5_high,standing_privilege_risk_1_low_5_high,logging_strength_1_weak_5_strong,operational_burden_1_low_5_high,governance_strength_1_weak_5_strong,default_decision,executive_read
+Direct public SSH/RDP,5,4,2,1,1,"Avoid for production; allow only for temporary lab use with time-bound, source-restricted access.","Fast to set up, weak to defend."
+Bastion host / jump box,3,3,3,3,3,"Accept as a transitional pattern when hardened, patched, monitored, and limited to private workload access.","Useful choke point, but now the choke point is high-value infrastructure."
+VPN or private connectivity,2,3,3,4,3,"Use when private network access is required, but pair it with segmentation, MFA, and narrow admin paths.","Private path is better than public exposure, but private network access is not the same as least privilege."
+Identity-aware session management,1,2,5,2,5,"Prefer for modern cloud administration when the service supports logging, identity policy, and private workload access.",Usually the best default because it reduces inbound exposure and improves evidence quality.
+Privileged access workflow,1,1,5,4,5,"Use for high-risk, regulated, privileged, or production environments where approval and time-bound access matter.","Highest governance value when privilege must be temporary, approved, and reviewable."

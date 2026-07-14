@@ -585,3 +585,65 @@ Where did I successfully redirect attention to the new owner?
 ### Carry-Forward Question
 Am I helping the next leader become visible, or am I staying publicly central?
 
+## Lead Day 54 - Delegate the Outcome, Not the Task
+
+### Key Lesson
+
+Effective delegation assigns an outcome, risk owner, authority, boundaries, and follow-up rhythm.
+
+### Delegation Formula
+
+- Outcome:
+- Risk:
+- Owner:
+- Authority:
+- Boundaries:
+- Support:
+- Check-in:
+- Definition of done:
+
+### Practice Rule
+
+When delegating, do not just assign an activity. Assign ownership of the result.
+
+### Useful Phrases
+
+- You own this outcome.
+- The risk is X.
+- You have authority to decide Y.
+- Bring me blockers, not every decision.
+- That decision is yours inside the boundary we agreed on.
+- I am not taking this back. I am helping you clear the next blocker.
+
+### Carry-Forward Question
+
+Am I delegating ownership, or just handing out tasks I still secretly own?
+
+## Lead Day 55 - Set Checkpoints Without Taking It Back
+
+### Key Lesson
+
+Oversight should monitor risk without reclaiming ownership.
+
+### Checkpoint Formula
+
+- Checkpoint date:
+- What I need to know:
+- What I do not need to know:
+- Escalation trigger:
+- Decision still owned by:
+
+### Useful Phrases
+
+- I am checking the risk, not taking back the work.
+- You still own the outcome. I am just checking whether the risk picture has changed.
+- Bring me the blocker, not the whole task.
+- That decision is still yours inside the boundary we agreed on.
+
+### Intervention Triggers
+
+I should intervene only if the owner asks for help, the boundary is crossed, the risk changes, the deadline is endangered, or the organization faces legal, financial, safety, or reputational exposure.
+
+### Carry-Forward Question
+
+Am I checking the risk, or am I quietly taking the work back?
