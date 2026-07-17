@@ -1,0 +1,5 @@
+region,security_group_id_masked,security_group_name_masked,vpc_id_masked,service,port,protocol,rule_from_port,rule_to_port,source_type,source_classification,source_display,severity,evidence_interpretation
+us-east-1,sg_efa3ac09cb,sg_name_37a8eec1ce,vpc_2a713f030e,SSH,22,-1,all,all,security_group_reference,security_group_reference,sg_ref_efa3ac09cb,REVIEW,SSH exposure detected from security_group_reference source.
+us-east-1,sg_efa3ac09cb,sg_name_37a8eec1ce,vpc_2a713f030e,RDP,3389,-1,all,all,security_group_reference,security_group_reference,sg_ref_efa3ac09cb,REVIEW,RDP exposure detected from security_group_reference source.
+us-east-1,sg_efa3ac09cb,sg_name_37a8eec1ce,vpc_2a713f030e,WinRM HTTP,5985,-1,all,all,security_group_reference,security_group_reference,sg_ref_efa3ac09cb,REVIEW,WinRM HTTP exposure detected from security_group_reference source.
+us-east-1,sg_efa3ac09cb,sg_name_37a8eec1ce,vpc_2a713f030e,WinRM HTTPS,5986,-1,all,all,security_group_reference,security_group_reference,sg_ref_efa3ac09cb,REVIEW,WinRM HTTPS exposure detected from security_group_reference source.

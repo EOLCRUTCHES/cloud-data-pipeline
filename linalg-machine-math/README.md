@@ -404,3 +404,115 @@ Neural networks can be harder to interpret because their decisions may depend on
 ### Career Connection
 
 In AI security and governance, neural networks matter because they power many modern AI systems, including large language models, but require strong controls around data, validation, explainability, monitoring, and human oversight.
+
+## Math Day 57 - Hidden Layers
+
+### Key Lesson
+
+Hidden layers are internal layers in a neural network that transform inputs into learned patterns before the model produces an output.
+
+### Plain-English Definition
+
+A hidden layer sits between the input layer and the output layer.
+
+### Why It Matters
+
+Hidden layers allow neural networks to learn complex combinations of signals instead of relying on simple one-step rules.
+
+### Example
+
+In a phishing model, hidden layers may learn combinations like urgent language plus unknown sender, suspicious link plus new domain, or attachment plus unusual send time.
+
+### Governance Risk
+
+Hidden layers make neural networks powerful but harder to interpret, because humans may not easily understand exactly what internal patterns the model learned.
+
+### Career Connection
+
+In AI security and governance, hidden layers matter because they help explain why neural networks can be effective, but also why they require strong testing, monitoring, evidence, and human oversight.
+
+## Math Day 58 - Weights
+
+### Key Lesson
+
+Weights are learned values that control how strongly inputs influence a model's output.
+
+### Plain-English Definition
+
+A weight is an importance setting inside the model.
+
+### Why It Matters
+
+Training a neural network means adjusting weights so the model makes better predictions.
+
+### Example
+
+In a login-risk model, unusual country, new device, privileged access, and impossible travel may all receive different weights depending on how strongly they predict risk.
+
+### Governance Risk
+
+A model may rely heavily on signals that are biased, unstable, fragile, or easy for attackers to manipulate.
+
+### Career Connection
+
+In AI security and governance, weights matter because they shape model behavior, influence trust, and can create hidden failure modes.
+
+## Math Day 59 - Biases
+
+### Key Lesson
+
+Biases are learned adjustment values that shift a model's baseline output.
+
+### Plain-English Definition
+
+A bias is a baseline adjustment inside the model.
+
+### Weights vs Biases
+
+Weights determine how strongly input signals influence the model.
+
+Biases shift the model's starting point or decision tendency.
+
+### Why It Matters
+
+Biases help the model fit patterns that cannot be captured by input weights alone.
+
+### Important Distinction
+
+A mathematical bias term is a normal part of many models.
+
+Unfair or distorted model behavior is a governance problem and is different from the technical bias term.
+
+### Career Connection
+
+In AI security and governance, biases matter because they affect a model's default posture: too trusting, too suspicious, or poorly aligned to the risk of the environment.
+
+## Math Day 60 - Why Deep Learning Works
+
+### Key Lesson
+
+Deep learning works because multiple neural network layers can learn increasingly complex representations of data.
+
+### Plain-English Definition
+
+Deep learning is machine learning using neural networks with multiple hidden layers.
+
+### Why It Works
+
+Deep learning models improve by repeatedly comparing predictions to correct answers and adjusting weights and biases to reduce error.
+
+### Why Layers Matter
+
+Earlier layers may learn simple patterns. Later layers combine those into more complex patterns.
+
+### Connection to Linear Algebra
+
+Deep learning relies heavily on vectors, matrices, matrix operations, distance, similarity, embeddings, and optimization.
+
+### Governance Risk
+
+Deep learning models can be powerful but difficult to inspect, explain, monitor, and secure.
+
+### Career Connection
+
+In AI security and governance, deep learning matters because modern AI systems depend on it, but trustworthy deployment requires validation, monitoring, explainability, evidence, and human oversight.

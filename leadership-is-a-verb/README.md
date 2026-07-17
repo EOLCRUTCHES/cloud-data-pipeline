@@ -678,3 +678,135 @@ When correcting delegated work, name the risk before offering the solution.
 ### Carry-Forward Question
 
 Am I correcting the work, or am I quietly becoming the owner again?
+
+## Lead Day 57 - Give Feedback That Builds Judgment
+
+### Key Lesson
+
+Good feedback does not just fix a task. It improves future judgment.
+
+### Feedback Formula
+
+- Observed behavior:
+- Impact / risk:
+- Underlying pattern:
+- Better judgment rule:
+- Next rep:
+
+### Useful Phrases
+
+- The issue is not just this task; the pattern is...
+- The risk this created was...
+- Next time, use this rule...
+- What would you check earlier next time?
+- What signal would have told you this was drifting?
+- How would you prevent this from surprising us again?
+
+### Practice Rule
+
+When giving feedback, identify the judgment rule that would have prevented the issue.
+
+### Carry-Forward Question
+
+Am I correcting the immediate miss, or building the person’s judgment for the next rep?
+
+## Lead Day 58 - Recognize Publicly, Coach Privately
+
+### Key Lesson
+
+Public recognition reinforces ownership and repeatable behavior. Private coaching corrects gaps without embarrassing the owner.
+
+### Recognition Formula
+
+- Person:
+- Action:
+- Impact:
+- Repeatable behavior:
+
+### Coaching Formula
+
+- What I noticed:
+- Why it mattered:
+- Risk created:
+- Better rule next time:
+- Next rep:
+
+### Useful Phrases
+
+- I want to recognize [name] for owning this through completion.
+- The important behavior here was...
+- That helped the group because...
+- Credit goes to [name] for moving this forward.
+- That is the kind of follow-through we need to repeat.
+
+### Practice Rule
+
+Praise publicly when it teaches the room what good looks like. Coach privately when correction is needed.
+
+### Carry-Forward Question
+
+Am I using recognition to transfer ownership, or am I keeping myself at the center?
+
+## Lead Day 59 - Report Outcomes Up Without Recentering Yourself
+
+### Key Lesson
+
+Upward reporting should keep ownership visible while maintaining leader accountability.
+
+### Reporting Formula
+
+- Outcome:
+- Owner:
+- Current status:
+- Risk posture:
+- Next step:
+- Support needed:
+
+### Useful Phrases
+
+- [Name] owns that outcome and has it on track.
+- Credit goes to [name] for closing that loop.
+- The outcome is complete; [name] handled the execution.
+- The blocker is X; [name] owns the next step, and I am supporting only where needed.
+- This exposed a checkpoint gap, so I am adjusting the oversight rhythm.
+
+### Practice Rule
+
+When reporting up, name the owner, report the outcome, state the risk posture, and identify the next step.
+
+### Carry-Forward Question
+
+Am I reporting the outcome, or am I quietly making myself the center again?
+
+## Lead Day 60 - Turn the Rep Into a System
+
+### Key Lesson
+
+A leadership rep is not complete when the task is done. It is complete when the system is stronger afterward.
+
+### System Closeout Formula
+
+- Outcome:
+- Owner:
+- What worked:
+- What broke:
+- Risk reduced:
+- Risk remaining:
+- Repeatable rule:
+- Next system improvement:
+- Public recognition:
+- Private coaching needed:
+
+### Useful Phrases
+
+- Before we move on, let’s capture the operating lesson.
+- What should be easier next time because we did this once?
+- What rule, checklist, or handoff should this become?
+
+### Practice Rule
+
+After meaningful delegated work, capture what should become a reusable system improvement.
+
+### Carry-Forward Question
+
+Did I just finish the task, or did I make the organization better at doing this next time?
