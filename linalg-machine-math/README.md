@@ -581,3 +581,88 @@ Machine learning systems usually process vectors. Login events, documents, users
 ### Governance Question
 
 What does each position in the vector mean, and who decided that representation?
+
+## Math Day 63 - Matrices
+
+### Key Lesson
+
+A matrix is a rectangular table of numbers arranged in rows and columns.
+
+### Plain-English Definition
+
+A matrix is a dataset where each row is an observation and each column is a feature.
+
+### Examples
+
+- One health measurement is a scalar.
+- One day of health measurements is a vector.
+- Many days of health measurements form a matrix.
+
+### Shape
+
+Matrix shape is written as:
+
+`rows × columns`
+
+Example:
+
+`3 × 5`
+
+This means 3 observations and 5 features.
+
+### Career Connection
+
+Machine learning datasets are often matrices. Security events, cloud findings, user behavior, health logs, and model features can all be represented as rows and columns.
+
+### Governance Question
+
+What does each row and column mean, and who decided that this is the right representation?
+
+## Math Day 64 - Matrix Shape and Indexing
+
+### Key Lesson
+
+Matrix  shape describes the number of rows and columns. Indexing describes where a specific value lives inside the matrix.
+
+### Shape
+
+Matrix shape is written as:
+
+`rows × columns`
+
+Example:
+
+`3 × 5`
+
+This means 3 observations and 5 features.
+
+### Indexing
+
+Humans usually count from 1.
+
+Python counts from 0.
+
+Human:
+
+`row 2, column 3`
+
+Python:
+
+`matrix[1][2]`
+
+### Practical Rule
+
+For most basic machine learning datasets:
+
+- rows = examples or observations
+- columns = features or measurements
+
+### Career Connection
+
+Many data science and AI errors are shape errors. The model may expect observations as rows and features as columns, but the data may be structured incorrectly.
+
+### Governance Question
+
+What does each row represent, what does each column represent, and are we sure the model is reading the data the way we think it is?
+
+#
