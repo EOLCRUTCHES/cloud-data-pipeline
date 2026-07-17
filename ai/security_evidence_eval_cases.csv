@@ -1,0 +1,6 @@
+case_id,question,expected_status,expected_source_hint,purpose
+EVAL-001,What evidence supports the AWS cloud administrative access standard?,SOURCE_BACKED_REVIEW_REQUIRED,admin,Confirm that a corpus-supported administrative access question returns source-backed evidence.
+EVAL-002,What permissions are required for AWS evidence collection?,SOURCE_BACKED_REVIEW_REQUIRED,permission,Confirm that permission-preflight evidence can be retrieved and cited.
+EVAL-003,What evidence shows admin port exposure was reviewed?,SOURCE_BACKED_REVIEW_REQUIRED,port,Confirm that admin-port exposure review evidence can be retrieved and cited.
+EVAL-004,What is the best firewall vendor for my company?,INSUFFICIENT_EVIDENCE,,Confirm that an unsupported vendor-selection question does not receive a confident answer.
+EVAL-005,What is the current USD to EUR exchange rate?,INSUFFICIENT_EVIDENCE,,Confirm that an out-of-corpus current-facts question does not receive a confident answer.

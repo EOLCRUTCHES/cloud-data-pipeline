@@ -1,91 +1,81 @@
 # Security Evidence Answer
 
-Generated: `2026-07-17T22:19:49.956386+00:00`
+Generated: `2026-07-17T22:54:07.035225+00:00`
 
-Question: **how would this corpus differ if I was using Google Cloud?**
+Question: **What is the current USD to EUR exchange rate?**
 
 Answer Status: **SOURCE_BACKED_REVIEW_REQUIRED**
 
 ## Short Answer
 
-The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0005, SEC-EVID-0007, SEC-EVID-0006. Review the cited snippets below before treating the answer as final.
+The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0010, SEC-EVID-0011, SEC-EVID-0012. Review the cited snippets below before treating the answer as final.
 
 ## Source-Backed Evidence
 
-### Source 1: SEC-EVID-0005
+### Source 1: SEC-EVID-0010
 
-- Title: Cloud Administrative Access Pattern Decision Guide
-- Artifact family: `cloud_admin_access`
-- Source path: `docs/cloud/cloud_admin_access_decision_guide.md`
-- SHA-256 prefix: `9aba1ca598f7`
-- Retrieval score: `48`
-- Matched terms: `cloud, differ, if`
-
-Relevant snippets:
-
-- # Cloud Administrative Access Pattern Decision Guide
-- This guide turns cloud administrative access patterns into architecture decision logic.
-- - If yes, challenge the assumption.
-
-### Source 2: SEC-EVID-0007
-
-- Title: Cloud Administrative Access Pattern Field Cards
-- Artifact family: `cloud_admin_access`
-- Source path: `docs/cloud/cloud_admin_access_field_cards.md`
-- SHA-256 prefix: `1036ea5e6a07`
-- Retrieval score: `42`
-- Matched terms: `cloud, if, using, would`
+- Title: ADR-001 Cloud Admin Access Generation Report
+- Artifact family: `architecture_decision`
+- Source path: `evidence/generated/adr_001_cloud_admin_access_report.md`
+- SHA-256 prefix: `7c56527233cd`
+- Retrieval score: `3`
+- Matched terms: `none`
 
 Relevant snippets:
 
-- > This pattern is the cloud version of _____. It reduces _____. It introduces _____. I would prove it with _____.
-- # Cloud Administrative Access Pattern Field Cards
-- These field cards convert cloud administrative access patterns into portable study notes.
+- # ADR-001 Cloud Admin Access Generation Report Generated: `2026-07-14T21:13:52.496910+00:00` Overall Status: **PASS** ## Generated Artifact - `docs/cloud/adr-001-cloud-admin-access-pattern.md` ## Related Artifact Status - Present: `6` - Missing: `0` - Empty: `...
 
-### Source 3: SEC-EVID-0006
+### Source 2: SEC-EVID-0011
 
-- Title: Cloud Administrative Access Evidence Playbook
-- Artifact family: `cloud_admin_access`
-- Source path: `docs/cloud/cloud_admin_access_evidence_playbook.md`
-- SHA-256 prefix: `eb2f2d9b548b`
-- Retrieval score: `38`
-- Matched terms: `cloud, if`
+- Title: Artifact Hash Report
+- Artifact family: `evidence_report`
+- Source path: `evidence/generated/artifact_hash_report.md`
+- SHA-256 prefix: `6f5537f67dac`
+- Retrieval score: `3`
+- Matched terms: `none`
 
 Relevant snippets:
 
-- # Cloud Administrative Access Evidence Playbook
-- This playbook turns the cloud administrative access ADR into evidence requirements and exception-management practices.
-- For any cloud administrative access pattern, answer these questions:
+- # Artifact Hash Report Generated: `2026-06-18T15:58:00.627788+00:00` ## Purpose This report records SHA-256 hashes for important project artifacts. Hashes support artifact integrity, provenance, and tamper-evidence patterns. ## Summary - Present artifacts: 16...
 
-### Source 4: SEC-EVID-0022
+### Source 3: SEC-EVID-0012
 
-- Title: Cloud Administrative Access Pattern Report
-- Artifact family: `cloud_admin_access`
-- Source path: `evidence/generated/cloud_admin_access_pattern_report.md`
-- SHA-256 prefix: `f8d0b7df27a7`
-- Retrieval score: `33`
-- Matched terms: `cloud, if`
+- Title: Artifact Manifest
+- Artifact family: `evidence_index`
+- Source path: `evidence/generated/artifact_manifest.md`
+- SHA-256 prefix: `ddf9a46efe3f`
+- Retrieval score: `3`
+- Matched terms: `none`
 
 Relevant snippets:
 
-- # Cloud Administrative Access Pattern Report
-- This report compares common administrative access patterns across cloud environments.
-- The goal is to translate familiar on-prem systems engineering concepts into cloud architecture, risk, and evidence terms.
+- # Artifact Manifest Generated: `2026-06-18T15:58:00.392099+00:00` ## Purpose This manifest lists important project artifacts and confirms whether they exist. It supports portfolio review, audit readiness, evidence organization, and future provenance tracking....
 
-### Source 5: SEC-EVID-0002
+### Source 4: SEC-EVID-0013
 
-- Title: AWS Cloud Administrative Access Evidence Package
-- Artifact family: `cloud_admin_access`
-- Source path: `docs/cloud/aws_admin_access_evidence_package.md`
-- SHA-256 prefix: `f12ed2342ae1`
-- Retrieval score: `28`
-- Matched terms: `cloud, if, was`
+- Title: AWS Account Context Evidence Report
+- Artifact family: `evidence_report`
+- Source path: `evidence/generated/aws_account_context_report.md`
+- SHA-256 prefix: `8f6f5382fed4`
+- Retrieval score: `3`
+- Matched terms: `none`
 
 Relevant snippets:
 
-- # AWS Cloud Administrative Access Evidence Package
-- - If permissions are missing, update IAM only with the narrow read-only permissions needed for evidence collection.
-- - If high findings exist, review public administrative exposure immediately.
+- # AWS Account Context Evidence Report Generated: `2026-06-22T21:24:04.757330+00:00` Overall Status: **PASS** ## Purpose This report collects basic AWS CLI and account-context evidence without creating, modifying, or deleting cloud resources. Sensitive account...
+
+### Source 5: SEC-EVID-0014
+
+- Title: AWS Admin Access Evidence Workflow Report
+- Artifact family: `cloud_admin_access`
+- Source path: `evidence/generated/aws_admin_access_evidence_workflow_report.md`
+- SHA-256 prefix: `97450558e7ff`
+- Retrieval score: `3`
+- Matched terms: `none`
+
+Relevant snippets:
+
+- # AWS Admin Access Evidence Workflow Report Generated: `2026-07-17T17:08:36.835466+00:00` Overall Status: **PASS** ## Purpose This report records execution of the AWS cloud administrative access evidence workflow. The workflow runs permission preflight first,...
 
 ## Guardrail
 

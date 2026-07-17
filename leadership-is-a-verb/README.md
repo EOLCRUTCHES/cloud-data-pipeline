@@ -880,3 +880,65 @@ Only changed status, risks, blockers, and decisions should get airtime.
 
 Is the work visible to the system, or only visible inside my head?
 
+
+## Lead Day 63 - Separate Updates, Decisions, and Discussion
+
+### Key Lesson
+
+Meetings get messy when updates, decisions, and discussions are treated as the same thing.
+
+### Three Buckets
+
+- Update: here is what changed
+- Decision: here is what we need to choose
+- Discussion: here is what we need to understand or shape
+
+### Useful Phrases
+
+- Is this an update, a decision, or discussion?
+- What decision, if any, are we trying to make?
+- Are we solving this today or just surfacing the risk?
+- Let’s not debate an update unless there is a decision attached.
+- This sounds like discussion, not a decision yet.
+
+### Practice Rule
+
+Before opening an agenda item, name the type of conversation and the desired outcome.
+
+### Carry-Forward Question
+
+What kind of conversation is this supposed to be?
+
+## Lead Day 64 - Make the Recommendation Before the Room Wanders
+
+### Key Lesson
+
+Decision items need recommendations. Without a recommendation, the room drifts into broad discussion.
+
+### Decision Recommendation Formula
+
+- Decision needed:
+- Recommendation:
+- Reason:
+- Risk:
+- Alternative:
+- Owner:
+- Deadline:
+
+### Useful Phrases
+
+- My recommendation is X.
+- The decision in front of us is this specific choice.
+- I am asking whether anyone sees a material risk to this recommendation.
+- If someone disagrees, please name the alternative you recommend.
+- Let’s separate preference from risk.
+
+### Practice Rule
+
+If there is no recommendation, it is probably not ready to be a decision item.
+
+### Carry-Forward Question
+
+What recommendation am I asking the room to accept, modify, or reject?
+
+#

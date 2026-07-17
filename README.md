@@ -1039,3 +1039,55 @@ Security AI should retrieve from a controlled evidence corpus before attempting 
 This artifact creates the first evidence search layer for the Security AI MVP.
 
 It searches only indexed project evidence, ranks matching records, and preserves source traceability through document IDs and source paths.
+
+## Day 63 - Source-Backed Security Answer Layer v1
+
+Today I added the first constrained answer layer for the Security AI MVP.
+
+### Artifacts Added
+
+- `src/answer_security_evidence_question.py`
+- `ai/security_evidence_answer.md`
+- `ai/security_evidence_answer_sources.csv`
+- `evidence/generated/security_evidence_answer_report.md`
+
+### Key Lesson
+
+A security assistant should retrieve approved evidence before producing an answer.
+
+### Guardrail
+
+No source, no confident answer.
+
+### Portfolio Relevance
+
+This artifact moves the project from bounded evidence retrieval toward controlled AI-assisted security analysis.
+
+It creates an answer scaffold that uses only the local approved evidence corpus, preserves source traceability, and marks outputs for human review.
+
+## Day 64 - Security Answer Evaluation Harness v1
+
+Today I added an evaluation harness for the source-backed security answer layer.
+
+### Artifacts Added
+
+- `src/evaluate_security_evidence_answer_layer.py`
+- `ai/security_evidence_eval_cases.csv`
+- `ai/security_evidence_eval_results.csv`
+- `evidence/generated/security_evidence_answer_eval_report.md`
+
+### Key Lesson
+
+A security AI guardrail is not real until it is tested.
+
+### Guardrail Tested
+
+No source, no confident answer.
+
+### Portfolio Relevance
+
+This artifact adds repeatable evaluation to the Security AI MVP.
+
+It tests whether corpus-supported questions receive source-backed review-required answers and whether unsupported questions are refused as insufficient evidence.
+
+#
