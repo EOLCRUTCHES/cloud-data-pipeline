@@ -929,3 +929,73 @@ Architecture decisions become governable when they define the evidence required 
 
 This artifact converts the cloud administrative access ADR into an audit-ready evidence model covering identity, network exposure, access paths, session logging, privileged access, exceptions, and break-glass governance.
 
+## Day 58 - AWS Admin Port Exposure Evidence Collector
+
+Today I added a read-only AWS evidence collector for administrative port exposure.
+
+### Artifacts Added
+
+- `src/collect_aws_admin_port_exposure.py`
+- `security/aws_admin_port_exposure_findings.csv`
+- `evidence/generated/aws_admin_port_exposure_report.md`
+
+### Key Lesson
+
+Cloud access standards become real when they can be tested against live configuration evidence.
+
+### What the Collector Checks
+
+The collector reviews AWS security groups for administrative port exposure, including:
+
+- SSH / 22
+- RDP / 3389
+- WinRM HTTP / 5985
+- WinRM HTTPS / 5986
+
+### Portfolio Relevance
+
+This artifact connects the cloud administrative access ADR to implementation evidence.
+
+It demonstrates read-only cloud evidence collection, exposure classification, sanitized reporting, and control mapping.
+
+## Day 59 - AWS Evidence Collector Permission Preflight
+
+Today I added a preflight check for AWS evidence collector permissions.
+
+### Artifacts Added
+
+- `src/check_aws_evidence_collector_permissions.py`
+- `security/aws_evidence_collector_permissions.csv`
+- `docs/cloud/aws_evidence_collector_permission_playbook.md`
+- `evidence/generated/aws_evidence_collector_permission_preflight_report.md`
+
+### Key Lesson
+
+Cloud evidence collectors should verify required read-only permissions before running deeper collection logic.
+
+### Portfolio Relevance
+
+This artifact turns AWS authorization failures into documented evidence collection findings.
+
+It shows which collector permissions are present, which are missing, and why each permission is needed.
+
+## Day 60 - AWS Admin Access Evidence Workflow
+
+Today I added a workflow runner for AWS cloud administrative access evidence.
+
+### Artifacts Added
+
+- `src/run_aws_admin_access_evidence_workflow.py`
+- `docs/cloud/aws_admin_access_evidence_package.md`
+- `evidence/generated/aws_admin_access_evidence_workflow_report.md`
+
+### Key Lesson
+
+Cloud evidence collection should run as a controlled workflow: permission preflight first, live evidence collection second, and package-level reporting last.
+
+### Portfolio Relevance
+
+This artifact turns the cloud administrative access work into a repeatable evidence package.
+
+It demonstrates authorization-aware evidence collection, live configuration review, exception visibility, and executive/audit-ready reporting.
+

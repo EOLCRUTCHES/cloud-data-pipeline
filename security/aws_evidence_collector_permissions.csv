@@ -1,0 +1,4 @@
+check_id,collector_area,aws_action,status,permission_purpose,command_display,policy_resource,recommended_policy_sid,interpretation
+AWS-STS-001,Account context evidence,sts:GetCallerIdentity,AUTHORIZED,Identify the active AWS principal without exposing account details.,aws sts get-caller-identity --output json,*,AllowGetCallerIdentity,Command completed successfully.
+AWS-S3-001,S3 inventory evidence,s3:ListAllMyBuckets,AUTHORIZED,List account-owned S3 buckets for inventory evidence.,aws s3api list-buckets --output json,*,AllowListAllS3Buckets,Command completed successfully.
+AWS-EC2-001,Admin port exposure evidence,ec2:DescribeSecurityGroups,AUTHORIZED,Read security group rules to identify administrative port exposure.,aws ec2 describe-security-groups --region us-east-1 --dry-run --output json,*,AllowDescribeSecurityGroups,"DryRunOperation returned, which indicates the principal has permission."
