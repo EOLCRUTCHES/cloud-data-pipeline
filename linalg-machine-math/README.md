@@ -516,3 +516,29 @@ Deep learning models can be powerful but difficult to inspect, explain, monitor,
 ### Career Connection
 
 In AI security and governance, deep learning matters because modern AI systems depend on it, but trustworthy deployment requires validation, monitoring, explainability, evidence, and human oversight.
+
+## Math Day 61 - Scalars
+
+### Key Lesson
+
+A scalar is a single numerical value.
+
+### Plain-English Definition
+
+A scalar is just one number.
+
+### Examples
+
+- Risk score: 0.87
+- Confidence score: 0.91
+- Login count: 5
+- Threshold: 0.80
+- Learning rate: 0.001
+
+### Why It Matters
+
+Scalars are the simplest building blocks in linear algebra. Vectors are made from multiple scalar values, and matrices are made from rows and columns of scalar values.
+
+### Career Connection
+
+In AI security and governance, scalar values appear as risk scores, thresholds, probabilities, weights, biases, loss values, and confidence scores. A number is only useful if we understand what it means and how it should be used.
