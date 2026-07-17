@@ -810,3 +810,33 @@ After meaningful delegated work, capture what should become a reusable system im
 ### Carry-Forward Question
 
 Did I just finish the task, or did I make the organization better at doing this next time?
+
+## Lead Day 61 - Build the Operating Rhythm
+
+### Key Lesson
+
+A system only works if it has a rhythm for review, ownership, risk, and follow-up.
+
+### Operating Rhythm Formula
+
+- What is reviewed:
+- Who owns it:
+- How often:
+- What changes status:
+- What triggers escalation:
+- Where it is recorded:
+
+### Useful Phrases
+
+- Let’s not rely on memory. What rhythm should this live in?
+- Who owns this, and when does the group see it again?
+- If this matters, it needs a review point.
+- Report at the agreed checkpoint unless risk changes.
+
+### Practice Rule
+
+For important recurring work, define the review rhythm before the issue becomes urgent.
+
+### Carry-Forward Question
+
+Is this living in a system...or is it living in my head?
