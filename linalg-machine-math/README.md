@@ -542,3 +542,42 @@ Scalars are the simplest building blocks in linear algebra. Vectors are made fro
 ### Career Connection
 
 In AI security and governance, scalar values appear as risk scores, thresholds, probabilities, weights, biases, loss values, and confidence scores. A number is only useful if we understand what it means and how it should be used.
+
+## Math Day 62 - Vectors
+
+### Key Lesson
+
+A vector is an ordered list of numbers.
+
+### Plain-English Definition
+
+A vector is a numerical profile made from multiple scalar values.
+
+### Examples
+
+Scalar:
+
+- `0.87`
+
+Vector:
+
+- `[0.87, 1.00, 0.25, 0.66]`
+
+### Why Order Matters
+
+Each position in a vector has meaning. If the order changes, the meaning changes.
+
+Example:
+
+- Position 1 = new device
+- Position 2 = unusual country
+- Position 3 = failed attempts
+- Position 4 = privileged resource
+
+### Career Connection
+
+Machine learning systems usually process vectors. Login events, documents, users, images, and security findings can all be represented numerically as vectors.
+
+### Governance Question
+
+What does each position in the vector mean, and who decided that representation?

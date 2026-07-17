@@ -999,3 +999,43 @@ This artifact turns the cloud administrative access work into a repeatable evide
 
 It demonstrates authorization-aware evidence collection, live configuration review, exception visibility, and executive/audit-ready reporting.
 
+## Day 61 - Security Evidence Corpus v1
+
+Today I created the first structured security evidence corpus for the project.
+
+### Artifacts Added
+
+- `src/build_security_evidence_corpus.py`
+- `ai/security_evidence_corpus.jsonl`
+- `ai/security_evidence_corpus_manifest.csv`
+- `evidence/generated/security_evidence_corpus_report.md`
+
+### Key Lesson
+
+An evidence-aware AI system should not begin with unstructured files. It should begin with a bounded corpus that preserves source paths, document IDs, hashes, summaries, and traceability.
+
+### Portfolio Relevance
+
+This artifact starts the Security AI MVP phase.
+
+It prepares the project for future evidence-aware retrieval, citation, summarization, and governance workflows by organizing existing cloud/security artifacts into an auditable source corpus.
+
+## Day 62 - Security Evidence Retrieval v1
+
+Today I added a bounded retrieval layer for the local security evidence corpus.
+
+### Artifacts Added
+
+- `src/query_security_evidence_corpus.py`
+- `ai/security_evidence_query_results.csv`
+- `evidence/generated/security_evidence_query_report.md`
+
+### Key Lesson
+
+Security AI should retrieve from a controlled evidence corpus before attempting to answer questions.
+
+### Portfolio Relevance
+
+This artifact creates the first evidence search layer for the Security AI MVP.
+
+It searches only indexed project evidence, ranks matching records, and preserves source traceability through document IDs and source paths.

@@ -840,3 +840,43 @@ For important recurring work, define the review rhythm before the issue becomes 
 ### Carry-Forward Question
 
 Is this living in a system...or is it living in my head?
+
+## Lead Day 62 - Make Status Visible Without Creating Theater
+
+### Key Lesson
+
+Status should be visible enough to manage risk without creating unnecessary meeting theater.
+
+### Status Format
+
+- Owner:
+- Outcome:
+- Status:
+- Risk:
+- Next step:
+- Need from others:
+- Escalation trigger:
+
+### Simple Status Labels
+
+- Green = on track
+- Yellow = watch / blocked / risk emerging
+- Red = off track / decision needed
+- Done = complete and closed
+
+### Useful Phrases
+
+- Can you put that in owner/status/next-step form?
+- What changed since the last checkpoint?
+- Is this green, yellow, red, or done?
+- What would make this move from yellow to green?
+- What decision, if any, does the group need to make?
+
+### Practice Rule
+
+Only changed status, risks, blockers, and decisions should get airtime.
+
+### Carry-Forward Question
+
+Is the work visible to the system, or only visible inside my head?
+
