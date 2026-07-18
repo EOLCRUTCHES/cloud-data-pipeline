@@ -708,4 +708,39 @@ If that orientation gets flipped unintentionally, the model may interpret the da
 
 Was the matrix intentionally transposed, and is the model reading rows and columns the way we think it is?
 
+## Math Day 66 - Matrix Addition
+
+### Key Lesson
+
+Matrix addition combines two matrices by adding values in matching positions.
+
+### Shape Rule
+
+Two matrices can be added only when they have the same shape.
+
+Example:
+
+`3 × 5 + 3 × 5 = valid`
+
+`3 × 5 + 5 × 3 = not valid`
+
+### Practical Meaning
+
+Matrix addition works when both matrices represent the same structure.
+
+Examples:
+
+- baseline + adjustment
+- actuals + correction
+- risk score + risk modifier
+- forecast + scenario impact
+
+### Governance Question
+
+Do both matrices have the same shape, same row meaning, same column meaning, and compatible units?
+
+### Warning
+
+Same shape does not always mean same meaning.
+
 #

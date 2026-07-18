@@ -1,6 +1,6 @@
 # Evidence Index
 
-Generated: `2026-07-18T02:52:42.485382+00:00`
+Generated: `2026-07-18T11:53:20.578203+00:00`
 
 ## Purpose
 
@@ -18,6 +18,7 @@ The purpose is to make validation, audit, and control-support evidence easy to l
 | Aws Account Context Report | `evidence\generated\aws_account_context_report.md` |
 | Aws Admin Access Evidence Workflow Report | `evidence\generated\aws_admin_access_evidence_workflow_report.md` |
 | Aws Admin Port Exposure Report | `evidence\generated\aws_admin_port_exposure_report.md` |
+| Aws Admin Port Remediation Evidence Report | `evidence\generated\aws_admin_port_remediation_evidence_report.md` |
 | Aws Authorization Evidence Report | `evidence\generated\aws_authorization_evidence_report.md` |
 | Aws Evidence Collector Permission Preflight Report | `evidence\generated\aws_evidence_collector_permission_preflight_report.md` |
 | Aws S3 Inventory Report | `evidence\generated\aws_s3_inventory_report.md` |

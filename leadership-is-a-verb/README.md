@@ -981,4 +981,50 @@ Do not debate objections until they are classified.
 
 Does this objection change the decision, change the execution plan, or simply need to be acknowledged?
 
-#
+## Lead Day 66 - Decide What Must Be Escalated
+
+### Key Lesson
+
+Escalation means the current owner or level does not have enough authority, information, time, or resources to resolve the risk safely.
+
+### Escalation Formula
+
+- Issue:
+- Owner:
+- Current status:
+- Risk:
+- Decision needed:
+- Why this level cannot resolve it:
+- Escalation target:
+- Deadline:
+- Recommended action:
+
+### Escalation Triggers
+
+- Authority gap
+- Resource gap
+- Deadline risk
+- Mission impact
+- Reputation risk
+- Financial exposure
+- Safety/compliance issue
+- Repeated non-performance
+- Cross-functional conflict
+- Decision beyond owner’s role
+
+### Useful Phrases
+
+- What is the escalation trigger?
+- Is this a risk update or an escalation?
+- What decision do you need from the group?
+- I’m not taking this from you; I’m escalating the barrier.
+
+### Practice Rule
+
+Escalate barriers and decisions, not frustration.
+
+### Carry-Forward Question
+
+Has the agreed escalation trigger been hit, or am I just uncomfortable watching someone else own the work?
+
+##

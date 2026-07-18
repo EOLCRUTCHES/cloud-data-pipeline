@@ -1115,4 +1115,25 @@ This artifact adds evidence-gap handling to the source-backed answer layer.
 
 It distinguishes supported questions, confirmed gaps, out-of-scope questions, boundary reviews, and possible false-positive retrieval results.
 
+## Day 66 - AWS Admin Port Remediation Evidence v1
+
+Today I added remediation evidence handling for AWS administrative port exposure.
+
+### Artifacts Added
+
+- `src/generate_aws_admin_port_remediation_evidence.py`
+- `security/aws_admin_port_remediation_register.csv`
+- `docs/cloud/aws_admin_port_remediation_record.md`
+- `evidence/generated/aws_admin_port_remediation_evidence_report.md`
+
+### Key Lesson
+
+Security remediation is not complete when a setting is changed. It is complete when the fix is followed by evidence that the risk state changed.
+
+### Portfolio Relevance
+
+This artifact documents the remediation lifecycle for public administrative port exposure.
+
+It captures the issue, remediation action, post-remediation collector result, closure status, related evidence, and evidence limitations.
+
 ##
