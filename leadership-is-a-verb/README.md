@@ -941,4 +941,44 @@ If there is no recommendation, it is probably not ready to be a decision item.
 
 What recommendation am I asking the room to accept, modify, or reject?
 
+## Lead Day 65 - Turn Objections Into Decision Inputs
+
+### Key Lesson
+
+Objections are useful when they are classified into decision inputs.
+
+### Objection Types
+
+- Risk objection
+- Fact objection
+- Preference objection
+- Priority objection
+- Ownership objection
+
+### Objection Sorting Formula
+
+- Objection:
+- Type:
+- Evidence:
+- Impact:
+- Decision effect:
+- Owner:
+- Next step:
+
+### Useful Phrases
+
+- Is that a risk, a missing fact, or a preference?
+- Does this objection change the decision, or just the execution plan?
+- What evidence would resolve this?
+- If we accept that risk, what mitigation do we need?
+- What fact is missing, who can get it, and when do we decide?
+
+### Practice Rule
+
+Do not debate objections until they are classified.
+
+### Carry-Forward Question
+
+Does this objection change the decision, change the execution plan, or simply need to be acknowledged?
+
 #

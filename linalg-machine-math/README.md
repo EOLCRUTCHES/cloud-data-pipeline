@@ -351,7 +351,7 @@ An explanation may be incomplete or misleading if it is only a plausible story r
 
 In AI security and governance, explainability helps determine whether a model’s output can be trusted, challenged, audited, and defended.
 
-# Math Day 55 - Interpretability
+## Math Day 55 - Interpretability
 
 ### Key Lesson
 
@@ -377,7 +377,7 @@ Interpretability supports auditability, debugging, validation, trust, fairness r
 
 In AI security and governance, interpretability helps determine whether a model can be inspected, defended, challenged, and trusted in high-risk workflows.
 
-# Math Day 56 - Neural Network Intuition
+## Math Day 56 - Neural Network Intuition
 
 ### Key Lesson
 
@@ -664,5 +664,48 @@ Many data science and AI errors are shape errors. The model may expect observati
 ### Governance Question
 
 What does each row represent, what does each column represent, and are we sure the model is reading the data the way we think it is?
+
+## Math Day 65 - Matrix Transpose
+
+### Key Lesson
+
+A transpose flips a matrix so that rows become columns, and columns become rows.
+
+### Notation
+
+`Aᵀ`
+
+This means “A transpose.”
+
+### Shape Change
+
+If:
+
+`A = 3 × 5`
+
+Then:
+
+`Aᵀ = 5 × 3`
+
+### Excel Connection
+
+Transpose in Excel is the same basic idea as transpose in linear algebra.
+
+### Shape Error Connection
+
+A transpose is a valid operation, but an accidental transpose can create a shape or orientation error.
+
+### Practical Rule
+
+For most basic machine learning datasets:
+
+- rows = observations
+- columns = features
+
+If that orientation gets flipped unintentionally, the model may interpret the data incorrectly.
+
+### Governance Question
+
+Was the matrix intentionally transposed, and is the model reading rows and columns the way we think it is?
 
 #

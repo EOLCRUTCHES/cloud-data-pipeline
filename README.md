@@ -1088,6 +1088,31 @@ No source, no confident answer.
 
 This artifact adds repeatable evaluation to the Security AI MVP.
 
-It tests whether corpus-supported questions receive source-backed review-required answers and whether unsupported questions are refused as insufficient evidence.
+It tests whether corpus-supported questions receive source-backed review-required answers and whether unsupported questions are refused as insufficient evidence
 
-#
+## Day 65 - Security Evidence Gap Register v1
+
+Today I added an evidence gap register for the Security AI MVP.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_gap_register.py`
+- `ai/security_evidence_gap_candidates.csv`
+- `ai/security_evidence_gap_register.csv`
+- `evidence/generated/security_evidence_gap_report.md`
+
+### Key Lesson
+
+A governed security assistant should not stop at refusing unsupported answers. It should convert missing evidence into documented evidence gaps.
+
+### Guardrail
+
+No source, no confident answer. No answer, no silent stop.
+
+### Portfolio Relevance
+
+This artifact adds evidence-gap handling to the source-backed answer layer.
+
+It distinguishes supported questions, confirmed gaps, out-of-scope questions, boundary reviews, and possible false-positive retrieval results.
+
+##
