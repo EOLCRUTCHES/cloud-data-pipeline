@@ -1,6 +1,6 @@
 # Security Evidence Answer
 
-Generated: `2026-07-18T11:52:57.845562+00:00`
+Generated: `2026-07-19T20:35:31.930124+00:00`
 
 Question: **What is the current USD to EUR exchange rate?**
 
@@ -17,7 +17,7 @@ The approved evidence corpus contains relevant support for this question. The st
 - Title: Security Evidence Answer Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_answer_report.md`
-- SHA-256 prefix: `331a29bca681`
+- SHA-256 prefix: `0a4d1c22d2a5`
 - Retrieval score: `33`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -43,7 +43,7 @@ Relevant snippets:
 - Title: Security Evidence Gap Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_gap_report.md`
-- SHA-256 prefix: `21f337ca6c78`
+- SHA-256 prefix: `7497d4bc2167`
 - Retrieval score: `28`
 - Matched terms: `current, eur, exchange, rate, usd`
 

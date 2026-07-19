@@ -743,4 +743,41 @@ Do both matrices have the same shape, same row meaning, same column meaning, and
 
 Same shape does not always mean same meaning.
 
-#
+## Math Day 67 - Scalar Multiplication
+
+### Key Lesson
+
+Scalar multiplication means multiplying every value in a vector or matrix by one number.
+
+### Shape Rule
+
+Scalar multiplication does not change matrix shape.
+
+If:
+
+`A = 3 × 5`
+
+Then:
+
+`2A = 3 × 5`
+
+### Practical Meaning
+
+Scalar multiplication is used for:
+
+- scaling values
+- weighting features
+- adjusting risk scores
+- normalizing data
+- changing units
+- amplifying or reducing signals
+
+### Career Connection
+
+In AI security and analytics, scalar multiplication often appears as feature weighting or risk adjustment. The math is simple, but the judgment behind the multiplier matters.
+
+### Governance Question
+
+Who chose the multiplier, and what evidence supports scaling the values that way?
+
+####

@@ -1027,4 +1027,44 @@ Escalate barriers and decisions, not frustration.
 
 Has the agreed escalation trigger been hit, or am I just uncomfortable watching someone else own the work?
 
-##
+## Lead Day 67 - Escalate as a Decision Packet
+
+### Key Lesson
+
+A strong escalation is a decision packet, not a complaint.
+
+### Escalation Packet Formula
+
+- Situation:
+- Owner:
+- Risk:
+- Trigger:
+- Options:
+- Recommendation:
+- Decision needed:
+- Deadline:
+
+### Owner Prep Questions
+
+- What is the situation?
+- Who owns the next move?
+- What outcome is at risk?
+- What has already been tried?
+- What support is needed?
+- What decision is above your authority?
+- What happens if we wait?
+- What do you recommend?
+
+### Useful Phrase
+
+I’m not escalating frustration; I’m escalating the barrier.
+
+### Practice Rule
+
+Escalate the decision, support need, or risk barrier — not the drama.
+
+### Carry-Forward Question
+
+Is this escalation packaged well enough for someone else to act on it?
+
+###
