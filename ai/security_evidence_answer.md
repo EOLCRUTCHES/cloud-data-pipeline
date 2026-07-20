@@ -1,6 +1,6 @@
 # Security Evidence Answer
 
-Generated: `2026-07-19T20:35:31.930124+00:00`
+Generated: `2026-07-20T23:32:07.117955+00:00`
 
 Question: **What is the current USD to EUR exchange rate?**
 
@@ -8,16 +8,16 @@ Answer Status: **SOURCE_BACKED_REVIEW_REQUIRED**
 
 ## Short Answer
 
-The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0029, SEC-EVID-0028, SEC-EVID-0031. Review the cited snippets below before treating the answer as final.
+The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0030, SEC-EVID-0029, SEC-EVID-0033. Review the cited snippets below before treating the answer as final.
 
 ## Source-Backed Evidence
 
-### Source 1: SEC-EVID-0029
+### Source 1: SEC-EVID-0030
 
 - Title: Security Evidence Answer Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_answer_report.md`
-- SHA-256 prefix: `0a4d1c22d2a5`
+- SHA-256 prefix: `388fcca6187b`
 - Retrieval score: `33`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -25,7 +25,7 @@ Relevant snippets:
 
 - What is the current USD to EUR exchange rate?
 
-### Source 2: SEC-EVID-0028
+### Source 2: SEC-EVID-0029
 
 - Title: Security Evidence Answer Evaluation Report
 - Artifact family: `evidence_report`
@@ -38,12 +38,12 @@ Relevant snippets:
 
 - EVAL-005   What is the current USD to EUR exchange rate?   actual status did not match expected status; source count did not match expected behavior
 
-### Source 3: SEC-EVID-0031
+### Source 3: SEC-EVID-0033
 
 - Title: Security Evidence Gap Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_gap_report.md`
-- SHA-256 prefix: `7497d4bc2167`
+- SHA-256 prefix: `f26be7d7cf37`
 - Retrieval score: `28`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -51,7 +51,7 @@ Relevant snippets:
 
 - GAP-CAND-005   What is the current USD to EUR exchange rate?   External trusted financial data source, retrieval timestamp, and explicit approval to use that source.
 
-### Source 4: SEC-EVID-0017
+### Source 4: SEC-EVID-0018
 
 - Title: AWS Admin Port Remediation Evidence Report
 - Artifact family: `cloud_admin_access`
@@ -64,7 +64,7 @@ Relevant snippets:
 
 - Remediation tracking   Captures the security issue, action taken, current findings, and closure status.
 
-### Source 5: SEC-EVID-0011
+### Source 5: SEC-EVID-0012
 
 - Title: ADR-001 Cloud Admin Access Generation Report
 - Artifact family: `architecture_decision`

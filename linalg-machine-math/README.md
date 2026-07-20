@@ -780,4 +780,4 @@ In AI security and analytics, scalar multiplication often appears as feature wei
 
 Who chose the multiplier, and what evidence supports scaling the values that way?
 
-####
+##

@@ -1067,4 +1067,124 @@ Escalate the decision, support need, or risk barrier — not the drama.
 
 Is this escalation packaged well enough for someone else to act on it?
 
-###
+## Lead Day 68 - Close the Escalation Loop
+
+### Key Lesson
+
+Escalation is not complete when the issue is raised. It is complete when the decision, owner, action, deadline, risk status, and next checkpoint are clear.
+
+### Escalation Closure Formula
+
+- Issue:
+- Escalated to:
+- Decision made:
+- Owner:
+- Action:
+- Deadline:
+- Risk status:
+- Who needs to know:
+- Next checkpoint:
+
+### Useful Phrases
+
+- What decision did we just make?
+- Who owns the next action?
+- What is the risk status now?
+- Did we actually change anything, or just discuss it?
+- When do we check this again?
+
+### Practice Rule
+
+Close every escalation by naming what changed.
+
+### Carry-Forward Question
+
+Did the escalation create a decision, an action, an owner, and a checkpoint?
+
+Yes — **for each standalone Python script that uses `np`**, you need:
+
+```python
+import numpy as np
+```
+
+Usually at the top of the file.
+
+So this works:
+
+```python
+import numpy as np
+
+features = np.array([1, 3, 1, 0])
+weights = np.array([0.30, 0.10, 0.50, 0.40])
+
+score = features.dot(weights)
+
+print(score)
+```
+
+This does **not** work:
+
+```python
+features = np.array([1, 3, 1, 0])
+```
+
+unless `np` was already imported in that same running Python session.
+
+## Mental rule
+
+```text
+np is not built into Python.
+np is a nickname you create when you import NumPy.
+```
+
+This line:
+
+```python
+import numpy as np
+```
+
+means:
+
+```text
+Load the NumPy library and let me refer to it as np.
+```
+
+## Script vs interactive session
+
+In a `.py` script:
+
+```text
+Every script should import what it uses.
+```
+
+In an interactive Python session or notebook:
+
+```text
+Import once per running session/kernel.
+```
+
+If you close the terminal/kernel and reopen it, import again.
+
+## Why not just write `numpy`?
+
+You can:
+
+```python
+import numpy
+
+features = numpy.array([1, 3, 1, 0])
+```
+
+But the standard convention is:
+
+```python
+import numpy as np
+```
+
+because `np` is shorter and everyone recognizes it.
+
+One-sentence rule:
+
+> If your code says `np.something`, that file or session must first define `np` with `import numpy as np`.
+
+##
