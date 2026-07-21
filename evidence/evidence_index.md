@@ -1,6 +1,6 @@
 # Evidence Index
 
-Generated: `2026-07-20T23:44:33.445507+00:00`
+Generated: `2026-07-21T21:24:46.876991+00:00`
 
 ## Purpose
 
@@ -29,6 +29,7 @@ The purpose is to make validation, audit, and control-support evidence easy to l
 | Cloud Pattern Field Card Report | `evidence\generated\cloud_pattern_field_card_report.md` |
 | Governance Workflow Run Report | `evidence\generated\governance_workflow_run_report.md` |
 | Sample Data Validation Report | `evidence\generated\sample_data_validation_report.md` |
+| Security Evidence Adjudication Report | `evidence\generated\security_evidence_adjudication_report.md` |
 | Security Evidence Answer Eval Report | `evidence\generated\security_evidence_answer_eval_report.md` |
 | Security Evidence Answer Report | `evidence\generated\security_evidence_answer_report.md` |
 | Security Evidence Corpus Report | `evidence\generated\security_evidence_corpus_report.md` |

@@ -1101,90 +1101,36 @@ Close every escalation by naming what changed.
 
 Did the escalation create a decision, an action, an owner, and a checkpoint?
 
-Yes — **for each standalone Python script that uses `np`**, you need:
+## Lead Day 69 - Confirm Accountability Without Hovering
 
-```python
-import numpy as np
-```
+### Key Lesson
 
-Usually at the top of the file.
+Accountability requires clear ownership, outcome, deadline, escalation trigger, and checkpoint. It does not require constant checking.
 
-So this works:
+### Accountability Confirmation Formula
 
-```python
-import numpy as np
+- Owner:
+- Outcome:
+- Deadline:
+- Definition of done:
+- Escalation trigger:
+- Checkpoint:
+- Support available:
 
-features = np.array([1, 3, 1, 0])
-weights = np.array([0.30, 0.10, 0.50, 0.40])
+### Useful Phrases
 
-score = features.dot(weights)
+- What does done look like?
+- What should trigger escalation before then?
+- I’ll let you run with it unless the trigger is hit.
+- I’m not going to hover, but I do want the checkpoint visible.
+- Own the path; I’ll help with barriers.
 
-print(score)
-```
+### Practice Rule
 
-This does **not** work:
+Define the boundary, then let the owner work.
 
-```python
-features = np.array([1, 3, 1, 0])
-```
+### Carry-Forward Question
 
-unless `np` was already imported in that same running Python session.
-
-## Mental rule
-
-```text
-np is not built into Python.
-np is a nickname you create when you import NumPy.
-```
-
-This line:
-
-```python
-import numpy as np
-```
-
-means:
-
-```text
-Load the NumPy library and let me refer to it as np.
-```
-
-## Script vs interactive session
-
-In a `.py` script:
-
-```text
-Every script should import what it uses.
-```
-
-In an interactive Python session or notebook:
-
-```text
-Import once per running session/kernel.
-```
-
-If you close the terminal/kernel and reopen it, import again.
-
-## Why not just write `numpy`?
-
-You can:
-
-```python
-import numpy
-
-features = numpy.array([1, 3, 1, 0])
-```
-
-But the standard convention is:
-
-```python
-import numpy as np
-```
-
-because `np` is shorter and everyone recognizes it.
-
-One-sentence rule:
-
-> If your code says `np.something`, that file or session must first define `np` with `import numpy as np`.
+Am I managing risk, or am I managing my discomfort?
 
 ##
