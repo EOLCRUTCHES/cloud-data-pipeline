@@ -1241,4 +1241,25 @@ This artifact connects the evidence lifecycle to governance claims.
 
 It maps permission checks, evidence collection, corpus construction, retrieval, answer generation, evaluation, gap management, remediation, closure, human review, adjudication, dashboarding, and indexing to specific control questions.
 
+## Day 72 - Security Evidence Exception Register v1
+
+Today I added an exception register for the Security AI MVP.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_traceability_exceptions.py`
+- `ai/security_evidence_traceability_exceptions.csv`
+- `docs/cloud/security_evidence_traceability_exception_register.md`
+- `evidence/generated/security_evidence_traceability_exception_report.md`
+
+### Key Lesson
+
+A dashboard shows posture, but an exception register shows what needs action.
+
+### Portfolio Relevance
+
+This artifact converts traceability, evaluation, reviewer decision, adjudication, and dashboard signals into actionable exceptions.
+
+It identifies missing artifacts, empty artifacts, failed evaluations, pending reviews, incomplete decisions, open gaps, partial closures, retrieval tuning needs, and non-stable dashboard status.
+
 ##

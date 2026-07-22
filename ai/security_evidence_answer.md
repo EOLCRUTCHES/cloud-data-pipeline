@@ -1,6 +1,6 @@
 # Security Evidence Answer
 
-Generated: `2026-07-22T21:34:42.816381+00:00`
+Generated: `2026-07-22T21:57:54.065598+00:00`
 
 Question: **What is the current USD to EUR exchange rate?**
 
@@ -8,16 +8,16 @@ Answer Status: **SOURCE_BACKED_REVIEW_REQUIRED**
 
 ## Short Answer
 
-The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0034, SEC-EVID-0033, SEC-EVID-0037. Review the cited snippets below before treating the answer as final.
+The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0035, SEC-EVID-0034, SEC-EVID-0038. Review the cited snippets below before treating the answer as final.
 
 ## Source-Backed Evidence
 
-### Source 1: SEC-EVID-0034
+### Source 1: SEC-EVID-0035
 
 - Title: Security Evidence Answer Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_answer_report.md`
-- SHA-256 prefix: `84ca72631103`
+- SHA-256 prefix: `1ec48228e4c6`
 - Retrieval score: `33`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -25,12 +25,12 @@ Relevant snippets:
 
 - What is the current USD to EUR exchange rate?
 
-### Source 2: SEC-EVID-0033
+### Source 2: SEC-EVID-0034
 
 - Title: Security Evidence Answer Evaluation Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_answer_eval_report.md`
-- SHA-256 prefix: `9969f7025299`
+- SHA-256 prefix: `848c7ac9b5fc`
 - Retrieval score: `28`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -38,12 +38,12 @@ Relevant snippets:
 
 - EVAL-005   What is the current USD to EUR exchange rate?   actual status did not match expected status; source count did not match expected behavior
 
-### Source 3: SEC-EVID-0037
+### Source 3: SEC-EVID-0038
 
 - Title: Security Evidence Gap Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_gap_report.md`
-- SHA-256 prefix: `b60f268b94b1`
+- SHA-256 prefix: `a57cba958ade`
 - Retrieval score: `28`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -56,7 +56,7 @@ Relevant snippets:
 - Title: Security Evidence Human Review Packet
 - Artifact family: `general_security_artifact`
 - Source path: `docs/cloud/security_evidence_human_review_packet.md`
-- SHA-256 prefix: `bee28fbcbb2f`
+- SHA-256 prefix: `4ff2a6a7f1f1`
 - Retrieval score: `25`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -69,7 +69,7 @@ Relevant snippets:
 - Title: Security Evidence Status Dashboard
 - Artifact family: `general_security_artifact`
 - Source path: `docs/cloud/security_evidence_status_dashboard.md`
-- SHA-256 prefix: `7d3e6c305f5d`
+- SHA-256 prefix: `a543ad91b137`
 - Retrieval score: `5`
 - Matched terms: `current`
 

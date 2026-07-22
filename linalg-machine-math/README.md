@@ -937,4 +937,44 @@ The identity matrix is the baseline for understanding matrix transformations. It
 
 Is the operation preserving the original feature meaning, or transforming it in a way that needs explanation?
 
+## Math Day 72 - Inverse Matrices
+
+### Key Lesson
+
+An inverse matrix reverses the effect of another matrix when that reversal is possible.
+
+### Core Idea
+
+If:
+
+`A × A⁻¹ = I`
+
+then:
+
+- `A` is the original matrix
+- `A⁻¹` is the inverse matrix
+- `I` is the identity matrix
+
+### Plain-English Meaning
+
+A matrix inverse is the matrix version of undoing multiplication.
+
+### Important Rule
+
+Not every matrix has an inverse.
+
+A matrix must be square and must not collapse or duplicate information.
+
+### Python
+
+`np.linalg.inv(A)` computes the inverse of matrix `A`.
+
+If the matrix cannot be inverted, NumPy raises:
+
+`LinAlgError: Singular matrix`
+
+### Governance Question
+
+Did the transformation preserve enough information to be meaningfully reversed, or did it collapse the signal?
+
 ##

@@ -1205,4 +1205,46 @@ If an item stays gray for multiple cycles, recommit, reassign, resize, or retire
 
 Did the scorecard conversation create movement, or just reporting?
 
-###
+## Lead Day 72 - Rescue Stale Work Without Taking It Back
+
+### Key Lesson
+
+Stale work should be diagnosed before it is reassigned or taken back.
+
+### Stale Work Formula
+
+- Item:
+- Owner:
+- Last movement:
+- Expected movement:
+- Reason stalled:
+- Blocker:
+- Decision needed:
+- Next visible action:
+- Checkpoint:
+
+### Stale Work Categories
+
+- Stale = no visible movement
+- Blocked = owner cannot proceed alone
+- Deprioritized = something else is more important
+- Abandoned = no longer worth doing
+
+### Useful Phrases
+
+- What was the last real movement?
+- What stopped it?
+- Is this blocked, stale, deprioritized, or no longer needed?
+- What is the smallest visible next action?
+- What support would restart movement?
+- Do you still own this, or do we need to reassign it?
+
+### Practice Rule
+
+Do not take work back just because it stalled. Diagnose the stall first.
+
+### Carry-Forward Question
+
+Am I rescuing the outcome, or am I rescuing myself from discomfort?
+
+##
