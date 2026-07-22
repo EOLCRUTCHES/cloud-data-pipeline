@@ -1174,4 +1174,35 @@ Track only the things that would hurt if they silently drifted.
 
 Is accountability visible to the system, or still living in my head?
 
-##
+## Lead Day 71 - Run the Scorecard Conversation
+
+### Key Lesson
+
+A scorecard is only useful if the conversation around it creates movement, support, decisions, and recognition.
+
+### Review Sequence
+
+1. Wins first
+2. Movement since last review
+3. Yellow/red/stale items
+4. Support needed
+5. Decisions required
+6. Owners and next checkpoints
+
+### Useful Phrases
+
+- What changed since the last scorecard?
+- What support would move this forward?
+- Is there a decision needed, or just execution?
+- Who owns the next move?
+- When will we see this again?
+
+### Stale Item Rule
+
+If an item stays gray for multiple cycles, recommit, reassign, resize, or retire it.
+
+### Carry-Forward Question
+
+Did the scorecard conversation create movement, or just reporting?
+
+###
