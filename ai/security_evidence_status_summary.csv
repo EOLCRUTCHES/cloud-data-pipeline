@@ -1,0 +1,14 @@
+category,metric,value,interpretation
+overall,overall_status,REVIEW_REQUIRED_EVALUATION_FAILURES,Top-level posture for the local security evidence system.
+corpus,documents_indexed,47,Number of approved evidence records available for retrieval.
+evaluation,evaluation_cases,5,Number of answer-layer guardrail tests evaluated.
+evaluation,evaluation_failures,2,Failed guardrail tests requiring review.
+remediation,aws_admin_port_remediation_status,PUBLIC_ADMIN_EXPOSURE_CLEARED_PENDING_REVIEW,Current recorded closure status for AWS admin-port remediation evidence.
+gap_register,BOUNDARY_REVIEW,2,Count of gap_status entries with value BOUNDARY_REVIEW.
+gap_register,POSSIBLE_FALSE_POSITIVE_REVIEW,1,Count of gap_status entries with value POSSIBLE_FALSE_POSITIVE_REVIEW.
+gap_register,SUPPORTED,2,Count of gap_status entries with value SUPPORTED.
+closure_register,CLOSURE_EVIDENCE_AVAILABLE_REVIEW_REQUIRED,1,Count of closure_status entries with value CLOSURE_EVIDENCE_AVAILABLE_REVIEW_REQUIRED.
+closure_register,NOT_A_GAP_SUPPORTED,2,Count of closure_status entries with value NOT_A_GAP_SUPPORTED.
+closure_register,RETRIEVAL_REVIEW_NEEDED,2,Count of closure_status entries with value RETRIEVAL_REVIEW_NEEDED.
+reviewer_decisions,CLOSE_GAP,5,Count of reviewer_decision entries with value CLOSE_GAP.
+adjudication,CLOSED,5,Count of final_gap_status entries with value CLOSED.

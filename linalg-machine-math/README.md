@@ -780,249 +780,6 @@ In AI security and analytics, scalar multiplication often appears as feature wei
 
 Who chose the multiplier, and what evidence supports scaling the values that way?
 
-# Math Day 68
-
-## Dot Product
-
-## Objective
-
-Learn the operation that turns two vectors into one scalar.
-
-Day 67:
-
-> Scalar multiplication scales every value.
-
-Day 68:
-
-> Dot product multiplies matching vector positions, then adds the results.
-
-## Core Idea
-
-A **dot product** takes two vectors of the same length and produces one number.
-
-```text
-Vector A:
-[2, 3, 4]
-
-Vector B:
-[10, 20, 30]
-```
-
-Multiply matching positions:
-
-```text
-2 × 10 = 20
-3 × 20 = 60
-4 × 30 = 120
-```
-
-Then add:
-
-```text
-20 + 60 + 120 = 200
-```
-
-So:
-
-```text
-[2, 3, 4] · [10, 20, 30] = 200
-```
-
-The result is a **scalar**.
-
-## Plain-English Definition
-
-The dot product answers:
-
-> “If I multiply each matching pair, what is the total combined effect?”
-
-## Shape Rule
-
-Dot product requires same-length vectors.
-
-Valid:
-
-```text
-[2, 3, 4] · [10, 20, 30]
-```
-
-Both have 3 values.
-
-Invalid:
-
-```text
-[2, 3, 4] · [10, 20]
-```
-
-Lengths do not match.
-
-## Security Example
-
-Login feature vector:
-
-```text
-[1, 3, 1, 0]
-```
-
-Meaning:
-
-```text
-new_device = 1
-failed_attempts = 3
-admin_account = 1
-foreign_country = 0
-```
-
-Weight vector:
-
-```text
-[0.30, 0.10, 0.50, 0.40]
-```
-
-Meaning:
-
-```text
-new_device weight = 0.30
-failed_attempts weight = 0.10
-admin_account weight = 0.50
-foreign_country weight = 0.40
-```
-
-Dot product:
-
-```text
-1 × 0.30 = 0.30
-3 × 0.10 = 0.30
-1 × 0.50 = 0.50
-0 × 0.40 = 0.00
-
-Total = 1.10
-```
-
-So the dot product is:
-
-```text
-1.10
-```
-
-That scalar can become part of a risk score.
-
-## Why This Matters in ML
-
-A lot of simple model scoring looks like this:
-
-```text
-features · weights = score
-```
-
-In plain English:
-
-> The model multiplies each input feature by its learned importance, then adds everything together.
-
-This is huge.
-
-It means a model’s output may come from:
-
-```text
-input values
-×
-learned weights
-+
-bias
-```
-
-That is the bridge between linear algebra and machine learning.
-
-## Health Example
-
-Health vector:
-
-```text
-[weight, systolic_bp, resting_hr]
-[270, 158, 79]
-```
-
-Weighting vector:
-
-```text
-[0.02, 0.05, 0.03]
-```
-
-Dot product:
-
-```text
-270 × 0.02 = 5.40
-158 × 0.05 = 7.90
-79 × 0.03 = 2.37
-
-Total = 15.67
-```
-
-That gives one combined scalar score.
-
-But warning: this is only meaningful if the weights and units make sense.
-
-Weight, blood pressure, and heart rate are not naturally comparable until normalized or intentionally weighted.
-
-## Similarity Idea
-
-Dot products are also used to compare whether two vectors point in similar directions.
-
-Roughly:
-
-```text
-larger positive dot product = more aligned
-near zero = not strongly related
-negative = opposite direction
-```
-
-That is part of how vector search, embeddings, recommendations, and similarity systems work.
-
-## Governance Connection
-
-For AI/security analytics, dot product questions are:
-
-```text
-What features are being multiplied?
-Who chose the weights?
-Were the features normalized?
-Do high-weight features deserve that influence?
-Can one feature dominate the score?
-Does the final scalar drive an automated decision?
-```
-
-This is where “just math” becomes governance.
-
-## Python / NumPy Translation
-
-```python
-import numpy as np
-
-features = np.array([1, 3, 1, 0])
-weights = np.array([0.30, 0.10, 0.50, 0.40])
-
-score = features.dot(weights)
-
-print(score)
-```
-
-Output:
-
-```text
-1.1
-```
-
-Same idea:
-
-```text
-multiply matching positions
-add the results
-return one scalar
-```
-
-## README / Notion Entry
-
-```markdown
 ## Math Day 68 - Dot Product
 
 ### Key Lesson
@@ -1052,10 +809,97 @@ Dot products appear in model scoring, similarity search, embeddings, recommendat
 ### Governance Question
 
 Who chose the weights, and does the resulting score actually represent what we claim it represents?
-```
 
-## One-Sentence Takeaway
+## Math Day 69 - Matrix-Vector Multiplication
 
-> A dot product turns two matching vectors into one scalar by multiplying matching positions and adding the results.
+### Key Lesson
+
+Matrix-vector multiplication runs one dot product per row of the matrix.
+
+### Shape Rule
+
+If:
+
+`A = m × n`
+
+and:
+
+`x = n × 1`
+
+then:
+
+`Ax = m × 1`
+
+### Plain-English Meaning
+
+A feature matrix multiplied by a weight vector produces one score per row.
+
+### Machine Learning Connection
+
+A common model pattern is:
+
+`feature matrix × weight vector = prediction scores`
+
+or:
+
+`Xw = ŷ`
+
+### Career Connection
+
+Matrix-vector multiplication appears in risk scoring, prediction, linear models, embeddings, neural networks, and security analytics.
+
+### Governance Question
+
+Who chose the weights, and does the score actually represent the risk or outcome we claim it represents?
+
+## Math Day 70 - Matrix-Matrix Multiplication
+
+### Key Lesson
+
+Matrix-matrix multiplication runs row-column dot products across two matrices.
+
+### Shape Rule
+
+If:
+
+`A = m × n`
+
+and:
+
+`B = n × p`
+
+then:
+
+`AB = m × p`
+
+The inner dimensions must match. The outer dimensions become the result.
+
+### Plain-English Meaning
+
+A matrix of observations multiplied by a matrix of weights can produce multiple outputs for every observation.
+
+### Machine Learning Connection
+
+A common pattern is:
+
+`XW = Y`
+
+where:
+
+- `X` = input feature matrix
+- `W` = weight matrix
+- `Y` = output matrix
+
+### Python
+
+`A @ B` performs matrix multiplication in NumPy.
+
+`A * B` performs element-by-element multiplication.
+
+They are not the same thing.
+
+### Governance Question
+
+What assumptions are hidden inside the weight matrix?
 
 ##

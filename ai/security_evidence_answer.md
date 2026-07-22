@@ -1,6 +1,6 @@
 # Security Evidence Answer
 
-Generated: `2026-07-21T21:05:22.109505+00:00`
+Generated: `2026-07-21T22:13:34.909807+00:00`
 
 Question: **What is the current USD to EUR exchange rate?**
 
@@ -8,16 +8,16 @@ Answer Status: **SOURCE_BACKED_REVIEW_REQUIRED**
 
 ## Short Answer
 
-The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0031, SEC-EVID-0030, SEC-EVID-0034. Review the cited snippets below before treating the answer as final.
+The approved evidence corpus contains relevant support for this question. The strongest source records are SEC-EVID-0033, SEC-EVID-0032, SEC-EVID-0036. Review the cited snippets below before treating the answer as final.
 
 ## Source-Backed Evidence
 
-### Source 1: SEC-EVID-0031
+### Source 1: SEC-EVID-0033
 
 - Title: Security Evidence Answer Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_answer_report.md`
-- SHA-256 prefix: `6f66cefb1460`
+- SHA-256 prefix: `de9c6e24a5b7`
 - Retrieval score: `33`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -25,7 +25,7 @@ Relevant snippets:
 
 - What is the current USD to EUR exchange rate?
 
-### Source 2: SEC-EVID-0030
+### Source 2: SEC-EVID-0032
 
 - Title: Security Evidence Answer Evaluation Report
 - Artifact family: `evidence_report`
@@ -38,12 +38,12 @@ Relevant snippets:
 
 - EVAL-005   What is the current USD to EUR exchange rate?   actual status did not match expected status; source count did not match expected behavior
 
-### Source 3: SEC-EVID-0034
+### Source 3: SEC-EVID-0036
 
 - Title: Security Evidence Gap Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_gap_report.md`
-- SHA-256 prefix: `ca5e70c84025`
+- SHA-256 prefix: `221871464012`
 - Retrieval score: `28`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -51,12 +51,12 @@ Relevant snippets:
 
 - GAP-CAND-005   What is the current USD to EUR exchange rate?   External trusted financial data source, retrieval timestamp, and explicit approval to use that source.
 
-### Source 4: SEC-EVID-0010
+### Source 4: SEC-EVID-0011
 
 - Title: Security Evidence Human Review Packet
 - Artifact family: `general_security_artifact`
 - Source path: `docs/cloud/security_evidence_human_review_packet.md`
-- SHA-256 prefix: `7ee7f99f2560`
+- SHA-256 prefix: `3958fa0aaf71`
 - Retrieval score: `25`
 - Matched terms: `current, eur, exchange, rate, usd`
 
@@ -64,12 +64,12 @@ Relevant snippets:
 
 - REV-005   GAP-CLOSE-005   `RETRIEVAL_REVIEW_NEEDED`   `RETRIEVAL_TUNING_REQUIRED`   **CLOSE_GAP**   What is the current USD to EUR exchange rate?
 
-### Source 5: SEC-EVID-0036
+### Source 5: SEC-EVID-0038
 
 - Title: Security Evidence Reviewer Decision Report
 - Artifact family: `evidence_report`
 - Source path: `evidence/generated/security_evidence_reviewer_decision_report.md`
-- SHA-256 prefix: `b5688a27770f`
+- SHA-256 prefix: `b2620383a5d2`
 - Retrieval score: `5`
 - Matched terms: `current`
 

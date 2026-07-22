@@ -1133,4 +1133,45 @@ Define the boundary, then let the owner work.
 
 Am I managing risk, or am I managing my discomfort?
 
+## Lead Day 70 - Turn Accountability Into a Scorecard
+
+### Key Lesson
+
+A scorecard makes ownership, progress, risk, support needs, and wins visible without requiring the leader to personally carry every detail.
+
+### Scorecard Formula
+
+- Outcome:
+- Owner:
+- Status:
+- Last movement:
+- Risk:
+- Next step:
+- Support needed:
+- Recognition:
+
+### Status Labels
+
+- Green = on track
+- Yellow = risk emerging
+- Red = off track / decision needed
+- Blue = complete / win captured
+- Gray = no movement / stale
+
+### Useful Phrases
+
+- What changed since the last scorecard?
+- What would move this from yellow to green?
+- What support would change the outcome?
+- Is this stale, blocked, or just not started?
+- What win should we record?
+
+### Practice Rule
+
+Track only the things that would hurt if they silently drifted.
+
+### Carry-Forward Question
+
+Is accountability visible to the system, or still living in my head?
+
 ##
