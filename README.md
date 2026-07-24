@@ -1304,4 +1304,25 @@ This artifact converts exception action rows into a leadership-ready review pack
 
 It flags invalid statuses, invalid dates, overdue actions, blocked actions, P1 actions that have not started, resolved actions without evidence, accepted risks without rationale, and deferred items without explanation.
 
+## Day 75 - Security Evidence Exception Management Decisions v1
+
+Today I added a management decision log for the Security AI MVP exception review process.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_exception_management_decisions.py`
+- `ai/security_evidence_exception_management_decisions.csv`
+- `docs/cloud/security_evidence_exception_management_decision_log.md`
+- `evidence/generated/security_evidence_exception_management_decision_report.md`
+
+### Key Lesson
+
+A review packet becomes useful when management decisions are recorded with owner, date, rationale, follow-up requirement, follow-up owner, and follow-up date.
+
+### Portfolio Relevance
+
+This artifact turns exception review into auditable management decisioning.
+
+It supports decisions such as start action, continue action, escalate, reassign owner, accept risk, defer action, mark resolved, add evidence, correct record, or no action required.
+
 ##

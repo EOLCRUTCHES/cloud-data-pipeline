@@ -1,6 +1,6 @@
 # Security Evidence Traceability Exception Register
 
-Generated: `2026-07-24T20:44:47.546451+00:00`
+Generated: `2026-07-24T20:54:44.360300+00:00`
 
 Overall Status: **EXCEPTIONS_OPEN_HIGH**
 

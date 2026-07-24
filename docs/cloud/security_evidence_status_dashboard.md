@@ -1,6 +1,6 @@
 # Security Evidence Status Dashboard
 
-Generated: `2026-07-24T20:44:47.286414+00:00`
+Generated: `2026-07-24T20:54:44.086034+00:00`
 
 Overall Status: **REVIEW_REQUIRED_EVALUATION_FAILURES**
 
@@ -14,7 +14,7 @@ It consolidates corpus coverage, answer evaluation, evidence gaps, closure revie
 
 | Area | Current Value |
 |---|---:|
-| Corpus documents indexed | `55` |
+| Corpus documents indexed | `57` |
 | Evaluation cases | `5` |
 | Evaluation failures | `2` |
 | Pending reviewer decisions | `0` |

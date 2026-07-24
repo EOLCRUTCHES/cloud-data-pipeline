@@ -1,6 +1,6 @@
 # Evidence Index
 
-Generated: `2026-07-24T20:51:05.498290+00:00`
+Generated: `2026-07-24T20:57:12.932507+00:00`
 
 ## Purpose
 
@@ -34,6 +34,7 @@ The purpose is to make validation, audit, and control-support evidence easy to l
 | Security Evidence Answer Report | `evidence\generated\security_evidence_answer_report.md` |
 | Security Evidence Corpus Report | `evidence\generated\security_evidence_corpus_report.md` |
 | Security Evidence Exception Action Plan Report | `evidence\generated\security_evidence_exception_action_plan_report.md` |
+| Security Evidence Exception Management Decision Report | `evidence\generated\security_evidence_exception_management_decision_report.md` |
 | Security Evidence Exception Review Report | `evidence\generated\security_evidence_exception_review_report.md` |
 | Security Evidence Gap Closure Report | `evidence\generated\security_evidence_gap_closure_report.md` |
 | Security Evidence Gap Report | `evidence\generated\security_evidence_gap_report.md` |
