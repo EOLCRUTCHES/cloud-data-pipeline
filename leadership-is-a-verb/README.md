@@ -1247,4 +1247,82 @@ Do not take work back just because it stalled. Diagnose the stall first.
 
 Am I rescuing the outcome, or am I rescuing myself from discomfort?
 
+## Lead Day 73 - Reassign Work Without Creating Drama
+
+### Key Lesson
+
+Reassignment is not punishment. It is a leadership decision to protect the outcome when the current ownership model is no longer working.
+
+### Reassignment Formula
+
+- Item:
+- Current owner:
+- Reason for reassignment:
+- New owner:
+- Transition action:
+- Deadline:
+- Communication needed:
+- Recognition/protection:
+
+### Reassign When
+
+- The deadline no longer allows learning time.
+- The owner lacks needed authority.
+- The owner lacks needed availability.
+- The risk has grown.
+- The owner has repeatedly missed checkpoints.
+- The person asks for relief.
+
+### Useful Phrases
+
+- Do you still have capacity to own this?
+- Is this still the right owner, or do we need to reassign?
+- I’m not treating this as a failure; I’m treating it as a capacity/risk decision.
+- Let’s preserve what you’ve already done and move the next step.
+- Thank you for getting it this far.
+
+### Practice Rule
+
+Do not take stalled work back by default. Diagnose, support, then reassign cleanly if the outcome needs a better owner path.
+
+### Carry-Forward Question
+
+Am I protecting the outcome while preserving the person’s dignity?
+
+## Lead Day 74 - Make the Handoff Stick
+
+### Key Lesson
+
+Reassignment is not complete until context, materials, authority, first action, deadline, and checkpoint transfer to the new owner.
+
+### Handoff Formula
+
+- Item:
+- Previous owner:
+- New owner:
+- Reason for transfer:
+- Current state:
+- Materials transferred:
+- First action:
+- Deadline:
+- Checkpoint:
+- Who needs to know:
+
+### Useful Phrases
+
+- What does the new owner need before they can move?
+- What materials need to transfer?
+- What decision authority comes with the handoff?
+- What is the first visible action?
+- When will we know the handoff worked?
+- Who needs to be told that ownership changed?
+
+### Practice Rule
+
+Do not create ghost ownership. After the handoff, one person owns the next action.
+
+### Carry-Forward Question
+
+Did I actually transfer ownership, or just rename the stuck item?
+
 ##

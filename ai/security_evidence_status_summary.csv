@@ -1,6 +1,6 @@
 category,metric,value,interpretation
 overall,overall_status,REVIEW_REQUIRED_EVALUATION_FAILURES,Top-level posture for the local security evidence system.
-corpus,documents_indexed,51,Number of approved evidence records available for retrieval.
+corpus,documents_indexed,53,Number of approved evidence records available for retrieval.
 evaluation,evaluation_cases,5,Number of answer-layer guardrail tests evaluated.
 evaluation,evaluation_failures,2,Failed guardrail tests requiring review.
 remediation,aws_admin_port_remediation_status,PUBLIC_ADMIN_EXPOSURE_CLEARED_PENDING_REVIEW,Current recorded closure status for AWS admin-port remediation evidence.

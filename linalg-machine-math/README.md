@@ -977,4 +977,98 @@ If the matrix cannot be inverted, NumPy raises:
 
 Did the transformation preserve enough information to be meaningfully reversed, or did it collapse the signal?
 
+## Math Day 73 - Determinants
+
+### Key Lesson
+
+The determinant is a single number that helps tell whether a square matrix can be inverted.
+
+### 2x2 Formula
+
+For:
+
+`A = [[a, b], [c, d]]`
+
+the determinant is:
+
+`det(A) = ad - bc`
+
+### Invertibility Rule
+
+- If `det(A) = 0`, the matrix does not have an inverse.
+- If `det(A) ≠ 0`, the matrix has an inverse.
+
+### Plain-English Meaning
+
+A zero determinant means the matrix collapsed information. Once information is collapsed, the transformation cannot be perfectly undone.
+
+### Python
+
+`np.linalg.det(A)` computes the determinant.
+
+Use `np.isclose(det, 0)` when checking whether a floating-point determinant is effectively zero.
+
+### Governance Question
+
+Are our features independent signals, or are we duplicating/collapsing information and pretending the model has more evidence than it really does?
+
+## Math Day 74 - Linear Independence and Rank
+
+### Key Lesson
+
+Rank tells us how much independent information a matrix really contains.
+
+### Plain-English Meaning
+
+A matrix can have many rows or columns but fewer independent signals.
+
+### Core Rule
+
+For a square matrix:
+
+- Full rank means the matrix has enough independent information.
+- Rank deficient means some information is duplicated, dependent, or collapsed.
+
+### Connection to Determinants
+
+For a square matrix:
+
+- Full rank means determinant is not zero.
+- Rank deficient means determinant is zero.
+- A rank-deficient square matrix does not have an inverse.
+
+### Python
+
+`np.linalg.matrix_rank(A)` returns the rank of matrix `A`.
+
+### Governance Question
+
+Are our features independent signals, or are we double-counting the same evidence under different names?
+
+## Math Day 75 - Span and Basis
+
+### Key Lesson
+
+Span is the space that a set of vectors can reach. A basis is a clean independent set of vectors that spans that space.
+
+### Plain-English Definitions
+
+- Span = everything you can build from a set of vectors.
+- Basis = independent vectors that cover the space without redundancy.
+- Rank = how many independent directions the matrix contains.
+
+### Example
+
+`[1, 0]` and `[0, 1]` span 2D space.
+
+`[1, 0]` and `[2, 0]` only span one line because the second vector is just a scaled version of the first.
+
+### Python
+
+`np.linalg.matrix_rank(A)` helps identify how many independent directions a matrix contains.
+
+### Governance Question
+
+Do our features span the risk space we claim to model, or are we missing directions and double-counting others?
+
 ##

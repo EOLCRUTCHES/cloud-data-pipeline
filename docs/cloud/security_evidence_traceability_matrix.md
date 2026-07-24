@@ -1,6 +1,6 @@
 # Security Evidence Traceability Matrix
 
-Generated: `2026-07-22T21:57:57.007059+00:00`
+Generated: `2026-07-24T20:26:57.610736+00:00`
 
 Overall Status: **TRACEABILITY_COMPLETE**
 
@@ -29,10 +29,10 @@ It prevents the evidence system from becoming a set of disconnected scripts and 
 | TRACE-002 | Evidence Collection | What AWS administrative port exposure was observed? | `security/aws_admin_port_exposure_findings.csv` | **TRACEABLE** | no_rows |
 | TRACE-003 | Evidence Workflow | Was collection packaged into a reviewable evidence workflow? | `docs/cloud/aws_admin_access_evidence_package.md` | **TRACEABLE** | status=PASS |
 | TRACE-004 | Evidence Workflow | What was the latest workflow execution result? | `evidence/generated/aws_admin_access_evidence_workflow_report.md` | **TRACEABLE** | status=PASS |
-| TRACE-005 | Corpus | Which approved evidence artifacts are available for retrieval? | `ai/security_evidence_corpus_manifest.csv` | **TRACEABLE** | records=51 |
-| TRACE-006 | Corpus | What is the approved local evidence corpus content? | `ai/security_evidence_corpus.jsonl` | **TRACEABLE** | records=51 |
+| TRACE-005 | Corpus | Which approved evidence artifacts are available for retrieval? | `ai/security_evidence_corpus_manifest.csv` | **TRACEABLE** | records=53 |
+| TRACE-006 | Corpus | What is the approved local evidence corpus content? | `ai/security_evidence_corpus.jsonl` | **TRACEABLE** | records=53 |
 | TRACE-007 | Retrieval | Which evidence was retrieved for security questions? | `ai/security_evidence_query_results.csv` | **TRACEABLE** | QUERY-001=5; QUERY-002=5; QUERY-003=5; QUERY-004=5 |
-| TRACE-008 | Answer Layer | Did the answer layer cite approved local evidence? | `ai/security_evidence_answer_sources.csv` | **TRACEABLE** | SEC-EVID-0011=1; SEC-EVID-0012=1; SEC-EVID-0034=1; SEC-EVID-0035=1; SEC-EVID-0038=1 |
+| TRACE-008 | Answer Layer | Did the answer layer cite approved local evidence? | `ai/security_evidence_answer_sources.csv` | **TRACEABLE** | SEC-EVID-0011=1; SEC-EVID-0013=1; SEC-EVID-0035=1; SEC-EVID-0036=1; SEC-EVID-0039=1 |
 | TRACE-009 | Answer Layer | What source-backed answer was generated? | `ai/security_evidence_answer.md` | **TRACEABLE** | status=SOURCE_BACKED_REVIEW_REQUIRED |
 | TRACE-010 | Evaluation | Are answer guardrails passing? | `ai/security_evidence_eval_results.csv` | **TRACEABLE** | FAIL=2; PASS=3 |
 | TRACE-011 | Gap Management | Which unsupported questions became managed evidence gaps? | `ai/security_evidence_gap_register.csv` | **TRACEABLE** | BOUNDARY_REVIEW=2; POSSIBLE_FALSE_POSITIVE_REVIEW=1; SUPPORTED=2 |
