@@ -1325,4 +1325,70 @@ This artifact turns exception review into auditable management decisioning.
 
 It supports decisions such as start action, continue action, escalate, reassign owner, accept risk, defer action, mark resolved, add evidence, correct record, or no action required.
 
+## Day 76 - Security Evidence Decision Follow-Up Tracker v1
+
+Today I added a follow-up tracker for management decisions in the Security AI MVP.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_decision_followup_tracker.py`
+- `ai/security_evidence_decision_followup_tracker.csv`
+- `docs/cloud/security_evidence_decision_followup_tracker.md`
+- `evidence/generated/security_evidence_decision_followup_report.md`
+
+### Key Lesson
+
+A management decision is not fully controlled unless required follow-up is assigned, dated, tracked, and supported by completion evidence.
+
+### Portfolio Relevance
+
+This artifact turns management decisions into accountable execution evidence.
+
+It identifies incomplete decision records, missing follow-up owners, missing or invalid dates, overdue follow-ups, blocked follow-ups, completed follow-ups missing evidence, cancelled follow-ups needing rationale, and no-follow-up-required decisions.
+
+## Day 77 - Security Evidence Management Closeout v1
+
+Today I added a management closeout summary for the security evidence workflow.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_management_closeout.py`
+- `ai/security_evidence_management_closeout_summary.csv`
+- `docs/cloud/security_evidence_management_closeout_summary.md`
+- `evidence/generated/security_evidence_management_closeout_report.md`
+
+### Key Lesson
+
+Follow-up tracking becomes useful when it rolls up into a closeout view showing what is complete, active, blocked, overdue, cancelled, not applicable, or review-required.
+
+### Governance Rule
+
+Management review is not complete until follow-up is either closed with evidence, cancelled with rationale, marked not applicable, or kept visible as active work.
+
+### Portfolio Relevance
+
+This artifact turns management follow-up into a defensible closeout posture.
+
+## Day 78 - Security Evidence Control Narrative v1
+
+Today I added a control narrative for the Security Evidence MVP.
+
+### Artifacts Added
+
+- `src/generate_security_evidence_control_narrative.py`
+- `docs/cloud/security_evidence_control_narrative.md`
+- `evidence/generated/security_evidence_control_narrative_report.md`
+
+### Key Lesson
+
+A mature evidence system needs a control narrative explaining what the system does, what governance rules it follows, what artifacts support it, and what limitations remain.
+
+### Portfolio Relevance
+
+This artifact turns the project from a chain of scripts into an audit/executive-readable security evidence control story.
+
+### Core Message
+
+The system does not ask AI to be trustworthy by default. It builds a workflow that makes trust reviewable.
+
 ##

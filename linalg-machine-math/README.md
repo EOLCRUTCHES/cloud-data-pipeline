@@ -1071,4 +1071,85 @@ Span is the space that a set of vectors can reach. A basis is a clean independen
 
 Do our features span the risk space we claim to model, or are we missing directions and double-counting others?
 
+## Math Day 76 - Linear Transformations
+
+### Key Lesson
+
+A matrix can act as a transformation that takes an input vector and produces an output vector.
+
+### Plain-English Meaning
+
+A matrix can move, stretch, flip, rotate, compress, project, or otherwise transform vectors.
+
+### Core Pattern
+
+`matrix × vector = transformed vector`
+
+### Important Distinction
+
+Some transformations preserve information and can be undone.
+
+Other transformations collapse or discard information and cannot be perfectly reversed.
+
+### Python
+
+Use the `@` operator for matrix-vector multiplication:
+
+`A @ v`
+
+### Governance Question
+
+What did the transformation preserve, emphasize, distort, or discard?
+
+## Math Day 77 - Eigenvectors and Eigenvalues
+
+### Key Lesson
+
+An eigenvector is a direction that a matrix transformation does not turn. The eigenvalue tells how much that direction is stretched, shrunk, flipped, or preserved.
+
+### Core Pattern
+
+`A v = λ v`
+
+### Plain-English Meaning
+
+A matrix transforms a vector, but an eigenvector stays on the same line after the transformation.
+
+### Why It Matters
+
+Eigenvectors and eigenvalues help identify dominant directions in transformations and datasets. They are foundational for PCA, dimensionality reduction, ranking systems, and signal analysis.
+
+### Python
+
+`np.linalg.eig(A)` returns eigenvalues and eigenvectors for matrix `A`.
+
+### Governance Question
+
+Do the dominant mathematical directions actually correspond to meaningful risk signals?
+
+## Math Day 78 - Principal Components
+
+### Key Lesson
+
+Principal components are the strongest independent directions of variation in a dataset.
+
+### Plain-English Meaning
+
+PCA looks for the directions where the data varies the most.
+
+### Connection to Eigenvectors
+
+In PCA:
+
+- eigenvectors identify the principal directions
+- eigenvalues show how much variation those directions explain
+
+### Why It Matters
+
+PCA can reduce dimensionality, compress features, reduce noise, and reveal major patterns.
+
+### Governance Question
+
+Did dimensionality reduction preserve the signal we care about, or did it make the system harder to explain?
+
 ##

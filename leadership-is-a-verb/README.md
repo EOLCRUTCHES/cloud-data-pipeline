@@ -5,7 +5,7 @@ Recognize the difference between **creating value personally** and **creating va
 
 This is the foundational mindset shift for the entire Lead curriculum.
 
-Day 30 (Introductory Read)
+## Day 30 (Introductory Read)
 Leadership is a verb. It is easy to fall into any one of the following traps:
 - Eagerness to climb
 - People pleasing up, down, and across the organization
@@ -1324,5 +1324,145 @@ Do not create ghost ownership. After the handoff, one person owns the next actio
 ### Carry-Forward Question
 
 Did I actually transfer ownership, or just rename the stuck item?
+
+## Lead Day 75 - Monitor the Handoff Without Re-Owning It
+
+### Key Lesson
+
+After a handoff, the leader should monitor movement, risk, and support needs without becoming the hidden owner again.
+
+### Handoff Monitoring Formula
+
+- Item:
+- New owner:
+- First action promised:
+- First action completed:
+- Current status:
+- Risk:
+- Support needed:
+- Next checkpoint:
+- Leader interference risk:
+
+### Useful Phrases
+
+- Did the first action happen?
+- What changed since the handoff?
+- Is ownership clear now?
+- What support do you need without changing ownership?
+- Is the prior owner still supporting, or still owning?
+- What is the next visible action?
+- When should this come back to the scorecard?
+
+### Practice Rule
+
+Monitor the checkpoint, not every motion.
+
+### Carry-Forward Question
+
+Am I managing the risk, or am I quietly managing the task?
+
+## Lead Day 76 - Close the Handoff and Step Out
+
+### Key Lesson
+
+A handoff is complete when the new owner is moving, the prior owner is released, the risk is visible, and the work returns to normal scorecard rhythm.
+
+### Handoff Closure Formula
+
+- Item:
+- New owner:
+- First action completed:
+- Current status:
+- Remaining risk:
+- Prior owner released:
+- Next checkpoint:
+- Leader role going forward:
+
+### Useful Phrases
+
+- Is the handoff complete?
+- Has the first action happened?
+- Is the prior owner fully released?
+- Can this return to the normal scorecard?
+- What risk, if any, remains visible?
+- What is my role from here?
+- What will I stop checking separately?
+
+### Practice Rule
+
+Once ownership is working, stop being the bridge.
+
+### Carry-Forward Question
+
+Has this returned to the system, or am I still secretly holding it together?
+
+## Lead Day 77 - Close the Loop Publicly
+
+### Key Lesson
+
+Private completion is not enough. Leadership closure means the right people know what changed, who owns the work now, what risk remains, and what happens next.
+
+### Loop-Closure Formula
+
+- Item:
+- Decision/change:
+- Owner:
+- Current status:
+- Remaining risk:
+- Next checkpoint:
+- Who needs to know:
+- Recognition:
+
+### Useful Phrases
+
+- Let me close the loop for everyone.
+- The decision is ____.
+- The owner is now ____.
+- The current status is ____.
+- The remaining risk is ____.
+- The next checkpoint is ____.
+- Thank you to ____ for getting this moving.
+
+### Practice Rule
+
+If ownership, risk, or status changed, make it visible to the people affected.
+
+### Carry-Forward Question
+
+Did I actually close the loop, or did I just handle it privately?
+
+## Lead Day 78 - Turn the Lesson Into a Process Change
+
+### Key Lesson
+
+A mature leader converts recurring issues into process changes so the system improves instead of relying on heroic recovery.
+
+### Process-Change Formula
+
+- Issue:
+- Pattern observed:
+- Root cause:
+- Process change:
+- Owner:
+- Start date:
+- Review date:
+- Success signal:
+
+### Useful Phrases
+
+- Is this a one-off issue or a pattern?
+- What did the system allow to happen?
+- What checklist, template, rule, or checkpoint would prevent this?
+- Who owns the process change?
+- When will we know it worked?
+- Do we need a clearer definition of done?
+
+### Practice Rule
+
+Do not just fix the issue. Fix the condition that made the issue likely.
+
+### Carry-Forward Question
+
+Did I make the system better, or did I just personally rescue it again?
 
 ##

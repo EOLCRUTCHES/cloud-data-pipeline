@@ -1,8 +1,8 @@
 # Security Evidence Exception Management Decision Log
 
-Generated: `2026-07-24T20:55:45.946254+00:00`
+Generated: `2026-07-26T04:30:14.962913+00:00`
 
-Overall Status: **REVIEW_REQUIRED_INCOMPLETE_DECISIONS**
+Overall Status: **MANAGEMENT_DECISIONS_COMPLETE**
 
 ## Purpose
 
@@ -17,7 +17,7 @@ It preserves decision owner, date, notes, follow-up requirement, follow-up owner
 | Decision rows | `3` |
 | Items requiring management attention | `3` |
 | Pending decisions | `0` |
-| Complete decisions | `0` |
+| Complete decisions | `3` |
 | Invalid decisions | `0` |
 
 ## Management Decision Counts
@@ -30,15 +30,15 @@ It preserves decision owner, date, notes, follow-up requirement, follow-up owner
 
 | Completeness Status | Count |
 |---|---:|
-| `DECISION_INCOMPLETE_decision_owner_decision_date_decision_notes_followup_required_yes_or_no` | `3` |
+| `DECISION_COMPLETE` | `3` |
 
 ## Attention Items
 
 | Decision ID | Priority | Review Status | Recommended Decision | Recorded Decision | Completeness | Issue |
 |---|---|---|---|---|---|---|
-| MGMT-DEC-001 | **P1** | `P1_NOT_STARTED` | `START_ACTION` | `START_ACTION` | **DECISION_INCOMPLETE_decision_owner_decision_date_decision_notes_followup_required_yes_or_no** | Answer-layer evaluation failed for question: What is the best firewall vendor for my company? |
-| MGMT-DEC-002 | **P1** | `P1_NOT_STARTED` | `START_ACTION` | `START_ACTION` | **DECISION_INCOMPLETE_decision_owner_decision_date_decision_notes_followup_required_yes_or_no** | Answer-layer evaluation failed for question: What is the current USD to EUR exchange rate? |
-| MGMT-DEC-003 | **P2** | `NOT_STARTED_NO_TARGET_DATE` | `START_ACTION` | `START_ACTION` | **DECISION_INCOMPLETE_decision_owner_decision_date_decision_notes_followup_required_yes_or_no** | Dashboard overall status is REVIEW_REQUIRED_EVALUATION_FAILURES. |
+| MGMT-DEC-001 | **P1** | `P1_NOT_STARTED` | `START_ACTION` | `START_ACTION` | **DECISION_COMPLETE** | Answer-layer evaluation failed for question: What is the best firewall vendor for my company? |
+| MGMT-DEC-002 | **P1** | `P1_NOT_STARTED` | `START_ACTION` | `START_ACTION` | **DECISION_COMPLETE** | Answer-layer evaluation failed for question: What is the current USD to EUR exchange rate? |
+| MGMT-DEC-003 | **P2** | `NOT_STARTED_NO_TARGET_DATE` | `START_ACTION` | `START_ACTION` | **DECISION_COMPLETE** | Dashboard overall status is REVIEW_REQUIRED_EVALUATION_FAILURES. |
 
 ## Allowed Management Decisions
 
