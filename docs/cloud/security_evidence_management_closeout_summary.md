@@ -1,8 +1,8 @@
 # Security Evidence Management Closeout Summary
 
-Generated: `2026-07-26T04:30:15.281963+00:00`
+Generated: `2026-07-26T15:15:23.210053+00:00`
 
-Overall Status: **CLOSEOUT_COMPLETE**
+Overall Status: **CLOSEOUT_REVIEW_REQUIRED**
 
 ## Purpose
 
@@ -12,13 +12,15 @@ This closeout summary shows whether management decision follow-up is complete, a
 
 | Category | Count |
 |---|---:|
-| `CLOSED_WITH_EVIDENCE` | `3` |
+| `REVIEW_REQUIRED` | `3` |
 
 ## Items Still Needing Attention
 
 | Closeout | Priority | Owner | Category | Issue | Next Step |
 |---|---|---|---|---|---|
-| `none` | `P4` | Evidence owner | `CLOSEOUT_COMPLETE` | No open closeout items. | Continue routine monitoring. |
+| CLOSE-001 | **P1** | Chris Cooper | `REVIEW_REQUIRED` | Answer-layer evaluation failed for question: What is the best firewall vendor for my company? | Review the tracker status and correct the source management or follow-up record. |
+| CLOSE-002 | **P1** | Chris Cooper | `REVIEW_REQUIRED` | Answer-layer evaluation failed for question: What is the current USD to EUR exchange rate? | Review the tracker status and correct the source management or follow-up record. |
+| CLOSE-003 | **P2** | Chris Cooper | `REVIEW_REQUIRED` | Dashboard overall status is REVIEW_REQUIRED_EVALUATION_FAILURES. | Review the tracker status and correct the source management or follow-up record. |
 
 ## Governance Rule
 

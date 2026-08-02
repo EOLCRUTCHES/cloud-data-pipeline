@@ -1465,4 +1465,103 @@ Do not just fix the issue. Fix the condition that made the issue likely.
 
 Did I make the system better, or did I just personally rescue it again?
 
-##
+## Lead Day 79 - Install the Process Change
+
+### Key Lesson
+
+A process change is not real until it has an owner, trigger, location, checkpoint, and success signal.
+
+### Install Formula
+
+- Process change:
+- Why it exists:
+- When it triggers:
+- Who owns it:
+- Where it lives:
+- First use date:
+- Review checkpoint:
+- Success signal:
+
+### Practice Rule
+
+Do not just announce the process change. Install it into the operating rhythm.
+
+### Carry-Forward Question
+
+Did I create a usable process, or did I just write down a good intention?
+
+## Lead Day 80 - Verify Adoption
+
+### Key Lesson
+
+A process change is not adopted merely because it was documented, announced, or assigned. Adoption means the expected behavior occurs when the trigger happens.
+
+### Adoption Check
+
+- Trigger:
+- Expected behavior:
+- Actual behavior:
+- Evidence observed:
+- Missed step:
+- Reason:
+- Correction:
+- Next checkpoint:
+
+### Adoption States
+
+- ADOPTED
+- PARTIALLY_ADOPTED
+- NOT_ADOPTED
+
+### Failure Causes
+
+- Clarity
+- Capability
+- Access
+- Ownership
+- Priority
+- Resistance
+- Design
+
+### Practice Rule
+
+Measure whether the behavior occurred before judging whether the process produced its ultimate outcome.
+
+### Carry-Forward Question
+
+Did the process fail, or has the organization simply not adopted it yet?
+
+## Lead Day 81 - Correct Without Reclaiming
+
+### Key Lesson
+
+When process adoption fails, correct the underlying cause while preserving ownership.
+
+### Recovery Loop
+
+- Failure observed:
+- Failure cause:
+- Smallest correction:
+- Owner:
+- Next trigger:
+- Expected behavior:
+- Checkpoint:
+- Escalation condition:
+
+### Failure-to-Correction Map
+
+- Clarity → restate the requirement
+- Capability → coach or demonstrate
+- Access → provide the missing resource
+- Ownership → name one accountable owner
+- Priority → resolve the tradeoff
+- Resistance → surface and decide the objection
+- Design → simplify the process
+
+### Practice Rule
+
+Apply the smallest correction, keep the owner, and observe the next legitimate cycle before redesigning again.
+
+### Carry-Forward Question
+
+Am I removing a blocker, or quietly taking the work back?

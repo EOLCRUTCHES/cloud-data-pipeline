@@ -1,6 +1,6 @@
 # Security Evidence Control Narrative
 
-Generated: `2026-07-26T04:30:15.373752+00:00`
+Generated: `2026-07-26T15:15:23.312307+00:00`
 
 Artifact Health: **ARTIFACTS_PRESENT**
 

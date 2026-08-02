@@ -1391,4 +1391,59 @@ This artifact turns the project from a chain of scripts into an audit/executive-
 
 The system does not ask AI to be trustworthy by default. It builds a workflow that makes trust reviewable.
 
+## Day 80 - Security Evidence Portfolio Case Study v1
+
+### Artifacts Added
+
+- `src/generate_security_evidence_portfolio_case_study.py`
+- `docs/cloud/security_evidence_portfolio_case_study.md`
+- `evidence/generated/security_evidence_portfolio_case_study_report.md`
+
+### Key Lesson
+
+A portfolio artifact must explain the problem, solution, architecture, controls, evidence, business value, and limitations—not merely list scripts.
+
+### Portfolio Value
+
+The case study translates the Security Evidence MVP into an interview-ready project story while preserving the current generated posture honestly.
+
+### Core Message
+
+The project does not ask AI to be trustworthy by default. It builds a workflow that makes AI-assisted security claims bounded, traceable, reviewable, and management-owned.
+
+## Lead Day 81 - Correct Without Reclaiming
+
+### Key Lesson
+
+When process adoption fails, correct the underlying cause while preserving ownership.
+
+### Recovery Loop
+
+- Failure observed:
+- Failure cause:
+- Smallest correction:
+- Owner:
+- Next trigger:
+- Expected behavior:
+- Checkpoint:
+- Escalation condition:
+
+### Failure-to-Correction Map
+
+- Clarity → restate the requirement
+- Capability → coach or demonstrate
+- Access → provide the missing resource
+- Ownership → name one accountable owner
+- Priority → resolve the tradeoff
+- Resistance → surface and decide the objection
+- Design → simplify the process
+
+### Practice Rule
+
+Apply the smallest correction, keep the owner, and observe the next legitimate cycle before redesigning again.
+
+### Carry-Forward Question
+
+Am I removing a blocker, or quietly taking the work back?
+
 ##

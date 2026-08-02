@@ -1,9 +1,9 @@
 # Security Evidence Decision Follow-Up Tracker
 
-Generated: `2026-07-26T04:30:15.129581+00:00`
+Generated: `2026-07-26T15:15:23.065413+00:00`
 Review Date: `2026-07-26`
 
-Overall Status: **FOLLOWUPS_STABLE**
+Overall Status: **FOLLOWUP_REVIEW_REQUIRED**
 
 ## Purpose
 
@@ -16,11 +16,11 @@ It shows whether follow-up is not started, in progress, blocked, overdue, comple
 | Field | Value |
 |---|---:|
 | Follow-up rows | `3` |
-| Management attention required | `0` |
+| Management attention required | `3` |
 | Active follow-ups | `0` |
 | Overdue follow-ups | `0` |
 | Blocked follow-ups | `0` |
-| Completed follow-ups | `3` |
+| Completed follow-ups | `0` |
 | No follow-up required | `0` |
 
 ## Follow-Up Status Counts
@@ -33,21 +33,23 @@ It shows whether follow-up is not started, in progress, blocked, overdue, comple
 
 | Tracker Status | Count |
 |---|---:|
-| `FOLLOWUP_COMPLETED` | `3` |
+| `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` | `3` |
 
 ## Items Requiring Management Attention
 
 | Follow-Up | Priority | Owner | Due | Status | Issue | Recommended Next Step |
 |---|---|---|---|---|---|---|
-| `none` | `P4` | Evidence owner | not_recorded | `NO_ATTENTION_REQUIRED` | No follow-up items require management attention. | Continue routine monitoring. |
+| FUP-001 | **P1** | Chris Cooper | 2026-07-25 | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` | Answer-layer evaluation failed for question: What is the best firewall vendor for my company? | Use NOT_APPLICABLE when followup_required is no. |
+| FUP-002 | **P1** | Chris Cooper | 2026-07-25 | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` | Answer-layer evaluation failed for question: What is the current USD to EUR exchange rate? | Use NOT_APPLICABLE when followup_required is no. |
+| FUP-003 | **P2** | Chris Cooper | 2026-07-25 | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` | Dashboard overall status is REVIEW_REQUIRED_EVALUATION_FAILURES. | Use NOT_APPLICABLE when followup_required is no. |
 
 ## Full Follow-Up Table
 
 | Follow-Up | Decision | Priority | Owner | Due | Days | Follow-Up Status | Tracker Status |
 |---|---|---|---|---|---:|---|---|
-| FUP-001 | MGMT-DEC-001 | **P1** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `FOLLOWUP_COMPLETED` |
-| FUP-002 | MGMT-DEC-002 | **P1** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `FOLLOWUP_COMPLETED` |
-| FUP-003 | MGMT-DEC-003 | **P2** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `FOLLOWUP_COMPLETED` |
+| FUP-001 | MGMT-DEC-001 | **P1** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` |
+| FUP-002 | MGMT-DEC-002 | **P1** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` |
+| FUP-003 | MGMT-DEC-003 | **P2** | Chris Cooper | 2026-07-25 | -1 | `COMPLETED` | `NO_FOLLOWUP_REQUIRED_STATUS_REVIEW` |
 
 ## Allowed Follow-Up Status Values
 

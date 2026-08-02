@@ -1152,4 +1152,67 @@ PCA can reduce dimensionality, compress features, reduce noise, and reveal major
 
 Did dimensionality reduction preserve the signal we care about, or did it make the system harder to explain?
 
+## Math Day 79 - Covariance Matrix
+
+### Key Lesson
+
+A covariance matrix shows how features move together across observations.
+
+### Plain-English Meaning
+
+Covariance asks whether two features tend to rise and fall together.
+
+### Matrix Shape
+
+If the data matrix has 1,000 observations and 100 features, the covariance matrix is 100 × 100.
+
+### Important Detail
+
+- Diagonal cells = variance of each feature
+- Off-diagonal cells = covariance between feature pairs
+
+### PCA Connection
+
+PCA uses the covariance matrix to find the strongest directions of variation.
+
+### Python
+
+`np.cov(X_centered, rowvar=False)`
+
+### Governance Question
+
+Are the feature relationships real signals, or artifacts of collection, logging, or duplicate design?
+
+## Math Day 80 - Eigenvectors and Eigenvalues in PCA
+
+### Key Lesson
+
+Eigenvectors identify the principal directions in the data. Eigenvalues measure how much variation exists along each direction.
+
+### Formula
+
+`Σv = λv`
+
+- `Σ` = covariance matrix
+- `v` = eigenvector or direction
+- `λ` = eigenvalue or variation along that direction
+
+### PCA Sequence
+
+Covariance matrix → eigenvectors and eigenvalues → ranked principal components
+
+### Important Detail
+
+PCA sorts components by eigenvalue from largest to smallest.
+
+### Python
+
+- `np.linalg.eigh(covariance)`
+- `np.argsort(eigenvalues)[::-1]`
+- `eigenvalues / eigenvalues.sum()`
+
+### Governance Question
+
+Does the dominant component represent meaningful behavior, or merely dominant bias or duplication in the data?
+
 ##
