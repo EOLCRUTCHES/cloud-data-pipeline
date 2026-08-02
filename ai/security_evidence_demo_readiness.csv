@@ -1,0 +1,12 @@
+generated_at,artifact_name,artifact_path,artifact_status
+2026-08-02T19:27:12.251639+00:00,Portfolio case study,docs/cloud/security_evidence_portfolio_case_study.md,Present
+2026-08-02T19:27:12.251639+00:00,Demo runbook,docs/cloud/security_evidence_demo_runbook.md,Present
+2026-08-02T19:27:12.251639+00:00,Control narrative,docs/cloud/security_evidence_control_narrative.md,Present
+2026-08-02T19:27:12.251639+00:00,Evidence corpus manifest,ai/security_evidence_corpus_manifest.csv,Present
+2026-08-02T19:27:12.251639+00:00,Status dashboard,docs/cloud/security_evidence_status_dashboard.md,Present
+2026-08-02T19:27:12.251639+00:00,Gap register,ai/security_evidence_gap_register.csv,Present
+2026-08-02T19:27:12.251639+00:00,Traceability exceptions,ai/security_evidence_traceability_exceptions.csv,Present
+2026-08-02T19:27:12.251639+00:00,Management decisions,ai/security_evidence_exception_management_decisions.csv,Present
+2026-08-02T19:27:12.251639+00:00,Decision follow-up tracker,ai/security_evidence_decision_followup_tracker.csv,Present
+2026-08-02T19:27:12.251639+00:00,Management closeout summary,docs/cloud/security_evidence_management_closeout_summary.md,Present
+2026-08-02T19:27:12.251639+00:00,Executive summary,docs/cloud/security_evidence_executive_summary.md,Present

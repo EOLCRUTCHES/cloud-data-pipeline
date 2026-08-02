@@ -1215,4 +1215,78 @@ PCA sorts components by eigenvalue from largest to smallest.
 
 Does the dominant component represent meaningful behavior, or merely dominant bias or duplication in the data?
 
+## Math Day 81 - Project Data onto Principal Components
+
+### Key Lesson
+
+PCA compresses data by projecting centered observations onto selected eigenvectors.
+
+### Formula
+
+`Z = X_centered W`
+
+- `X_centered` = centered original data
+- `W` = selected eigenvectors
+- `Z` = projected data
+
+### Shape Example
+
+- Original data: 1,000 × 100
+- Selected eigenvectors: 100 × 10
+- Projected data: 1,000 × 10
+
+The observations remain; the number of descriptive dimensions decreases.
+
+### Python
+
+`X_pca = X_centered @ W`
+
+The `@` operator performs matrix multiplication.
+
+### Dot Product Connection
+
+Each principal-component coordinate is the dot product between one centered observation and one eigenvector.
+
+### Governance Question
+
+Could a discarded low-variance feature still be operationally, legally, or security-relevant?
+
+## Math Day 82 - Standardize Before PCA
+
+### Key Lesson
+
+PCA ranks directions according to variance, so features with larger numerical scales can dominate the result even when they are not more important.
+
+### Standardization Formula
+
+`z = (x - μ) / σ`
+
+- `x` = original value
+- `μ` = feature mean
+- `σ` = feature standard deviation
+- `z` = standardized value
+
+### Centering Versus Standardization
+
+- Centering produces mean 0.
+- Standardization produces mean 0 and standard deviation 1.
+
+### PCA Connection
+
+Standardization places features on comparable scales before calculating covariance, eigenvectors, and principal components.
+
+### Important Limitation
+
+Standardization prevents measurement units from dominating PCA. It does not establish operational or security importance.
+
+### Python
+
+- `X.mean(axis=0)`
+- `X.std(axis=0)`
+- `(X - feature_means) / feature_std_devs`
+
+### Governance Question
+
+Should absolute magnitude matter, or should PCA compare each feature according to its variation relative to its own scale?
+
 ##

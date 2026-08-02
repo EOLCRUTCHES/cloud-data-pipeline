@@ -1565,3 +1565,35 @@ Apply the smallest correction, keep the owner, and observe the next legitimate c
 ### Carry-Forward Question
 
 Am I removing a blocker, or quietly taking the work back?
+
+## Lead Day 82 - Know When to Change the Owner
+
+### Key Lesson
+
+Preserving ownership does not mean preserving the same owner indefinitely. After expectations are clear, support is provided, a correction is attempted, and the failure repeats, the leader must make an explicit ownership decision.
+
+### Ownership Test
+
+- Was the outcome clear?
+- Did the owner accept responsibility?
+- Did the owner have authority and resources?
+- Was a reasonable correction attempted?
+- Did the failure recur?
+- What is the risk of another miss?
+
+### Capability and Commitment
+
+- Can and will → maintain ownership
+- Cannot but will → train or support
+- Can but will not → address accountability
+- Cannot and will not → reassign
+
+### Practice Rule
+
+Use the smallest necessary ownership change. Reassign the failing step before replacing an entire role or reclaiming the whole responsibility.
+
+### Carry-Forward Question
+
+Does the evidence support changing the owner, or am I reacting to frustration?
+
+##

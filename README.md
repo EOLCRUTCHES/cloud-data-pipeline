@@ -1411,39 +1411,69 @@ The case study translates the Security Evidence MVP into an interview-ready proj
 
 The project does not ask AI to be trustworthy by default. It builds a workflow that makes AI-assisted security claims bounded, traceable, reviewable, and management-owned.
 
-## Lead Day 81 - Correct Without Reclaiming
+## Day 81 - Security Evidence Demo Runbook v1
+
+### Artifact Added
+
+- `docs/cloud/security_evidence_demo_runbook.md`
 
 ### Key Lesson
 
-When process adoption fails, correct the underlying cause while preserving ownership.
+A portfolio project must be demonstrable, not merely present in a repository.
 
-### Recovery Loop
+### Demonstration Sequence
 
-- Failure observed:
-- Failure cause:
-- Smallest correction:
-- Owner:
-- Next trigger:
-- Expected behavior:
-- Checkpoint:
-- Escalation condition:
+1. State the evidence problem.
+2. Explain the controlled architecture.
+3. Show the evidence corpus.
+4. Demonstrate supported and unsupported behavior.
+5. Trace one item through governance and closeout.
+6. Present executive posture.
+7. State value and limitations.
 
-### Failure-to-Correction Map
+### Portfolio Relevance
 
-- Clarity → restate the requirement
-- Capability → coach or demonstrate
-- Access → provide the missing resource
-- Ownership → name one accountable owner
-- Priority → resolve the tradeoff
-- Resistance → surface and decide the objection
-- Design → simplify the process
+The runbook converts the Security Evidence MVP into a repeatable five-minute technical and executive walkthrough.
 
-### Practice Rule
+### Accuracy Rule
 
-Apply the smallest correction, keep the owner, and observe the next legitimate cycle before redesigning again.
+Never conceal an unresolved status, improvise missing evidence, or describe simulated decisions as real organizational approvals.
 
-### Carry-Forward Question
+### Core Message
 
-Am I removing a blocker, or quietly taking the work back?
+The system does not automate accountability away. It automates the path by which evidence reaches accountable human decisions.
+
+## Day 82 - Security Evidence Demo Preflight v1
+
+### Artifacts Added
+
+- `src/check_security_evidence_demo_readiness.py`
+- `ai/security_evidence_demo_readiness.csv`
+- `docs/cloud/security_evidence_demo_readiness.md`
+- `evidence/generated/security_evidence_demo_readiness_report.md`
+
+### Key Lesson
+
+Demonstration readiness and operational posture are separate questions. A system can be ready to demonstrate while still requiring disclosure of active findings or review conditions.
+
+### Readiness States
+
+- `DEMO_READY`
+- `DEMO_READY_WITH_DISCLOSURES`
+- `DEMO_READY_WITH_UNCONFIRMED_POSTURE`
+- `DEMO_BLOCKED_MISSING_ARTIFACTS`
+- `DEMO_BLOCKED_EMPTY_ARTIFACTS`
+
+### Portfolio Relevance
+
+The preflight demonstrates operational thinking: required artifacts are verified automatically, current posture is surfaced, and unresolved conditions are disclosed instead of hidden.
+
+### Outcome Boundary
+
+This advances portfolio packaging and system validation. It does not advance secure multi-cloud implementation.
+
+### Core Message
+
+A trustworthy demonstration proves both that the system works and that its limitations remain visible.
 
 ##
