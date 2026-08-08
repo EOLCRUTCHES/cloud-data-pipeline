@@ -1476,4 +1476,40 @@ This advances portfolio packaging and system validation. It does not advance sec
 
 A trustworthy demonstration proves both that the system works and that its limitations remain visible.
 
+## Day 83 - Verifiable Demo Release
+
+### Artifacts Added
+
+- `src/build_security_evidence_demo_release.py`
+- `ai/security_evidence_demo_release_manifest.csv`
+- `docs/cloud/security_evidence_demo_release.md`
+- `evidence/releases/security_evidence_demo/<release-id>_manifest.csv`
+
+### Key Lesson
+
+A release manifest records the exact artifact versions included in a demonstration. Each artifact receives a SHA-256 hash, and the combined artifact set produces a stable release identifier.
+
+### Release Logic
+
+- Same artifact contents produce the same release ID.
+- Changed contents produce a different release ID.
+- Missing or empty required artifacts block release creation.
+- Active findings do not block a release when they are disclosed honestly.
+
+### Control Distinction
+
+A hash establishes artifact integrity. It does not establish the correctness, approval, or operational value of the artifact’s contents.
+
+### Portfolio Relevance
+
+The release manifest demonstrates provenance, integrity checking, repeatability, and disciplined portfolio packaging.
+
+### Outcome Boundary
+
+This advances release control and portfolio defensibility. It does not advance secure multi-cloud implementation.
+
+### Core Message
+
+The demonstration should be tied to an identifiable, reproducible set of artifacts—not whichever files happen to be open that day.
+
 ##

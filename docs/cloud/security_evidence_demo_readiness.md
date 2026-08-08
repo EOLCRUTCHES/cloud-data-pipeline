@@ -1,6 +1,6 @@
 # Security Evidence Demo Readiness
 
-Generated: `2026-08-02T19:27:12.251639+00:00`
+Generated: `2026-08-08T02:40:46.019689+00:00`
 
 Demo Readiness: **DEMO_READY_WITH_DISCLOSURES**
 

@@ -1289,4 +1289,42 @@ Standardization prevents measurement units from dominating PCA. It does not esta
 
 Should absolute magnitude matter, or should PCA compare each feature according to its variation relative to its own scale?
 
+## Math Day 83 - Choose Principal Components
+
+### Key Lesson
+
+Eigenvalues measure the variance captured by principal components. Explained variance ratios and cumulative explained variance help determine how many components to retain.
+
+### Formulas
+
+`explained variance ratio = eigenvalue / total eigenvalues`
+
+`cumulative explained variance = running sum of explained variance ratios`
+
+### Selection Rule
+
+Choose the smallest `k` that preserves enough variance for the analytical purpose.
+
+### Common Methods
+
+- Variance threshold
+- Scree-plot elbow
+- Downstream model performance
+- Domain-risk judgment
+
+### Important Limitation
+
+A low-variance component may still contain operationally important information. PCA measures variance, not consequence or importance.
+
+### Python
+
+- `eigenvalues / eigenvalues.sum()`
+- `np.cumsum(explained_variance_ratio)`
+- `W = eigenvectors[:, :k]`
+- `X_pca = X_standardized @ W`
+
+### Carry-Forward Question
+
+How much information loss is acceptable for the intended use?
+
 ##

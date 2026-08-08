@@ -1,0 +1,13 @@
+release_id,generated_at,artifact_name,artifact_path,artifact_status,size_bytes,sha256
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Portfolio case study,docs/cloud/security_evidence_portfolio_case_study.md,Present,4788,dab547cda56c1a6b051559cb120782b19e46b4dc15aa06022c8eac66ef4eccf2
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Demo runbook,docs/cloud/security_evidence_demo_runbook.md,Present,5360,99bf4d1f5d6f32eb514aad780549572975fb627b2400b0f8a266ead1d7870005
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Demo readiness,docs/cloud/security_evidence_demo_readiness.md,Present,2093,ec5beb19688d04a953319ca380fea6d58a021698e3cd7a78d477af5daf8d95e7
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Control narrative,docs/cloud/security_evidence_control_narrative.md,Present,5879,45d5f6e97f921edc935b53eaf66d97a799964659800ffeab86b69427350b7afa
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Evidence corpus manifest,ai/security_evidence_corpus_manifest.csv,Present,49230,a34c600b0de5e293930130c1915d3136bc71ee40b5298076b22f190de98788f9
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Status dashboard,docs/cloud/security_evidence_status_dashboard.md,Present,2413,c8ba73ebe6b77f5387809a87ce40a0a974815a9840e1c5efab10cecb7e8d8387
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Gap register,ai/security_evidence_gap_register.csv,Present,3102,ce51441882ba2f0248d4d7a64951f4ccfbf99ec3833d6debfdc58fbd869906de
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Traceability exceptions,ai/security_evidence_traceability_exceptions.csv,Present,1254,705db12e9171d4dd0158b771cdb082a2000f2b9e7202bf3cd49742254830dddc
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Management decisions,ai/security_evidence_exception_management_decisions.csv,Present,1931,d0dc8881c16d31a7e9fb7e98792928dbbe07c2e4316d255911da39c4dbc9049c
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Decision follow-up tracker,ai/security_evidence_decision_followup_tracker.csv,Present,2054,53262e970e3a71bbcfd2aeedba46412db38acc697b3725f0c7107aed1120d9af
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Management closeout summary,docs/cloud/security_evidence_management_closeout_summary.md,Present,1522,5a6922534563a2754d4315cb67760081e9af8bb6eecb786d1bf8e6c517ab3745
+SED-92737BD9FD25,2026-08-08T02:41:02.019210+00:00,Executive summary,docs/cloud/security_evidence_executive_summary.md,Present,1811,d8511631f217770f72b6df25e1be4e276cea9042642c1fdeb1900305f4fac0ab

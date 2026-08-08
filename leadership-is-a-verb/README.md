@@ -1596,4 +1596,32 @@ Use the smallest necessary ownership change. Reassign the failing step before re
 
 Does the evidence support changing the owner, or am I reacting to frustration?
 
+## Lead Day 83 - Transfer Ownership Without Dropping the Work
+
+### Key Lesson
+
+Changing the named owner is not enough. A complete transfer requires a clear effective boundary, operating knowledge, authority, access, a first action, and a review checkpoint.
+
+### Ownership Transfer Elements
+
+- Define the responsibility.
+- State when former ownership ends.
+- State when new ownership begins.
+- Transfer current status and open actions.
+- Transfer authority and access.
+- Confirm the new owner’s first action.
+- Review the first operating cycle.
+
+### Leadership Rule
+
+Support may overlap temporarily. Accountability should not.
+
+### Failure Pattern
+
+An ownership gap occurs when the former owner believes the work transferred, the new owner believes the transfer is incomplete, and the leader assumes somebody is handling it.
+
+### Carry-Forward Question
+
+Could either person reasonably believe the other still owns the next action?
+
 ##
