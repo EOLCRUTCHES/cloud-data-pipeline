@@ -1512,4 +1512,49 @@ This advances release control and portfolio defensibility. It does not advance s
 
 The demonstration should be tied to an identifiable, reproducible set of artifacts—not whichever files happen to be open that day.
 
+## Day 84 - Validate Demo Release Integrity
+
+### Artifacts Added
+
+- `src/validate_security_evidence_demo_release.py`
+- `ai/security_evidence_demo_release_validation.csv`
+- `docs/cloud/security_evidence_demo_release_validation.md`
+- `evidence/generated/security_evidence_demo_release_validation_report.md`
+
+### Key Lesson
+
+A release manifest becomes operationally useful when current artifacts can be validated against its recorded sizes and SHA-256 hashes.
+
+### Validation Results
+
+- `MATCH`
+- `MODIFIED`
+- `MISSING`
+- `EMPTY`
+
+### Overall Status
+
+- `RELEASE_INTEGRITY_VERIFIED`
+- `RELEASE_INTEGRITY_FAILED`
+
+### Control Distinction
+
+Integrity validation detects whether content changed. It does not determine why it changed or whether the content is correct.
+
+### Release Rule
+
+Approved changes require a new release and release ID. Do not alter the old manifest to conceal release drift.
+
+### Portfolio Relevance
+
+The validator demonstrates artifact integrity checking, drift detection, failure signaling, and reproducible release control.
+
+### Outcome Boundary
+
+This advances evidence integrity and portfolio defensibility. It does not advance secure multi-cloud implementation.
+
+### Core Message
+
+A release is trustworthy only when the artifact set being demonstrated can be verified against the artifact set that was recorded.
+
 ##

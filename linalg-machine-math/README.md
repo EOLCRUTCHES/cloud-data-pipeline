@@ -1327,4 +1327,42 @@ A low-variance component may still contain operationally important information. 
 
 How much information loss is acceptable for the intended use?
 
+## Math Day 84 - Reconstruct Data After PCA
+
+### Key Lesson
+
+PCA scores can be projected back into the original feature space, but discarded component directions cannot be recovered.
+
+### Reconstruction
+
+`X_standardized_approx = X_pca @ W.T`
+
+Reverse standardization:
+
+`X_reconstructed = X_standardized_approx * feature_std_devs + feature_means`
+
+### Exact Versus Approximate
+
+- Retaining all components produces essentially exact reconstruction.
+- Retaining fewer components produces an approximation.
+- Fewer components generally produce greater reconstruction error.
+
+### Reconstruction Error
+
+`error = original - reconstructed`
+
+Mean squared error summarizes the squared differences across the dataset.
+
+### Important Limitation
+
+Low reconstruction error does not guarantee that every operationally important signal was preserved.
+
+### Security Connection
+
+High reconstruction error may identify behavior poorly represented by dominant patterns, but it does not by itself establish malicious activity.
+
+### Carry-Forward Question
+
+How much reconstruction error is acceptable for the intended use?
+
 ##

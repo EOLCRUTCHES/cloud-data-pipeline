@@ -1624,4 +1624,36 @@ An ownership gap occurs when the former owner believes the work transferred, the
 
 Could either person reasonably believe the other still owns the next action?
 
+## Lead Day 84 - Verify the New Owner Has Taken Control
+
+
+### Key Lesson
+
+A completed task does not prove successful ownership transfer. The new owner must recognize the trigger, initiate action, make appropriate decisions, manage dependencies, and close the loop without shadow ownership.
+
+### Completion Versus Adoption
+
+- Completion means the work happened.
+- Adoption means the new owner caused it to happen.
+
+### Independence Scale
+
+1. Waits for instructions
+2. Acts after reminders
+3. Initiates routine work independently
+4. Manages exceptions and dependencies
+5. Improves the process and develops others
+
+### Leadership Rule
+
+Observe the first full cycle without reclaiming the work. Intervene only when the likely consequence creates material or irreversible harm.
+
+### Failure Pattern
+
+Shadow ownership exists when the new owner performs the visible task while the former owner or leader continues to supply triggers, decisions, and corrections.
+
+### Carry-Forward Question
+
+If the leader and former owner disappeared for one cycle, would the process still operate?
+
 ##
