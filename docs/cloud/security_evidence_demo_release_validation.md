@@ -1,8 +1,8 @@
 # Security Evidence Demo Release Validation
 
-Validated: `2026-08-08T03:23:57.105994+00:00`
+Validated: `2026-08-10T13:19:50.070062+00:00`
 
-Release ID: `SED-92737BD9FD25`
+Release ID: `SED-3D13EAC3C2E3`
 
 Integrity Status: **RELEASE_INTEGRITY_VERIFIED**
 

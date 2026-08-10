@@ -1557,4 +1557,8 @@ This advances evidence integrity and portfolio defensibility. It does not advanc
 
 A release is trustworthy only when the artifact set being demonstrated can be verified against the artifact set that was recorded.
 
+## Day 85 - Integrate GitHub Workflow
+
+Github, GitHub Actions, GitHub CLI...no specifics in the README. Lots of instructions in the Notion and Chat. This one took me for a loop.
+
 ##

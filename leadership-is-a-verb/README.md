@@ -1656,4 +1656,81 @@ Shadow ownership exists when the new owner performs the visible task while the f
 
 If the leader and former owner disappeared for one cycle, would the process still operate?
 
+## Lead Day 85 - Build Backup Without Diluting Ownership
+
+### Key Lesson
+
+Operational resilience requires one clear primary owner and a prepared backup whose authority activates under defined conditions.
+
+### Owner Versus Backup
+
+- The owner operates the process normally.
+- The backup maintains readiness.
+- When activated, the backup becomes the acting owner.
+- Only one person owns the next action at a time.
+
+### Backup Requirements
+
+- Defined activation trigger
+- Required authority
+- Necessary access
+- Current documentation
+- Notification process
+- Return-of-control procedure
+- Tested capability
+
+### Backup Readiness Levels
+
+0. Named only
+1. Has documentation
+2. Has documentation and access
+3. Can explain the process
+4. Has performed the process
+5. Has handled an exception independently
+
+### Leadership Rule
+
+Do not make the leader the automatic backup for every responsibility. That preserves dependence rather than creating resilience.
+
+### Carry-Forward Question
+
+If the primary owner disappeared tomorrow, would the process continue without searching for the leader?
+
+## Lead Day 86 - Test the System Without the Owner
+
+### Key Lesson
+
+A continuity plan is unproven until the primary owner can step away and the backup independently operates a complete cycle.
+
+### Controlled-Absence Test
+
+- Define the test period.
+- Formally activate the backup.
+- Transfer operating authority.
+- Prevent routine assistance from the primary owner.
+- Observe one complete cycle.
+- Record knowledge, access, authority, capability and capacity gaps.
+- Return control through a documented handoff.
+
+### Continuity Levels
+
+0. Process stops
+1. Backup requires continuous guidance
+2. Backup acts after prompting
+3. Backup completes a routine cycle independently
+4. Backup manages routine exceptions
+5. Process continues with no material degradation
+
+### Leadership Rule
+
+Do not rescue a safe, recoverable test merely because the backup’s method differs from the primary owner’s method.
+
+### Failure Diagnosis
+
+Test the system before blaming the individual. Failure may result from missing documentation, access, authority, triggers, capability or capacity.
+
+### Carry-Forward Question
+
+Did the process function without the owner, or did the owner remain the hidden operating system?
+
 ##

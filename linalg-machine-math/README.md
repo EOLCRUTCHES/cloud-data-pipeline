@@ -1365,4 +1365,84 @@ High reconstruction error may identify behavior poorly represented by dominant p
 
 How much reconstruction error is acceptable for the intended use?
 
+## Math Day 85 - Perform PCA with scikit-learn
+
+### Key Lesson
+
+scikit-learn packages standardization and PCA into fitted transformer objects that can be applied consistently to training and future data.
+
+### Pipeline
+
+`StandardScaler → PCA`
+
+### Core Operations
+
+- `fit` learns scaling statistics and principal directions.
+- `transform` applies the learned transformation.
+- `fit_transform` learns and applies.
+- `inverse_transform` reconstructs approximate original values.
+
+### Manual-to-Library Translation
+
+- Feature means: `scaler.mean_`
+- Feature standard deviations: `scaler.scale_`
+- Eigenvalues: `pca.explained_variance_`
+- Explained variance ratios: `pca.explained_variance_ratio_`
+- Retained component count: `pca.n_components_`
+- Projection directions: `pca.components_.T`
+
+### Shape Distinction
+
+Manual `W` stores eigenvectors as columns:
+
+`features × components`
+
+scikit-learn `components_` stores principal directions as rows:
+
+`components × features`
+
+Therefore:
+
+`W ≈ pca.components_.T`
+
+### Important Rule
+
+PCA centers its input automatically but does not standardize feature scales. Use `StandardScaler` first when comparable scaling is appropriate.
+
+### Carry-Forward Question
+
+Am I applying the coordinate system learned from training data—or accidentally fitting a new coordinate system?
+
+## Math Day 86 - Prevent Data Leakage During PCA
+
+### Key Lesson
+
+When evaluating future performance, standardization and PCA must be fitted only on training data. Test data should be transformed using the coordinate system learned from training data.
+
+### Correct Sequence
+
+`split → fit_transform training data → transform test data`
+
+### Core Operations
+
+- `fit_transform(X_train)` learns and applies.
+- `transform(X_test)` applies without learning.
+- Never call `fit_transform` separately on the test set.
+
+### Leakage Risk
+
+PCA does not use class labels, but fitting it on all observations still exposes the transformation to test-set ranges, covariance patterns and distribution structure.
+
+### Important Observation
+
+Scaled test features do not need to have mean zero. They are measured relative to the training means and standard deviations.
+
+### Pipeline Benefit
+
+A pipeline keeps scaling and PCA together so cross-validation and future-data processing use the correct fitted sequence.
+
+### Carry-Forward Question
+
+Did any information from the test data influence what the preprocessing steps learned?
+
 ##

@@ -1,0 +1,53 @@
+name: Security Evidence Demo Integrity
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: demo-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-demo-release:
+    name: Validate demo release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v6.2.0
+        with:
+          python-version: "3.13"
+
+      - name: Compile validator
+        run: >-
+          python -m py_compile
+          src/validate_security_evidence_demo_release.py
+
+      - name: Validate recorded release
+        run: python src/validate_security_evidence_demo_release.py
+
+      - name: Publish validation summary
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f docs/cloud/security_evidence_demo_release_validation.md ]]; then
+            cat docs/cloud/security_evidence_demo_release_validation.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Validation summary unavailable" >> "$GITHUB_STEP_SUMMARY"
+            echo "The validator did not produce the expected Markdown summary." >> "$GITHUB_STEP_SUMMARY"
+          fi

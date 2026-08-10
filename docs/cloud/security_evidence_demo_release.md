@@ -1,19 +1,19 @@
 # Security Evidence Demo Release
 
-Generated: `2026-08-08T02:41:02.019210+00:00`
+Generated: `2026-08-10T13:19:00.021895+00:00`
 
 Release Status: **RELEASE_CREATED**
 
-Release ID: `SED-92737BD9FD25`
+Release ID: `SED-3D13EAC3C2E3`
 
-Release Digest: `92737bd9fd2520773985f779aa8ceee70343480d473ef4493ffcbebfa52d5f34`
+Release Digest: `3d13eac3c2e3c81358495dce96dd7e70689649c80bbeb82d71849681bd23352f`
 
 ## Artifact Integrity
 
 | Artifact | Status | Size | SHA-256 |
 |---|---|---:|---|
 | Portfolio case study | Present | 4788 | `dab547cda56c1a6b...` |
-| Demo runbook | Present | 5360 | `99bf4d1f5d6f32eb...` |
+| Demo runbook | Present | 5362 | `02816cae92d80849...` |
 | Demo readiness | Present | 2093 | `ec5beb19688d04a9...` |
 | Control narrative | Present | 5879 | `45d5f6e97f921edc...` |
 | Evidence corpus manifest | Present | 49230 | `a34c600b0de5e293...` |
@@ -29,7 +29,7 @@ Release Digest: `92737bd9fd2520773985f779aa8ceee70343480d473ef4493ffcbebfa52d5f3
 
 - Latest manifest: `ai/security_evidence_demo_release_manifest.csv`
 - Summary: `docs/cloud/security_evidence_demo_release.md`
-- Versioned manifest: `evidence/releases/security_evidence_demo/sed-92737bd9fd25_manifest.csv`
+- Versioned manifest: `evidence/releases/security_evidence_demo/sed-3d13eac3c2e3_manifest.csv`
 
 ## Governance Rule
 
